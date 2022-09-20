@@ -19,3 +19,6 @@ Il existe de nombreuses applications sur le marché dans le thème de la reconna
 
 ## Auteurs
 * 
+*
+*
+*
