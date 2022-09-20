@@ -18,7 +18,9 @@ Il existe de nombreuses applications sur le marché dans le thème de la reconna
 ## Auteurs
 
 * Assem AOUSSAR 
-* Omar EL FACHATI
 * Omar EL FACHATI : @ofachati
 * Kemokoba BAYO
 * Ghenima OULD AHMED 
+ 
+
+TEST
