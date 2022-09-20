@@ -1,0 +1,36 @@
+html{ 
+  display: inline;
+  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F6F1;
+}
+
+Image{
+  width : 150px;
+  height : 150px;
+}
+
+
+.button-main{
+  width: 100%;
+  border: none;
+  background-color: #356d62;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  position: flex;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: larger;
+  font-family: Tahoma;
+}
+
