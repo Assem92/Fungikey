@@ -22,7 +22,7 @@ export default function Home() {
     <>
     <Image fluid src="/Fungikeyy.webp" alt="logo"></Image>
     <div className='container' > 
-
+        
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Attention!</Modal.Title>
@@ -31,8 +31,8 @@ export default function Home() {
                 Cette application ne remplace pas l'avis d'un expert.
                       Risque d'intoxication sévère.
                 <br />
-                <a href="https://www.anses.fr/fr/content/la-saison-des-champignons-en-avance-cette-année-soyez-vigilant-face-aux-risques-d%22%3ESite de l'Anses</a>
-
+                <a href="https://www.anses.fr/fr/content/la-saison-des-champignons-en-avance-cette-année-soyez-vigilant-face-aux-risques-d">Site de l'Anses</a>
+                      
             </Modal.Body>
 
         </Modal>
@@ -48,14 +48,14 @@ export default function Home() {
             <Link to='/Jeux'>
             <button className='button-main'> Jeux </button>
             </Link>
-
-
+          
+            
         </div>
-
-
+        
+    
     </div>
 
     </>
-
+    
   );
 }
