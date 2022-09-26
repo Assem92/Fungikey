@@ -37,4 +37,3 @@ Après avoir fais toutes ces installations, il suffit de cloner le repository su
 * Ghenima OULD AHMED 
  
 
-TEST
