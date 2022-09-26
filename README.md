@@ -5,7 +5,7 @@
 
 # Fungikey
 
-**Funkikey**, l'application pour tout savoir sur les champignons. 
+**Fungikey**, l'application pour tout savoir sur les champignons. 
 
 ## Parlons champignons !
 
