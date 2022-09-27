@@ -33,7 +33,7 @@ Après avoir fais toutes ces installations, il suffit de cloner le repository su
 ## Auteurs
 
 * Assem AOUSSAR 
-* Omar EL FACHATI : @ofachati
+* [Omar EL FACHATI](https://github.com/ofachati)
 * Kemokoba BAYO
 * Ghenima OULD AHMED 
  
