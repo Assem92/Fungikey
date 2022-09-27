@@ -2,6 +2,7 @@
 [![(Pre-)Release](https://img.shields.io/github/release/Assem92/Fungikey/all.svg?label=(pre-)release&style=flat-square)](build.gradle)
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![Build Status](https://img.shields.io/travis/Assem92/Fungikey/master.svg?style=flat-square)]
+[![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
 
 # Fungikey
 
