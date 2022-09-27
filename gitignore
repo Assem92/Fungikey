@@ -1,0 +1,130 @@
+# Journaux
+journaux
+* .log
+npm-debug.log *
+fil-debug.log *
+erreur-de-fil.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Rapports de diagnostic (https://nodejs.org/api/report.html)
+rapport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Données d'exécution
+pids
+* .pid
+* .graine
+* .pid.lock
+
+# Répertoire pour les bibliothèques instrumentées générées par jscoverage/JSCover
+lib-cov
+
+# Répertoire de couverture utilisé par des outils comme istanbul
+couverture
+* .lcov
+
+# couverture de test de nyc
+.nyc_output
+
+# Stockage intermédiaire Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grognement
+
+# Répertoire de dépendance Bower (https://bower.io/)
+bower_components
+
+# configuration nœud-waf
+.lock-wscript
+
+# Addons binaires compilés (https://nodejs.org/api/addons.html)
+construire / publier
+
+# Répertoires de dépendance
+node_modules /
+jspm_packages /
+
+# Répertoire de dépendance Snowpack (https://snowpack.dev/)
+modules_web /
+
+# cache TypeScript
+* .tsbuildinfo
+
+# Répertoire de cache npm facultatif
+.npm
+
+# Cache eslint optionnel
+.eslintcache
+
+# Cache stylelint facultatif
+.stylelintcache
+
+# Cache de microbundle
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Historique REPL facultatif
+.node_repl_history
+
+# Sortie de 'npm pack'
+* .tgz
+
+# Fichier d'intégrité du fil
+.yarn-integrity
+
+# fichiers de variables d'environnement dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# cache colis-groupeur (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Sortie de génération Next.js
+.Suivant
+dehors
+
+# Nuxt.js construit / génère une sortie
+.nuxt
+distance
+
+# Fichiers Gatsby
+.cache /
+# Commentez dans la ligne publique si votre projet utilise Gatsby et non Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# publique
+
+# sortie de construction vuepress
+.vuepress / dist
+
+# répertoire temporaire et cache de vuepress v2.x
+.temp
+.cache
+
+# Cache Docusaurus et fichiers générés
+.docusaurus
+
+# Répertoires sans serveur
+.sans serveur /
+
+# cache de la boîte à fusibles
+.fusebox /
+
+# Fichiers locaux DynamoDB
+.dynamodb /
+
+# Fichier de port TernJS
+.tern-port
+
+# Stocke les versions de VSCode utilisées pour tester les extensions VSCode
+.vscode-test
+
+# fil v2
+.yarn / cache
+.yarn / débranché
+.yarn / build-state.yml
+.yarn / install-state.gz
+.pnp. *
