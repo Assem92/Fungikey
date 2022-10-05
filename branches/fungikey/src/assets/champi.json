@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "nom": "Amanite panthère",
+      "nomlatin": "Amanita pantherina",
+      "toxic": true,
+      "famille": "Amanites",
+      "image": [
+        "images/Amanite_panthere.webp"
+      ],
+      "comestible" : false,
+      "description": "Ce champignon possède un chapeau de 10 à 12 cm de diamètre. Des petits flocons blancs tranchent sur la teinte brun plus ou moins foncée de son chapeau. Le brun peut être uniforme ou plus clair sur les bords. Le pied mesure 10 à 15 cm de longueur. Le bulbe est souligné par un bourrelet hélicoïdal et floconneux. Les lames sont blanches. La chair est blanche et sans odeur. L'amanite panthère apparaît de bonne heure en été et jusqu'à la fin de l'automne. Elle pousse aux abords herbeux des forêts, autour des bosquets ou des arbres isolés en prairie ainsi que sous les conifères."
+    }
+
+]
