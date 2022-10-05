@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/Assem92/Fungikey/master.svg?style=flat-square)]
 [![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
 
-[![Build Status](https://img.shields.io/travis/com/Assem92/Fungikey/master.svg?style=flat-square)](https://app.travis-ci.com/Assem92/Fungikey.svg?branch=master)
+[![Build Status](https://travis-ci.org/kandadaboggu/iprofiler.png?branch=master)
 
 # Fungikey
 
