@@ -2,7 +2,6 @@ import React from 'react'
 import { Nav, Navbar, Container, Offcanvas, NavDropdown} from 'react-bootstrap'
 
 /**
- * @author Helena Li
  * @returns La barre de navigation s'ouvrant sur le côté droit
  * Librarie: React-Bootstrap
  */
