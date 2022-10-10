@@ -23,7 +23,7 @@ Afin de lancer l'application, il convient de suivre quelques étapes:
 Tout d'abord, il faut se rendre sur le repository Github qui contient l'application vous pourrez le trouvez à l'adresse suivante : 
     https://github.com/Assem92/Fungikey
 
-Une fois sur le Github recuperer le lien du Git, ouvrez un terminal faites un "git clone repo" sur votre Desktop.  
+Une fois sur le Github recuperer le lien du Git, ouvrez un terminal faites un ```git clone repo``` sur votre Desktop.  
 
 Après avoir cloner le repo sur le Desktop, il faudra télécharger et installer le package nodeJS, élément important pour lancer l'application. Vous pouvez directement le télécharger sur le site en fonction de votre Système d'exploitation : https://nodejs.org/fr/download/current/
 
