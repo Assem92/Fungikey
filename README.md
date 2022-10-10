@@ -2,8 +2,9 @@
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![Build Status](https://img.shields.io/travis/Assem92/Fungikey/master.svg?style=flat-square)]
 [![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
+[![Build Status](https://app.travis-ci.com/Assem92/Fungikey.svg?branch=master)](https://app.travis-ci.com/Assem92/Fungikey)
 
-[![Build Status]([https://travis-ci.org/kandadaboggu/iprofiler.png?branch=master)](https://img.shields.io/travis/com/Assem92/Fungikey/master.svg?style=flat-square)](https://app.travis-ci.com/Assem92/Fungikey.svg?branch=master)
+
 
 # Fungikey
 
@@ -27,7 +28,7 @@ Une fois sur le Github recuperer le lien du Git, ouvrez un terminal faites un "g
 
 Après avoir cloner le repo sur le Desktop, il faudra télécharger et installer le package nodeJS, élément important pour lancer l'application. Vous pouvez directement le télécharger sur le site en fonction de votre Système d'exploitation : https://nodejs.org/fr/download/current/
 
-Une fois l'installation fini, sur le Terminal, se rendre dans le dossier fungikey qui se trouve dans le dossier branches, et lancer la commande "npm start".
+Une fois l'installation fini, sur le Terminal, se rendre dans le dossier fungikey qui se trouve dans le dossier branches/fungikey, et lancer la commande "npm start" ensuite ouvrir le dossier branches/fungikey-backend et lancer la commande "npm start" .
 
 
 
