@@ -13,6 +13,15 @@ import * as ioCons from "react-icons/io";
 export default function Conseils() {
   const [searchTerm, setSearchTerm] = useState("");
 
+  const [dataa, setData] = React.useState([]);
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((dataa) => setData(dataa));
+  }, []);
+
+  console.log(dataa);
+
   return (
     <div>
       <div className="conseil-bar">
@@ -35,64 +44,66 @@ export default function Conseils() {
           ></input>
         </div>
 
-        <p class="titre">Liste des champignons</p>
+        <p className="titre">Liste des champignons</p>
 
-        {JSONDATA.filter((val) => {
-          if (searchTerm === "") {
-            return val;
-          } else if (
-            val.nom
-              .toLowerCase()
-              .normalize("NFD")
-              .replace(/[\u0300-\u036f]/g, "")
-              .includes(searchTerm.toLowerCase()) ||
-            val.nomlatin.toLowerCase().includes(searchTerm.toLowerCase())
-          ) {
-            return val;
-          }
-        }).map(
-          ({
-            nom,
-            nomlatin,
-            toxic,
-            famille,
-            image,
-            conseils,
-            comestible,
-            description,
-          }) => (
-            <div>
-              <Card style={{ overflow: "auto", width: "100%" }}>
-                <Card.Img variant="top" src={image} />
+        {dataa
+          .filter((val) => {
+            if (searchTerm === "") {
+              return val;
+            } else if (
+              val.nom
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .includes(searchTerm.toLowerCase()) ||
+              val.nomlatin.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return val;
+            }
+          })
+          .map(
+            ({
+              nom,
+              nomlatin,
+              toxic,
+              famille,
+              image,
+              conseils,
+              comestible,
+              description,
+            }) => (
+              <div>
+                <Card style={{ overflow: "auto", width: "100%" }}>
+                  <Card.Img variant="top" src={image} />
 
-                <Card.Body>
-                  <Card.Title className="card">{nom}</Card.Title>
+                  <Card.Body>
+                    <Card.Title className="card">{nom}</Card.Title>
 
-                  <Card.Text>
-                    <p className="latin">{nomlatin}</p>
+                    <Card.Text>
+                      <p className="latin">{nomlatin}</p>
 
-                    <p>Famille: {famille} </p>
+                      <p>Famille: {famille} </p>
 
-                    <p>Toxique: {toxic ? "Oui" : "Non"}</p>
+                      <p>Toxique: {toxic ? "Oui" : "Non"}</p>
 
-                    <p>Comestible:{comestible ? "Oui" : "Non"}</p>
+                      <p>Comestible:{comestible ? "Oui" : "Non"}</p>
 
-                    <p className="description"> Description: {description}</p>
+                      <p className="description"> Description: {description}</p>
 
-                    <p>
-                      {toxic
-                        ? ""
-                        : "Conseils de cueillette et de préparation: " +
-                          conseils}
-                    </p>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+                      <p>
+                        {toxic
+                          ? ""
+                          : "Conseils de cueillette et de préparation: " +
+                            conseils}
+                      </p>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
 
-              <br />
-            </div>
-          )
-        )}
+                <br />
+              </div>
+            )
+          )}
         <div>
           <p>Sources : </p>
 
