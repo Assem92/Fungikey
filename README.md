@@ -2,6 +2,7 @@
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![Build Status](https://img.shields.io/travis/Assem92/Fungikey/master.svg?style=flat-square)]
 [![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
+https://app.travis-ci.com/Assem92/Fungikey.svg?branch=master
 
 
 
