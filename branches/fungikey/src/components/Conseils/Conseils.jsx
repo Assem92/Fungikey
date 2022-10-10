@@ -44,7 +44,7 @@ export default function Conseils() {
           ></input>
         </div>
 
-        <p className="titres">Liste des champignons</p>
+        <p className="titre">Liste des champignons</p>
 
         {dataa
           .filter((val) => {
