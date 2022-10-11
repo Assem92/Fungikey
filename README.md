@@ -1,4 +1,4 @@
-
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Assem92/Fungikey)
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
 [![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)](codcov)
