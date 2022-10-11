@@ -35,7 +35,7 @@ npm start
 ```
 cela va lancer le backend React sur le port 3001 , ```http://localhost:3001/```
 
-2) se rendre dans le dossier ````branches/fungikey```, et lancer les commandes suivants sur le Terminal:
+2) se rendre dans le dossier ```branches/fungikey```, et lancer les commandes suivants sur le Terminal:
 ```
 npm install
 npm start
