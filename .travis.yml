@@ -1,4 +1,11 @@
 language: node_js
-
-- nom : Codecov
-  utilise : codecov/codecov-action@v3.1.1
+node_js:
+  - 16.14.2
+npm --version:
+  - 8.5.5
+before install:
+  - npm install codecov
+install:
+  - npm ci
+script:
+  - npm run test
