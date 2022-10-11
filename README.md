@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
 [![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)](codcov)
 <img alt="Travis (.org)" src="https://img.shields.io/travis/Assem92/Fungikey">
+<a href="https://www.codacy.com/gh/Assem92/Fungikey/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Assem92/Fungikey&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a4e163d604aa457b8374bec4c79e0d44"/></a>
 
 # Fungikey
 
