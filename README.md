@@ -1,10 +1,8 @@
 <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Assem92/Fungikey?include_prereleases">[![(Pre-)Release](https://img.shields.io/github/release/Assem92/Fungikey/all.svg?label=(pre-)release&style=flat-square)](build.gradle)
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
-[![Build Status](https://app.travis-ci.com/Assem92/Fungikey.svg?branch=master)](https://app.travis-ci.com/Assem92/Fungikey)
 ![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)
-
-
+<img alt="Travis (.org)" src="https://img.shields.io/travis/Assem92/Fungikey">
 # Fungikey
 
 **Fungikey**, l'application pour tout savoir sur les champignons. 
