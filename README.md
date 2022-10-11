@@ -31,7 +31,7 @@ Une fois l'installation fini,
 npm install
 npm start
 ```
-2)se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
+2) se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
 
 ```
 npm install
