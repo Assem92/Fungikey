@@ -1,7 +1,8 @@
-<img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Assem92/Fungikey?include_prereleases">
+<img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Assem92/Fungikey?include_prereleases">[![(Pre-)Release](https://img.shields.io/github/release/Assem92/Fungikey/all.svg?label=(pre-)release&style=flat-square)](build.gradle)
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
+[![Build Status](https://img.shields.io/travis/Assem92/Fungikey/master.svg?style=flat-square)]
 [![License](https://img.shields.io/github/license/pascalpoizat/template-java-project.svg?style=flat-square)](LICENSE)
-![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)
+[![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)](codcov)
 <img alt="Travis (.org)" src="https://img.shields.io/travis/Assem92/Fungikey">
 # Fungikey
 
