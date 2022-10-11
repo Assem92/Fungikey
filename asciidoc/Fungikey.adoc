@@ -1,0 +1,121 @@
+= Cahier de spécification du projet =
+:author: Groupe fungikey
+:revnumber: v0.2
+:revdate: 2022-10
+:lang: fr
+:doctype: book
+:encoding: utf-8
+:ascii-ids:
+
+== Titre du projet : Application mobile autour des champignons. ==
+
+image::logo.png[]
+
+=== Membres de l'équipe ===
+* AOUSSAR Assem
+* BAYO Kemokoba
+* El FACHATI Omar
+* OULD AHMED Ghenima
+
+
+
+
+Présentation : (contexte, problématique et gain attendu, motivation de l'équipe par rapport au sujet, concurrence / état de l'art de l'existant et placement par rapport à cela). 
+
+
+Le contexte de ce produit est une UE projet DevOps, à objectif professionnalisant et méthodologique au sein du Master 1 MIAGE à l’Université de Paris Nanterre. Ce projet se déroule sur 2 ans et a pour but de rendre un produit de qualité, avec documentation et plusieurs itérations avec des versions à rendre chaque semestre. L’application demandée est destinée à être utilisée par des étudiants en pharmacologie, des passionnés de fongiques et tout simplement un public général, avec des supports type smartphone (Android, iOS). L’application devra également être autonome, c’est-à-dire utilisable sans connexion, et permettra aux utilisateurs d’apprendre à identifier des champignons. Il n’y a pas de suite et maintenance prévue pour Fungikey 2024, ce dernier doit être déployable et utilisable à la fin de chaque itération. Cependant, l’application devrait pouvoir être maintenue, et le code lisible dans le cadre de la démarche qualité et professionnelle. Ce projet devra donc s’adapter aux besoins de l’utilisateur et à son environnement, pour étudier leurs instructions et les prendre en considération à chaque avancement. 
+
+
+
+Il existe de nombreuses applications sur le marché dans le thème de la reconnaissance de champignons : Champignouf, Aux champignons, Picture Mushroom sont parmi les plus téléchargées sur le Play Store, chacun accumulant plus d'un million de téléchargements ; ils sont cependant axés pour des utilisateurs voulant cueillir des champignons, et non pour des étudiants. En effet, ces applications se concentrent plus sur une identification facile de champignons, comme par analyse d’image, plutôt qu’un fonctionnement par tableau avec des clés. Fungikey 2024 diffère par le contexte éducatif et académique : en effet, une petite partie de ces utilisateurs seront des étudiants en filière pharmacie. Ces derniers ont besoin d’apprendre à identifier des champignons, leurs familles, et à connaître leur toxicité, dans le cadre de leurs études. De plus, de nombreux champignons peuvent se ressembler, engendrant de possibles risques d'empoisonnement ; il faut alors une application permettant de les accompagner lors de TP où en forêt regroupant ces champignons dans leurs familles respectives, via leurs “clés”.
+
+
+
+
+Persona et fonctionnalités de leur point de vue (haut niveau) : 
+
+image::Photo1.jpg[]
+image::Photo2.jpg[]
+image::Photo3.jpg[]
+
+
+
+
+
+Prévisions marketing (comment prévoyez-vous de pousser votre projet auprès des utilisateurs, réseaux sociaux, enquêtes, flyers, site Web, etc) 
+
+Prévision marketing :  
+
+Réseaux sociaux :  Créer un compte Facebook et twitter pour mettre toutes les nouvelles annonces et mise à jour concernant l’application. 
+
+Demander une permission aux mairies afin d’attacher des posters contenant un QR Code dans les parcs pour permettre à un nouveau public de s’intéresser à ce domaine. 
+
+Contacter les départements scientifiques des facultés afin de proposer des partenariats pour que les étudiants et professeurs puissent en bénéficier. 
+
+==== Partie 2 : Aspects techniques ==== 
+
+
+Type d'application (web, mobile) : 
+
+Le projet consiste à réaliser une application mobile sous forme de PWA.
+
+images::Type.jpg[]
+
+
+
+Plateforme technologique (langages utilisés, Frameworks de test, de lien métier/API, métier/persistance) :  
+
+Cette application sera réalisée sous forme de Progressive Web App (PWA) afin d’avoir un déploiement plus simple, et permettre aux utilisateurs de télécharger et partager l’application rapidement. Technologies Web, qui serviront à construire le PWA : HTML, CSS, Javascript avec React JS et des libraries, Node Js. 
+
+Langage utilisé : Javascript avec le framework ReactJS et des packages NodeJS et un peu de CSS.  
+
+
+
+Plateforme opérationnelle (gestion de versions, build, qualité de code, CI, déploiement) : 
+
+Pour ce projet, il conviendra d’utiliser Github. Il nous permettra de faire coexister différentes versions d’un même fichier, par conséquent, de mieux nous organiser dans ce travail en groupe. Visual Studio code, sera l’IDE qui nous permettrait de build notre code. En ce qui concerne le CI (Continuous intégration) nous allons utiliser Travis CI qui va nous permettre de tester notre application mobile et voir si chaque build de notre code se fait correctement (On pourra, notamment, le voir grâce à une balise présente sur le Github).
+
+=== Partie 3 : Modélisation ===
+
+Diagrammes de séquence des interactions front/back (par feature, voir le back comme une boîte noire) 
+
+images::Photo4.jpg[]
+
+
+Arborescence du front : 
+
+images::Photo5.jpg[]
+
+
+== Version 0.2: ==
+
+Dans cette nouvelle version (0.2), on a ajouté quatre nouvelles fonctionnalités dont deux grandes et deux petites. 
+
+Première petite fonctionnalité : 
+
+Amélioration de l’interface graphique  
+
+ 
+
+Deuxième petite fonctionnalité : 
+
+Informations sur l’anatomie d’un champignon en général. 
+
+ 
+
+ 
+
+Première grande fonctionnalité : Barre de recherche 
+
+Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
+
+ 
+
+Deuxième grande fonctionnalité : Liste de champignons 
+
+Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
+
+
+
+
+
