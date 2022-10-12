@@ -24,8 +24,8 @@ Afin de lancer l'application, il convient de suivre quelques étapes:
 
 2) Après avoir cloner le repo sur le Desktop, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application. 
 
-Une fois l'installation fini:
-3) se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
+
+3) Une fois l'installation fini, se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
 ```
 npm install
 npm start
