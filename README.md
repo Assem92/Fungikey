@@ -20,22 +20,19 @@ Il existe de nombreuses applications sur le marché dans le thème de la reconna
 
 Afin de lancer l'application, il convient de suivre quelques étapes: 
 
-Tout d'abord, il faut se rendre sur le repository Github qui contient l'application vous pourrez le trouvez à l'adresse suivante : 
-    https://github.com/Assem92/Fungikey
+1) ouvrez un terminal faites un ```git clone https://github.com/Assem92/Fungikey``` sur votre Desktop.  
 
-Une fois sur le Github recuperer le lien du Git, ouvrez un terminal faites un ```git clone https://github.com/Assem92/Fungikey``` sur votre Desktop.  
+2) Après avoir cloner le repo sur le Desktop, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application. 
 
-Après avoir cloner le repo sur le Desktop, il faudra télécharger et installer le package nodeJS, élément important pour lancer l'application. Vous pouvez directement le télécharger sur le site en fonction de votre Système d'exploitation : https://nodejs.org/fr/download/current/
-
-Une fois l'installation fini,
-1) se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
+Une fois l'installation fini:
+3) se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
 ```
 npm install
 npm start
 ```
 cela va lancer le backend React sur le port 3001 , ```http://localhost:3001/```
 
-2) se rendre dans le dossier ```branches/fungikey```, et lancer les commandes suivants sur le Terminal:
+4) se rendre dans le dossier ```branches/fungikey```, et lancer les commandes suivants sur le Terminal:
 ```
 npm install
 npm start
