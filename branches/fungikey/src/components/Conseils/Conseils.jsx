@@ -15,7 +15,7 @@ export default function Conseils() {
 
   const [dataa, setData] = React.useState([]);
   React.useEffect(() => {
-    fetch("/api")
+    fetch("/api/champi")
       .then((res) => res.json())
       .then((dataa) => setData(dataa));
   }, []);

@@ -1,0 +1,536 @@
+[
+    {
+    "nom_famille":"Agarics",
+    "avec_anneau":"",
+    "groupe":"",
+    "genre_champignon":"",
+    "nom_champignon":"Agaricus campestris",
+    "type_chair":"Chair immuable à légèrement rosissante",
+    "stipe":"Anneau vite disparu + Généralement pied qui se rétrécit vers la base",
+    "odeur":"Odeur de champignon",
+    "lieu":"Dans les prés",
+    "description":""
+       
+    },
+
+    {
+    "nom_famille":"Agarics",
+    "avec_anneau":"",
+    "groupe":"",
+    "genre_champignon":"",
+    "nom_champignon":"Agaricus bitorquis",
+    "type_chair":"Chair immuable à légèrement rougissante",
+    "stipe":"Anneau double",
+    "odeur":"",
+    "lieu":"Bord des routes",
+    "description":""
+    },
+
+    {
+    "nom_famille":"Agarics",
+    "avec_anneau":"",
+    "groupe":"",
+    "genre_champignon":"",
+    "nom_champignon":"Agaricus sylvaticus",
+    "type_chair":"Chair nettement rougissante",
+    "stipe":"",
+    "odeur":"",
+    "lieu":"",
+    "description":""
+    
+    },
+    {
+    "nom_famille":"Agarics",
+    "avec_anneau":"",
+    "groupe":"",
+    "genre_champignon":"",
+    "nom_champignon":"Agaricus section minores",
+    "type_chair":"Chair jaunissante",
+    "stipe":"Anneau simple",
+    "odeur":"Odeur agréable d’amande ou d’anis",
+    "lieu":"",
+    "description":""
+    },
+    {
+        "nom_famille":"Agarics",
+        "avec_anneau":"",
+        "groupe":"",
+        "genre_champignon":"",
+        "nom_champignon":"Agaricus arvensis",
+        "type_chair":"Chair jaunissante",
+        "stipe":"Anneau à roue dentée",
+        "odeur":"Odeur agréable d’amande ou d’anis",
+        "lieu":"",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Agarics",
+        "avec_anneau":"",
+        "groupe":"",
+        "genre_champignon":"",
+        "nom_champignon":"Agaricus xanthodermus",
+        "type_chair":"Chair jaunissante",
+        "stipe":"",
+        "odeur":"Odeur désagréable (iode, encre...",
+        "lieu":"",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Petits spécimens",
+        "nom_champignon":"Lépiotes au sens strict",
+        "type_chair":"",
+        "stipe":"Anneau simple, non complexe",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Chlorophyllum sp.",
+        "nom_champignon":"Chlorophyllum brunneum",
+        "type_chair":"Chair rougissante",
+        "stipe":"Anneau simple épais",
+        "odeur":"",
+        "lieu":"lieu nitrophile, bulbe bien marqué, souvent émarginé, + large calotte lisse au centre",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Chlorophyllum sp.",
+        "nom_champignon":"Chlorophyllum rhacodes",
+        "type_chair":"Chair rougissante",
+        "stipe":"Anneau double",
+        "odeur":"",
+        "lieu":"En forêt",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Chlorophyllum sp.",
+        "nom_champignon":"Chlorophyllum olivieri",
+        "type_chair":"Chair rougissante",
+        "stipe":"Anneau double",
+        "odeur":"",
+        "lieu":"",
+        "description":"Squames quasiment concolore, bulbeux"
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Chlorophyllum sp.",
+        "nom_champignon":"Chlorophyllum molybdites",
+        "type_chair":"Chair rougissante",
+        "stipe":"Anneau double",
+        "odeur":"",
+        "lieu":"",
+        "description":"Pas de bulbe"
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Macrolepiota sp.",
+        "nom_champignon":"Macrolepiota procera",
+        "type_chair":"Chair immuable",
+        "pied":"Pied nettement chiné",
+        "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Macrolepiota sp.",
+        "nom_champignon":"Macrolepiota excoriata",
+        "type_chair":"Chair immuable",
+        "pied":"Pied non chiné ou faiblement",
+        "stipe":"Anneau simple",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Macrolepiota sp.",
+        "nom_champignon":"Macrolepiota rickenii",
+        "type_chair":"Chair immuable",
+        "pied":"Pied non chiné ou faiblement",
+        "stipe":"Anneau double",
+        "odeur":"",
+        "lieu":"Prairie",
+        "description":""
+        
+    },
+    {
+        "nom_famille":"Lépiotes",
+        "avec_anneau":"",
+        "groupe":"Grands spécimens",
+        "genre_champignon":"Macrolepiota sp.",
+        "nom_champignon":"Macrolepiota mastoides",
+        "type_chair":"Chair immuable",
+        "pied":"Pied non chiné ou faiblement",
+        "stipe":"Anneau double",
+        "odeur":"",
+        "lieu":"Forêt",
+        "description":"",
+        "volve":""
+        
+    },
+    {
+        "nom_famille":"Amanites",
+        "avec_anneau": "Non",
+        "nom_champignon":"Amanite safran",
+          "volve":"Volve « en sac »",
+          "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+           
+        },
+        {
+            "nom_famille":"Amanites",
+            "avec_anneau": "Non",
+            "nom_champignon": "Amanite fauve",
+               
+              "volve":"Volve « en sac »",
+              "type_chair":"",
+              "groupe":"",
+            "genre_champignon":"",
+              "pied":"",
+              "stipe":"",
+            "odeur":"",
+            "lieu":"",
+            "description":""
+               
+            },
+            {
+                "nom_famille":"Amanites",
+                "avec_anneau": "Non",
+                "nom_champignon":  "Amanite argentée",
+                   
+                  "volve":"Volve « en sac »",
+                  "type_chair":"",
+                  "groupe":"",
+                "genre_champignon":"",
+                  "pied":"",
+                  "stipe":"",
+                "odeur":"",
+                "lieu":"",
+                "description":""
+                   
+                },
+                {
+                    "nom_famille":"Amanites",
+                    "avec_anneau": "Non",
+                    "nom_champignon":  "Amanite vaginée",
+                       
+                      "volve":"Volve « en sac »",
+                      "type_chair":"",
+                      "groupe":"",
+                    "genre_champignon":"",
+                      "pied":"",
+                      "stipe":"",
+                    "odeur":"",
+                    "lieu":"",
+                    "description":""
+                       
+                    },
+                    {
+                        "nom_famille":"Amanites",
+                        "avec_anneau": "Non",
+                        "nom_champignon":  "Amanite à cocarde",
+                           
+                          "volve":"Volve « en sac »",
+                          "type_chair":"",
+                          "groupe":"",
+                        "genre_champignon":"",
+                          "pied":"",
+                          "stipe":"",
+                        "odeur":"",
+                        "lieu":"",
+                        "description":""
+                           
+                        },
+                       
+        {
+            "nom_famille":"Amanites",
+            "avec_anneau": "Non",
+            "nom_champignon": "Amanite martelée",
+            "volve":"Pied large en bas",
+            "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+               
+            }, 
+            {
+                "nom_famille":"Amanites",
+                "avec_anneau": "Non",
+                "nom_champignon":
+                    "Amanite impériale",
+                "volve":"Pied large en bas",
+                "type_chair":"",
+              "groupe":"",
+            "genre_champignon":"",
+              "pied":"",
+              "stipe":"",
+            "odeur":"",
+            "lieu":"",
+            "description":""
+                   
+                },
+                {
+                    "nom_famille":"Amanites",
+                    "avec_anneau": "Non",
+                    "nom_champignon":
+                    "Amanite livide",
+                    "volve":"Pied large en bas",
+                    "type_chair":"",
+                  "groupe":"",
+                "genre_champignon":"",
+                  "pied":"",
+                  "stipe":"",
+                "odeur":"",
+                "lieu":"",
+                "description":""
+                       
+                    },
+                    {
+                        "nom_famille":"Amanites",
+                        "avec_anneau": "Non",
+                        "nom_champignon":
+                        "Amanite des aulnes",
+                        "volve":"Pied large en bas",
+                        "type_chair":"",
+                      "groupe":"",
+                    "genre_champignon":"",
+                      "pied":"",
+                      "stipe":"",
+                    "odeur":"",
+                    "lieu":"",
+                    "description":""
+                           
+                        },
+            {
+                "nom_famille":"Amanites",
+                "avec_anneau": "Oui",
+                "nom_champignon": "Amanite des Césars",
+                "volve":"Volve « en sac »",
+                "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+                   
+                },
+                {
+                    "nom_famille":"Amanites",
+                    "avec_anneau": "Oui",
+                    "nom_champignon":
+                        "Amanite phalloïde",
+                    "volve":"Volve « en sac »",
+                    "type_chair":"",
+              "groupe":"",
+            "genre_champignon":"",
+              "pied":"",
+              "stipe":"",
+            "odeur":"",
+            "lieu":"",
+            "description":""
+                       
+                    },
+                    {
+                        "nom_famille":"Amanites",
+                        "avec_anneau": "Oui",
+                        "nom_champignon":
+                        "Amanite ovoïde",
+                        "volve":"Volve « en sac »",
+                        "type_chair":"",
+                  "groupe":"",
+                "genre_champignon":"",
+                  "pied":"",
+                  "stipe":"",
+                "odeur":"",
+                "lieu":"",
+                "description":""
+                           
+                        },
+                        {
+                            "nom_famille":"Amanites",
+                            "avec_anneau": "Oui",
+                            "nom_champignon":
+                            "Amanite vireuse",
+                            "volve":"Volve « en sac »",
+                            "type_chair":"",
+                      "groupe":"",
+                    "genre_champignon":"",
+                      "pied":"",
+                      "stipe":"",
+                    "odeur":"",
+                    "lieu":"",
+                    "description":""
+                               
+                            },
+                            {
+                                "nom_famille":"Amanites",
+                                "avec_anneau": "Oui",
+                                "nom_champignon":
+                                "Amanite printanière",
+                                "volve":"Volve « en sac »",
+                                "type_chair":"",
+                          "groupe":"",
+                        "genre_champignon":"",
+                          "pied":"",
+                          "stipe":"",
+                        "odeur":"",
+                        "lieu":"",
+                        "description":""
+                                   
+                                },
+                                {
+                                    "nom_famille":"Amanites",
+                                    "avec_anneau": "Oui",
+                                    "nom_champignon":
+                                    "Amanite jonquille",
+                                    "volve":"Volve « en sac »",
+                                    "type_chair":"",
+                              "groupe":"",
+                            "genre_champignon":"",
+                              "pied":"",
+                              "stipe":"",
+                            "odeur":"",
+                            "lieu":"",
+                            "description":""
+                                       
+                                    },
+                {
+                    "nom_famille":"Amanites",
+                    "avec_anneau": "Oui",
+                    "nom_champignon":
+                        "Amanite porphyre",
+                    "volve":"Volve « circoncise »",
+                    "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+                       
+                    },
+                    {
+                        "nom_famille":"Amanites",
+                        "avec_anneau": "Oui",
+                        "nom_champignon":
+                            "Amanite citrine",
+                        "volve":"Volve « circoncise »",
+                        "type_chair":"",
+              "groupe":"",
+            "genre_champignon":"",
+              "pied":"",
+              "stipe":"",
+            "odeur":"",
+            "lieu":"",
+            "description":""
+                           
+                        },
+                        {
+                            "nom_famille":"Amanites",
+                            "avec_anneau": "Oui",
+                            "nom_champignon":
+                            "Amanite panthère",
+                            "volve":"Volve « circoncise »",
+                            "type_chair":"",
+                  "groupe":"",
+                "genre_champignon":"",
+                  "pied":"",
+                  "stipe":"",
+                "odeur":"",
+                "lieu":"",
+                "description":""
+                               
+                            },
+                    {
+                        "nom_famille":"Amanites",
+                        "avec_anneau": "Oui",
+                        "nom_champignon":"Amanite tue-mouche",
+                        "volve":"Volve « friable » ",
+                        "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+                           
+                        },
+                        {
+                            "nom_famille":"Amanites",
+                            "avec_anneau": "Oui",
+                            "nom_champignon":
+                                "Amanite rougissante",
+                            "volve":"Volve « napiforme »",
+                            "type_chair":"",
+          "groupe":"",
+        "genre_champignon":"",
+          "pied":"",
+          "stipe":"",
+        "odeur":"",
+        "lieu":"",
+        "description":""
+                               
+                            },
+                            {
+                                "nom_famille":"Amanites",
+                                "avec_anneau": "Oui",
+                                "nom_champignon":
+                                    
+                                    "Amanite épaisse"
+                                  ,
+                                "volve":"Volve « napiforme »",
+                                "type_chair":"",
+              "groupe":"",
+            "genre_champignon":"",
+              "pied":"",
+              "stipe":"",
+            "odeur":"",
+            "lieu":"",
+            "description":""
+                                   
+                                }
+]

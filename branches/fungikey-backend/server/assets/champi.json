@@ -1,0 +1,352 @@
+[
+    {
+      "id": 1,
+      "nom": "Amanite panthère",
+      "nomlatin": "Amanita pantherina",
+      "toxic": true,
+      "famille": "Amanites",
+      "image": [
+        "images/Amanite_panthere.webp"
+      ],
+      "comestible" : false,
+      "description": "Ce champignon possède un chapeau de 10 à 12 cm de diamètre. Des petits flocons blancs tranchent sur la teinte brun plus ou moins foncée de son chapeau. Le brun peut être uniforme ou plus clair sur les bords. Le pied mesure 10 à 15 cm de longueur. Le bulbe est souligné par un bourrelet hélicoïdal et floconneux. Les lames sont blanches. La chair est blanche et sans odeur. L'amanite panthère apparaît de bonne heure en été et jusqu'à la fin de l'automne. Elle pousse aux abords herbeux des forêts, autour des bosquets ou des arbres isolés en prairie ainsi que sous les conifères."
+    },
+    {
+        "id": 2,
+      "nom": "Amanite phalloide",
+      "nomlatin": "Amanita phalloides",
+      "toxic": true,
+      "famille": "Amanites",
+      "image": [
+        "images/Amanite_phalloide.webp"
+      ],
+      "comestible" : false,
+      "description":"Volve+anneau+lames blanches. Le champignon, tout jeune, ressemble à un petit œuf blanc, sur une sorte de petite coupe cotonneuse : c'est la volve, caractéristique de toutes les amanites. Plus avancé, il a un chapeau verdâtre, ou blanc verdâtre, ou vert-bronze, avec des lames blanches sous le chapeau, un anneau en haut du pied et la volve en contact avec la terre. "
+    },
+    {
+      "id": 3,
+    "nom": "Amanite tue mouche",
+    "nomlatin": "Amanita muscaria",
+    "toxic": true,
+    "famille": "Amanites",
+    "image": [
+      "images/Amanite_tue-mouche.webp"
+    ],
+    "comestible" : false,
+    "description":"Volve+anneau+lames blanches. L'Amanite tue-mouches ou fausse oronge, est une espèce de champignons de la famille des Amanitaceae. Toxique et psychotrope, c'est l'un des nombreux représentants du genre des amanites, et certainement le plus connu. Chapeau rouge avec des squames blancs."
+  },
+  {
+    "id": 4,
+  "nom": "Bolet élégant",
+  "nomlatin": "Boletus elegans",
+  "toxic": true,
+  "famille": "Bolets",
+  "image": [
+    "images/Bolet_elegant.webp"
+  ],
+  "comestible" : false,
+  "description":"Hyménophore en tubes. Le bolet élégant est un champignon avec un chapeau (5 à 10 cm) jaune citron à brun orangé d’abord hémisphérique, en cloche, étalé et enfin aplani. Il a une chair épaisse qui est consistante au début et puis devient vite molle."
+}, 
+{
+  "id": 5,
+"nom": "Cèpe de Bordeaux",
+"nomlatin": "Boletus edulis",
+"toxic": false,
+"famille": "Bolets",
+"image": [
+  "images/Cepe_de_Bordeaux.webp"
+],
+"comestible" : true,
+"description":"Le champignon forme un grand chapeau brun convexe, sa forme ronde rappelle celle d'un bouchon de champagne ; sa marge est enroulée. En vieillissant, il s'étale tout en restant épais, charnu et convexe (8 à 20 cm de diamètre). Rarement, dans des circonstances hygrométriques favorables, il peut atteindre 35 cm de diamètre et peser jusqu'à 3 kg. Hyménophore en tubes.",
+"conseils" : "Quand les chapeaux sont ronds et qu’ils ressemblent à des bouchons de champagne, c’est le must. Fuyez quand les chapeaux évasés sont très creux, cela laisse à penser qu’ils sont très vieux. Sous le chapeau se cache une couche un peu spongieuse (les spores) qu’il faudra ôter si elle est de couleur jaune verdâtre. Epluchez toujours la base du pied avec un couteau que ce soit au moment où vous le ramassez ou après l’avoir acheté. Coupez les éventuelles parties abîmées. Nettoyez délicatement le chapeau avec un petit torchon humide ou mieux une petite brosse dédiée. Ne le trempez pas dans l’eau il l’absorberait et deviendrait spongieux. Si le chapeau est sale, passez le très vite sous un filet d’eau."
+}, 
+{
+  "id": 6,
+"nom": "Clitocybe nébuleux",
+"nomlatin": "Clitocybe nebularis",
+"toxic": true,
+"famille": "Clitocybes",
+"image": [
+  "images/Clitocybe_nebuleux.webp"
+],
+"comestible" : false,
+"description":"Spores blanches+lames décurrentes. Le Clitocybe nébuleux est un champignon de taille moyenne à grande de 5 à 20 cm de diamètre au chapeau convexe et légèrement déprimé au centre et souvent mamelonné. Sa marge est enroulée. Sa cuticule, non hygrophane, lisse et non pruineuse, varie de gris-blanc, pour les jeunes sujets, au blanchâtre à « gris clair comme un ciel peu couvert ». Elle peut également prendre des teintes gris-brun et est souvent plus foncée dans son centre. ",
+"conseils": "Le clitocybe nébuleux (clitocybe nebularis) ou encore Gris de sapin est un champignon comestible mais il faut tout de même prendre certaines précautions ! Ne consommez que les exemplaires jeunes et soyez vigilant quant à sa cuisson ! En effet, le Nebularis doit être correctement cuit et sa première eau de cuisson doit être jetée, au risque d’être toxique."
+},
+{
+  "id": 7,
+"nom": "Cortinaire camphré",
+"nomlatin": "Cortinarius camphoratus",
+"toxic": true,
+"famille": "Cortinaires",
+"image": [
+  "images/Cortinaire_camphre.webp"
+],
+"comestible" : false,
+"description":"Spores ocres+cortine. 7 à 12 cm de diamètre, bleu violacé se teintant de brun ochracé à partir du centre puis pâlissant jusqu'à bleuâtre pâle à blanc bleuté ou blanc lilacin. Pied: Blanc, Crème, Mauve."
+},
+{
+  "id": 8,
+"nom": "Cortinaire à chaussettes",
+"nomlatin": "Cortinarius torvus",
+"toxic": true,
+"famille": "Cortinaires",
+"image": [
+  "images/Cortinaire_chaussettes.webp"
+],
+"comestible" : false,
+"description":"Spores ocres+cortine. Sa chair, marbrée de violacé, dégage une odeur fruitée proche de celle du mal nommé Cortinaire à odeur de bouc, lequel exhale un parfum d’alcool de poire. Ce cortinaire se reconnaît à son pied souvent courbé et gainé d'un épais voile membraneux « en chaussette » s'épanouissant en haut en une étroite collerette formant un faux anneau. Le chapeau est brun roussâtre et le sommet du pied violacé. Les lames sont espacées et épaisses. Il pousse sous feuillus où il est très commun. "
+},
+{
+  "id": 9,
+"nom": "Cortinaire couleur mer",
+"nomlatin": "Cortinarius salor",
+"toxic": true,
+"famille": "Cortinaires",
+"image": [
+  "images/Cortinaire_couleur_mer.webp"
+],
+"comestible" : false,
+"description":"Spores ocres+cortine. Chapeau: 7 à 15 cm de diamètre, brun à brun ochracé. Pied: Gris, Mauve, 4-10 x 1-2 cm, gris ou gris-brun plus ou moins violacé, se tachant vite de violacé sombre au toucher, à bulbe souvent nettement marginé."
+},
+{
+  "id": 10,
+"nom": "Entolome livide",
+"nomlatin": "Entoloma sinuatum",
+"toxic": true,
+"famille": "Entolomes",
+"image": [
+  "images/Entolome_livide.webp"
+],"comestible" : false,
+"description":"Spores roses+lames échancrées. Le chapeau, posé sur un pied blanchâtre, épais, renflé à la base, parfois courbe,  mesure de 3 à 20 cm, blanc teinté de gris. Légèrement convexe, il peut présenter un mamelon. La marge blanche, ondulée, sinueuse en vieillissant, surplombe des lames blanches chez les individus jeunes, puis rosées chez les plus âgées."
+},
+{
+  "id": 11,
+"nom": "Girolle",
+"nomlatin": "Cantharellus cibarius",
+"toxic": false,
+"famille": "Chanterelles",
+"image": [
+  "images/Girolle.webp"
+],
+"comestible" : true,
+"description":"Hyménophore à plis. On reconnait la girolle grâce à sa forme en entonnoir et à sa couleur jaune citron ou orangé. Pied charnu de couleur jaune avec de nombreux plis qui remontent presque jusqu'au bord du chapeau ; Chair jaune à odeur agréable.",
+"conseils":"On commence par retirer à l’aide d’un couteau économe la base du pied puis, à l’aide d’un pinceau, d’une brosse très souple ou d’un morceau de papier absorbant légèrement humide, on nettoie les champignons, afin de retirer sable et/ou terre. Les girolles n’aiment pas l’eau, interdiction donc de les faire tremper, ni même de les passer sous l’eau, elles vont se gorger d’eau et perdraient toute leur délicate saveur. Pour cette raison, si vous cuisinez seul(e), c’est mieux de privilégier un plat à base de girolles pour 2, voir 4 personnes mais pas plus.Si vos girolles sont grosses, fendez-les en deux ou en 4."
+},
+{
+  "id": 12,
+"nom": "Hébélome échaudé",
+"nomlatin": "Hebeloma crustuliniforme",
+"toxic": true,
+"famille": "Hébélomes",
+"image": [
+  "images/Hebelome_echaude.webp"
+],
+"comestible" : false,
+"description":"Spores couleur « café au lait+lames échancrées. L'Hébélome échaudé produit un chapeau mesurant de 5 à 10 cm de diamètre, convexe, puis s'étalant tout en conservant un mamelon central, coloré d'un blanc ocre à roussâtre, plus clair à la marge et à la cuticule visqueuse par temps humide. Ses Lames sont assez serrées, dentelées, blanchâtres, puis colorée par une sporée ocre. Elles se couvrent de gouttelettes brunâtres translucides par temps humide. Son pied, mesurant de 5 à 10 cm, est blanchâtre taché de roux vers le bas et un peu bulbeux à la base. Sa chair est assez épaisse et blanche. L'ensemble présente une odeur nette de radis et une saveur amère."
+},
+{
+  "id": 13,
+"nom": "Hypholome en touffes",
+"nomlatin": "Hypholoma fasciculare,",
+"toxic": true,
+"famille": "Hypholomes",
+"image": [
+  "images/Hypholome_touffe.webp"
+],
+"comestible" : false,
+"description":"Spores brunes+lames échancrées. Ce petit champignon pousse en touffe sur des souches de hêtre, d’épicéa ou de pins. Chapeau : son chapeau est de couleur jaune à brun, est bombé et globuleux dans son jeune âge, puis devient plat par la suite. Lames : les lames sont resserrées, d’une couleur jaune à verdâtre. "
+},
+{
+  "id": 14,
+"nom": "Lactaire délicieux",
+"nomlatin": "Lactarius deliciosus",
+"toxic": false,
+"famille": "Lactaires",
+"image": [
+  "images/Lactaire_delicieux.webp"
+],
+"comestible" : true,
+"description":"Chair grenue+latex. Le Lactaire délicieux produit un chapeau mesurant de 5 à 12 cm de diamètre. Il est charnu, légèrement convexe, puis plat, déprimé au centre et enfin en forme d'entonnoir. Sa marge est mince, pruineuse chez les jeunes spécimens et longtemps enroulée, puis recourbée vers le bas et ondulée en vieillissant. Sa cuticule est mince, élastique, soyeuse, un peu visqueuse et brillante par temps humide, d'aspect glacé quand elle est sèche, avec des zones concentriques évidentes, souvent avec des fossettes, également nommées scrobicules, et des guttules surtout vers la marge. Le chapeau est coloré de crème orangé, rose orangé, rouge orangé ou orange chair ; les guttules et zonations étant plus foncées et tirant sur le brun rougeâtre. Il présente parfois des taches verdâtres dans les lésions. Ses lamelles sont épaisses et serrées, adnées à sub-décurrentes, minces et élastiques, avec de nombreuses lamellules arquées et fourchues au niveau du pied. Elles sont de couleur orange, jaune orangé ou orange saumoné pâle et ne verdissent pas sur les lésions. Leur sporée est crème jaune pâle. Son pied, court et cylindrique, qui mesure de 2 à 4 cm de haut, pour 1 à 2 cm d'épaisseur, rarement 3 cm, est coloré de blanc orangé à crème orangé et clairement couvert de fossettes irrégulières plus foncées, de couleurs orange foncé, rouge orangé ou orange brun. Il ne verdit pas. Sa chair est ferme et épaisse, généralement cassante, molle et élastique dans le pied, de couleur orange carotte, puis plus foncée, presque rougeâtre ; le cœur du pied conservant une coloration blanche. Son odeur est fruitée et agréable et son goût est similaire quoi que légèrement amer sur le tard. De toutes ses parties coule un latex orange vif, tachant, peu abondant, à la saveur douce qui rougit très lentement et ne verdit quasiment pas à l'oxydation4.",
+"conseils":"La préparation du lactaire délicieux s’accomplit en 30 min. Avant de réaliser votre recette, le nettoyage des lactaires demeure essentiel. Lors de cette étape, enlevez la partie dure des champignons et éliminez ceux qui pourrissent. Ensuite, coupez les lactaires suivant leur longueur. L’utilisation du beurre rend ce champignon délicieux lors de la cuisson. Vous pouvez utiliser aussi des épices lors de la préparation. Les lactaires délicieux se consomment avec n’importe quel type d’aliment."
+}
+,
+{
+  "id": 15,
+"nom": "Lactaire humide",
+"nomlatin": "Lactarius uvidus",
+"toxic": false,
+"famille": "Lactaires",
+"image": [
+  "images/Lactaire_humide.webp"
+],"comestible" : true,
+
+"description":"Chair grenue+latex. La chair est blanchâtre puis prend une teinte lilas à la coupe. Les spores sont de couleur crème-jaunâtre. Ce champignon assez peu courant exsude un lait abondant de couleur blanche prenant ensuite une teinte lilacine. Il se développe généralement en petites troupes de quelques individus. Sa saveur âcre le rend impropre à la consommation et il est donc classé parmi les non comestibles.",
+"conseils":"Le Lactaire humide pousse à partir du milieu de l'été et jusqu'à la fin de l'automne. Essentiellement en bois de feuillus (chênes, mûriers, peupliers etc.) ou bois mixtes, plus fréquent en altitude qu'en plaine, appréciant les sols humides et acides. Après la cueillette, coupez les pieds terreux, brossez les si besoin et essuyez les avec un torchon humide mais évitez l’immersion dans une cuvette d'eau. Vous pouvez couper les plus gros. Pour les cuire, vous pouvez les faire sauter dans une poêle à feu vif. Supprimez l’eau qui en dégorge afin d’éviter qu’ils soient trop ramollis. Ensuite, ils accompagneront la sauce de plats mijotés, du risotto ou des pâtes fraiches, une omelette ou vous pourrez aussi simplement les apprécier sautés au beurre avec une persillade... "
+},
+{
+  "id": 16,
+"nom": "Lactaire tranquille",
+"nomlatin": "Lactarius quietus",
+"toxic": false,
+"famille": "Lactaires",
+"image": [
+  "images/Lactaire_tranquille.webp"
+],
+"comestible" : true,
+"description":"Chair grenue+latex. C'est un des petits lactaires les plus communs dans nos forêts. La sporée, abondante à la fin de maturité, paraît poudrer les lamelles d'une couleur crème rosâtre. Sa chair est blanchâtre à crème et roussit avec la maturité. Quoique non considéré comme toxique, il est préférable de laisser ce champignon sur place en raison de sa saveur désagréable, plus ou moins amère, et de son parfum particulier.",
+"conseils":"En principe comestible, le lactaire tranquille est de médiocre qualité et non recommandable. La période de cueillette est à partir du milieu de l'été et jusqu'à la fin de l'automne"},
+{
+  "id": 17,
+"nom": "Langue de boeuf",
+"nomlatin": "Fistulina hepatica",
+"toxic": false,
+"famille": "Polypores",
+"image": [
+  "images/Langue_boeuf.webp"
+],
+"comestible" : true,
+"description":"Hyménophore à tubes+chair coriace. La Fistuline hépatique produit un sporophore au chapeau mesurant de 10 à 20 cm (jusqu'à 40 cm) de diamètre pour une épaisseur de 2 à 6 cm vers la base. Il est globuleux puis allongé comme une langue ou bien en demi-cercle, strié radialement et couvert d'aspérités évoquant des papilles. Il est coloré d'un brun rouge grenat, brillant et visqueux par temps humide sur sa face supérieure devenant plus sombre en vieillissant. Le chapeau excrète parfois des perles de liquide rouge semblables à du sang. ",
+"conseils":"On peut noter la présence d'une matière très gélatineuse rougâtre sur le chapeau. Il peut tout de même être récolté ainsi, c'est d'ailleurs le meilleur stade pour la consommer. Pour sa préparation on pèlera la cuticule du chapeau, puis la mousse du dessous. On la détaillera en tranches assez fines que l'on fera poêler avec un soupçon de persillade. Conservez ce champignon 1 à 2 jours au frais. Mais pas plus ! Comme pour la majorité des champignons, une fois cueilli, un champignon doit être consommé rapidement. La fistuline hépatique peut être mangée crue en salade et en sashimi ou alors cuite comme un steak de viande rouge. Attention, il convient de consommer surtout des sujets jeunes, car ce champignon devient coriace avec l’âge."
+},
+{
+  "id": 18,
+"nom": "Lépiote déguenillée",
+"nomlatin": "Macrolepiota rhacodes",
+"toxic": false,
+"famille": "Lépiotes",
+"image": [
+  "images/Lepiote_deguenillee.webp"
+],
+"comestible" : true,
+"description":"Spores blanches+anneau. C'est un champignon à chapeau hémisphérique puis étalé, couvert d'une épaisse pellicule qui, en se déchirant, forme des peluches écailleuses brunes lui donnant un air «déguenillé» ; il peut atteindre 10 à 20 cm de diamètre ;ses lames sont blanches virant au brun, libres et serrées ; il a stipe blanc lorsqu'il est jeune, puis brunâtre , trapu, lisse et bulbeux portant un anneau blanc, ample et coulissant ; sa chair est blanche, prenant une couleur saumon à la cassure, de saveur agréable.",
+"conseils":"La lépiote déguenillée se trouve sous couvert de conifères, particulièrement en lisière, parfois sous feuillus ou au bord des haies et dans les jardins. La période de cueillette est à partir du mois de juin et jusqu'à la fin de l'automne. Consommez-la sans son pied, qui est coriace et filandreux. Pas aussi savoureuse que les autres champignons forestiers, la lépiote n'est pas vraiment mise en valeur préparée en poêlée. En revanche, jeune (donc fermée), elle est délicieuse crue et émincée, en carpaccio, marinée dans du jus de citron et de l'huile d'olive. Ainsi dégustée, son agréable goût de noisette est très prononcé. Plus âgée, elle peut se préparer panée : il suffit de tremper son grand chapeau dans de l’œuf battu, puis dans la chapelure, et enfin de le cuire à la poêle. La lépiote est également très goûteuse lorsqu'elle est grillée, accompagnée d'une noisette de beurre et d'une persillade."
+},
+{
+  "id": 19,
+"nom": "Lépiote élevée",
+"nomlatin": "Macrolepiota procera",
+"toxic": false,
+"famille": "Lépiotes",
+"image": [
+  "images/Lepiote_elevee.webp"
+],
+"comestible" : true,
+"description":"Spores blanches+anneau. Connue de tous et facile à reconnaître, la Lépiote élevée ou Coulemelle demeure l'une des espèces les plus spectaculaires. Jeune, elle ressemble à une baguette de tambour ; à maturité, c'est un véritable parasol. On la trouve dès l'été dans les sous-bois clairs de feuillus, les friches, les haies, les clairières, sur sol siliceux. L'espèce vient soit en solitaire, soit en troupes qui peuvent alors former des « ronds de sorcière » considérables.",
+"conseils":"Les lépiotes élevées se dégustent simplement dans une poêlée avec un peu de persil, d’ail ou de beurre. Vous pouvez également les faire mariner dans un mélange d’huile d’olive et de jus de citron pour agrémenter un plat ou accompagner une salade. Ces champignons peuvent aussi être cuisinés en risotto, à la poêle ou avec des légumes. Les coulemelles sont entre autres parfaites pour accompagner les viandes, surtout le poulet et l’agneau."
+},
+{
+  "id": 20,
+"nom": "Lépiote mamelonnée",
+"nomlatin": "macrolepiota mastoidea",
+"toxic": false,
+"famille": "Lépiotes",
+"image": [
+  "images/Lepiote_mamelonnee.webp"
+],
+"comestible" : true,
+"description":"Spores blanches+anneau. Une lépiote moyenne, la plus grande fait 10 cm de chapeau avec un pied de 12 x 1.5 cm - mamelon sombre proéminent et écailles fines se désagrégeant à partir de la marge - Lames libres montrant un pseudo-collarium - Anneau non double mais coulissant. Pied vaguement chiné. Odeur faible mais pas désagréable, chair douce.",
+"conseils":"La lépiote se déguste en primeur pendant les mois de juin, juillet et août ; c'est la pleine saison de la dégustation de la lépiote en septembre et octobre. Champignon bon comestible d'utilisation identique à la coulemelle."
+},
+{
+  "id": 21,
+"nom": "Paxille",
+"nomlatin": "Paxillus",
+"toxic": true,
+"famille": "Paxilles",
+"image": [
+  "images/Paxille.webp"
+],
+"comestible" : false,
+"description":"Spores ocres+lames décurrentes. Champignon charnu, brun, roussisant à la manipulation. Hyménophore séparable du chapeau."
+},
+{
+  "id": 22,
+"nom": "Polypore du bouleau",
+"nomlatin": "Piptoporus betulinus",
+"toxic": false,
+"famille": "Polypores",
+"image": [
+  "images/Polypore_bouleau.webp"
+],
+"comestible" : true,
+"description":"Hyménophore à tubes+chair coriace Le polypore du bouleau est un champignon lignicole (qui pousse sur le bois) et saprophyte (qui se nourrit de matières organiques mortes). Comme son nom l’indique , il ne pousse que sur des bouleaux, morts ou gravement malades tout le long de l’année. Le carpophore de ce polypore ressemble à un sabot de cheval, il est de couleur allant du blanc au beige foncé selon l’âge et peut faire de 10 à 30 cm de longueur sur 5 à 20 cm de large, sa chair est d’un blanc pur, assez souple dans un premier temps, puis coriace et de consistance liégeuse avec l’âge, odeur aigrelette et saveur acidulée. Ce champignon n’est pas comestible car sa chair est trop coriace.",
+"conseils":"Le polypore du bouleau pousse sur un arbre réputé en Bushcraft et possédant déjà mille application. On prête de nombreuses utilisations à ce champignon qui se développe depuis la fin du printempsjusqu'à la fin de l'hiver. La texture de la chair est très ferme, subéreuse même, ce qui la rend désagréable à mâcher. Le goût est légèrement acidulé mais surtout amer. Il ne représente pas un bon comestible pour les gourmets mais permet d'apaiser la faim en se remplissant rapidement l'estomac. Il faut goûter pour s'en faire une idée.. Sélectionnez les carpophores les plus jeunes (en forme de petite boule ou de rein) pour éviter qu'ils ne soient trop coriaces."
+},
+{
+  "id": 23,
+"nom": "Russule charbonnière",
+"nomlatin": "Russula cyanoxantha",
+"toxic": false,
+"famille": "Russules",
+"image": [
+  "images/Russule_charbonniere.webp"
+],
+"comestible" : true,
+"description":"Chair grenue+pas de latex. Elle possède un chapeau (5 à 15 cm de diamètre) de couleur très variable, du violet au vert olive. Les lames sont blanches, adhérentes, et ne cassent pas sous la pression du doigt mais se plient, et, au toucher, elles se montrent souples et onctueuses. Les mycologues disent que cette Russule a une consistance lardacée, ce qui est un des principaux critères de reconnaissance, les lactaires et les autres russules ayant en commun une chair friable ou cassante comme de la craie. Le pied, de 5 à 10 cm de haut pour un diamètre de 2 à 3 cm, est blanc et cassant comme du polystyrène. La saveur est douce, rappelant celle de la noisette, et l'odeur faible. Elle pousse de l'été à la fin de l'automne en forêt, sous feuillus.",
+"conseils":"Elle pousse généralement sous feuillus et parfois sous conifères. Elle apparait dès le printemps et jusqu'au milieu de l'automne en plusieurs fois. La Russule Charbonnière accompagnera nombre de plats en y ajoutant son côté croquant qui ne disparait pas à la cuisson."
+},
+{
+  "id": 24,
+"nom": "Russule mamelonnée",
+"nomlatin": "Russula amara",
+"toxic": false,
+"famille": "Russules",
+"image": [
+  "images/Russule_mamelonnee.webp"
+],
+"comestible" : true,
+"description":"Chair grenue+pas de latex. Pied blanc sans trace de rose. Chapeau assez foncé, en principe mamelonné au centre. Lames crème. Pousse plutôt sous les pins. ",
+"conseils":"Il n’y a pas chez les russules de comestible de premier choix. Elles sont dans l’ensemble  assez insipides, mais leur chair ferme et craquante a une consistance agréable. Le mieux est de les mélanger à d’autres espèces dont le goût est plus affirmé."
+},
+{
+  "id": 25,
+"nom": "Russule ocre et blanche",
+"nomlatin": "Russula ochroleuca",
+"toxic": false,
+"famille": "Russules",
+"image": [
+  "images/Russule_ocre_blanche.webp"
+],
+"comestible" : true,
+"description":"Chair grenue+pas de latex. Chapeau 3 à 10 cm, convexe puis aplati et légèrement ondulé voire déprimé. Surface lisse et brillante, facilement séparable. Jaune, se teinte d'ocre avec l'âge (ochro). Lames et sporée blanches (leuca). Pied 5 à 9 cm, blanc, parfois renflé à la base. Chair blanche, cassante comme celle de toutes les russules ; odeur nulle ou très faible ; saveur âcre faible et inconstante.",
+"conseils":"La Russule ocre et blanche pousse à partir du milieu de l'été et jusqu'à la fin de l'automne. Principalement dans les bois de feuillus (chênes, mûriers, peupliers etc.) mais aussi dans les bois de résineux et dans les bois mixtes, appréciant les sols acides. La Russule ocre et blanche est un champignon non comestible."},
+{
+  "id": 26,
+"nom": "Tramète versicolore",
+"nomlatin": "Trametes versicolor",
+"toxic": false,
+"famille": "Polypores",
+"image": [
+  "images/Tramete_versicolore.webp"
+],
+"comestible" : true,
+"description":"Hyménophore poré+chair coriace. Sporophores : fruits annuels très apparents, d’une belle couleur brune, jaune brun et rouge brun rayé, en forme de tuiles ou de rosettes. La marge de croissance est blanche. Conditions de développement : temps d’été chaud et humide. Destruction du bois : s’attache surtout au bois de feuillus, en particulier le hêtre. Détruit la lignine. ",
+"conseils":"Le coriolus ou tramète versicolore est reconnu en Asie pour avoir des propriétés thérapeutiques semblables à celles du ganoderme luisant, soit des propriétés antitumorales, stimulatrices du système immunitaire et régulatrices des systèmes digestif et respiratoire. Dans plusieurs pays, il fait l’objet d’une culture à grande échelle et il est intégré à de nombreux produits thérapeutiques. Il peut être consommé sous forme de tisane ou, réduit en poudre, incorporé aux aliments. Après la récolte de la matière ligneuse, il est facile de l’ensemencer sur les branches et les cimes saines laissées sur place. Les vieilles fructifications séchées persistent plusieurs années sur les troncs; cependant, en fin d’été ou en début d’hiver, on ne cueille que les fructifications de l’année."
+},
+{
+  "id": 27,
+"nom": "Tricholome brûlé",
+"nomlatin": "Tricholoma ustale",
+"toxic": true,
+"famille": "Tricholomes",
+"image": [
+  "images/Tricholome_brule.webp"
+],
+"comestible" : false,
+"description":"Spores blanches+lames échancrées. Ce Tricholome produit un sporophore au chapeau visqueux brun ocre rousissant mesurant de 3 à 10 cm de diamètre. Ses lames échancrées sont blanches puis tachées de roux en vieillissant. Le pied blanc crème à roussâtre mesure de 6 à 12 cm de long pour 1 à 2 cm d'épais. Sa chair blanche présente un goût légèrement amère et une odeur faible."
+},
+{
+  "id": 28,
+"nom": "Tricholome gris",
+"nomlatin": "Tricholoma sciodes",
+"toxic": true,
+"famille": "Tricholomes",
+"image": [
+  "images/Tricholome_gris.webp"
+],
+"comestible" : false,
+"description":"Spores blanches+lames échancrées. Chapeau mamelonné, fibrilleux, gris un peu ochracé. Lames blanches bordées de noir. Pied grisâtre, peu méchuleux. Odeur faible. Saveur amère, âcre. Sous hêtres. Commun. Toxique. "
+}
+
+]
