@@ -73,7 +73,7 @@ Si vous avez une suggestion qui améliorerait cela, veuillez bifurquer le dépô
 <!-- LICENSE -->
 ## License
 
-Distribué sous la licence Apache 2.0. Voir le fichier LICENSE pour plus d'informations.
+Distribué sous la licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Voir le fichier LICENSE pour plus d'informations.
 
 
 
