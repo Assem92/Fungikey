@@ -2,10 +2,9 @@
 [![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
 [![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
 [![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)](codcov)
-<img alt="Travis (.org)" src="https://img.shields.io/travis/Assem92/Fungikey">
 <a href="https://www.codacy.com/gh/Assem92/Fungikey/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Assem92/Fungikey&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a4e163d604aa457b8374bec4c79e0d44"/></a>
 [![Maintainability](https://api.codeclimate.com/v1/badges/0deb4ad01a8bd65f4c5c/maintainability)](https://codeclimate.com/github/Assem92/Fungikey/maintainability)
-
+[![Travis (.com) branch](https://img.shields.io/travis/com/Assem92/Fungikey/master)](https://app.travis-ci.com/github/Assem92/Fungikey/builds)
 
 # Fungikey
 
