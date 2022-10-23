@@ -7,5 +7,3 @@ before install:
   - npm install codecov
 install:
   - npm ci
-script:
-  - npm run test
