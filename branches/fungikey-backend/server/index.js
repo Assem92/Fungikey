@@ -1,5 +1,3 @@
-//import JSONDATA from "./champi.json" assert {type: 'json'};
-
 let ChampiJson = require("./assets/champi.json")
 let FamilleChampiJson = require("./assets/familleChampi.json")
 let FamilleComplementairesJson = require("./assets/familleComplementaires.json")
@@ -15,7 +13,6 @@ app.get("/api/champi", (req, res) => {
 
 app.get("/api/champi/:id", (req, res) => {
     const champ=ChampiJson.find(c=> c.id === parseInt(req.params.id));
-    //res.json(ChampiJson[parseInt(req.params.id)-1]);});
     if (!champ) res.status(404).send("le chapignion n'existe pas");
     res.json(champ);});
   
