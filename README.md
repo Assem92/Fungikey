@@ -27,15 +27,15 @@ Afin de lancer l'application, il convient de suivre quelques étapes:
 
 3) Une fois l'installation fini, se rendre dans le dossier ```branches/fungikey-backend```, et lancer les commandes suivants sur le Terminal:
 ```
-npm install
-npm start
+npm install //Installer les packages NPM
+npm start  //Lancer le backend
 ```
 cela va lancer le backend NodeJS sur le port 3001 : ```http://localhost:3001/```
 
 4) se rendre dans le dossier ```branches/fungikey```, et lancer les commandes suivants sur le Terminal:
 ```
-npm install
-npm start
+npm install //Installer les packages NPM
+ng serve //Installer les packages NPM
 ```
 cela va lancer le frontend React sur le port 3000 : ```http://localhost:3000/```
 
@@ -47,4 +47,9 @@ cela va lancer le frontend React sur le port 3000 : ```http://localhost:3000/```
 * Kemokoba BAYO
 * Ghenima OULD AHMED 
  
+
+<!-- LICENSE -->
+## License
+
+Distribué sous la licence Apache 2.0. Voir le fichier LICENSE pour plus d'informations.
 
