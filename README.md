@@ -5,7 +5,7 @@
 <a href="https://www.codacy.com/gh/Assem92/Fungikey/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Assem92/Fungikey&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a4e163d604aa457b8374bec4c79e0d44"/></a>
 [![Maintainability](https://api.codeclimate.com/v1/badges/0deb4ad01a8bd65f4c5c/maintainability)](https://codeclimate.com/github/Assem92/Fungikey/maintainability)
 [![Travis (.com) branch](https://img.shields.io/travis/com/Assem92/Fungikey/master)](https://app.travis-ci.com/github/Assem92/Fungikey/builds)
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Assem92/Fungikey/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Assem92/Fungikey/tree/master)
 # Fungikey
 
 **Fungikey**, l'application pour tout savoir sur les champignons. 
