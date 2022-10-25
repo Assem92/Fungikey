@@ -21,7 +21,7 @@ export const TableIdentificator = () => {
   React.useEffect(() => {
     fetch("/api/familleChampi")
       .then((res) => res.json())
-      .then((dataa) => setData(dataa));
+      .then((FamilleChamiDATA) => setData(FamilleChamiDATA));
   }, []);
   //
 
