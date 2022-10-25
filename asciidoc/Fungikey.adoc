@@ -59,7 +59,7 @@ Type d'application (web, mobile) :
 
 Le projet consiste à réaliser une application mobile sous forme de PWA.
 
-images::Type.jpg[]
+image::Type.jpg[]
 
 
 
