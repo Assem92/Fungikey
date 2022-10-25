@@ -115,7 +115,21 @@ Deuxième grande fonctionnalité : Liste de champignons
 
 Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
 
+== Version 0.3 ==
 
+Dans cette nouvelle version, de nouvelles fonctionnalités ont été ajoutés avec une amélioration des anciennes. 
 
+Première feature: L'identification des champignons. 
 
+Cette fonctionnalité facilite la recherche d’un champignon en spécifiant ses critères, L'identificator permet aussi de rechercher un champignon en saisissant son nom. 
+
+Et pas que ! il en choisissant les filtres, l'utilisateur va ensuite sélectionner pour chaque filtre le type du critère recherché : le type du chapeau par exemple. 
+
+Donc cela permet vraiment à avoir une recherche très précise. 
+
+Sur le menu principal on clique sur le bouton identification 
+
+On sera redirigé vers une page qui nous donne des informations générales sur l’anatomie d’un champignon. En haut à droite, un bouton qui permet d’afficher une barre latérale qui contient des liens vers l’identificator et un raccourci pour les filtres disponibles sur ce dernier. 
+
+images::Photo6.jpg[]
 
