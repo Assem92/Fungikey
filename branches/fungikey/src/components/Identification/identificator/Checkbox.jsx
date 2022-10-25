@@ -2,7 +2,7 @@ import React from "react";
 import {Form} from "react-bootstrap"
 
 /**
- * @author Helena Li
+ * @author Ghenima OULD AHMED
  * @constant Checkbox une case "checkbox" cochable
  * Basé sur la doc de React-Table, c'est une case cochable afin d'afficher/enlever toutes les colonnes d'un tableau
  */
