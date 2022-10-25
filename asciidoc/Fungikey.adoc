@@ -95,6 +95,8 @@ Arborescence du front :
 
 image::Photo5.jpg[]
 
+image::PhotoX.jpg[]
+
 ===Les Releases===
 
 ==Version 0.1==
@@ -105,7 +107,7 @@ On trouve aussi une photo du logo de l’application.
 
 Feature: Affichage d’un message d’avertissement qui renvoie vers le site de l’aness  
 
- image::Photo6.jpg[]
+ 
 
 == Version 0.2: ==
 
@@ -115,7 +117,7 @@ Première petite fonctionnalité :
 
 Amélioration de l’interface graphique  
 
- 
+ image::Photo6.jpg[]
 
 Deuxième petite fonctionnalité : 
 
