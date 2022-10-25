@@ -20,8 +20,6 @@ export default function Conseils() {
       .then((dataa) => setData(dataa));
   }, []);
 
-  console.log(dataa);
-
   return (
     <div>
       <div className="conseil-bar">

@@ -46,7 +46,7 @@ cela va lancer le backend NodeJS sur le port 3001 : ```http://localhost:3001/```
 4) se rendre dans le dossier ```branches/fungikey```, et lancer les commandes suivants sur le Terminal:
 ```
 npm install
-ng serve 
+npm start
 ```
 cela va lancer le frontend React sur le port 3000 : ```http://localhost:3000/```
 
