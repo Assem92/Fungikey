@@ -62,6 +62,7 @@ Le projet consiste à réaliser une application mobile sous forme de PWA.
 image::Type.jpg[]
 
 
+Schéma architectural de l'application (front / API / back / persistance)
 
 Plateforme technologique (langages utilisés, Frameworks de test, de lien métier/API, métier/persistance) :  
 
@@ -75,6 +76,14 @@ Plateforme opérationnelle (gestion de versions, build, qualité de code, CI, d�
 
 Pour ce projet, il conviendra d’utiliser Github. Il nous permettra de faire coexister différentes versions d’un même fichier, par conséquent, de mieux nous organiser dans ce travail en groupe. Visual Studio code, sera l’IDE qui nous permettrait de build notre code. En ce qui concerne le CI (Continuous intégration) nous allons utiliser Travis CI qui va nous permettre de tester notre application mobile et voir si chaque build de notre code se fait correctement (On pourra, notamment, le voir grâce à une balise présente sur le Github).
 
+Interconnexion avec systèmes / API distantes (en prévision M1 semestre 2 et M2) 
+
+Il conviendra d’utiliser l’API Google pour la localisation de l’utilisateur et pour cartographier les champignons sur une carte.  
+
+Acquisition de données, usage intelligent des données (en prévision M2) 
+
+-Référencement des champignons en fonction de la position.  
+
 === Partie 3 : Modélisation ===
 
 Diagrammes de séquence des interactions front/back (par feature, voir le back comme une boîte noire) 
@@ -86,6 +95,17 @@ Arborescence du front :
 
 image::Photo5.jpg[]
 
+===Les Releases===
+
+==Version 0.1==
+
+Affichage d’un menu sur la page d’accueil de l’application qui contient quatre boutons : Identification, Conseils, Jeux et Avertissement 
+
+On trouve aussi une photo du logo de l’application. 
+
+Feature: Affichage d’un message d’avertissement qui renvoie vers le site de l’aness  
+
+ image::Photo6.jpg[]
 
 == Version 0.2: ==
 
@@ -101,19 +121,19 @@ Deuxième petite fonctionnalité :
 
 Informations sur l’anatomie d’un champignon en général. 
 
- 
-
- 
+ image::Photo7.jpg[]
 
 Première grande fonctionnalité : Barre de recherche 
 
 Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
 
- 
+ image::Photo8.jpg[]
 
 Deuxième grande fonctionnalité : Liste de champignons 
 
 Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
+
+ image::Photo9.jpg[]
 
 == Version 0.3 ==
 
@@ -131,5 +151,5 @@ Sur le menu principal on clique sur le bouton identification
 
 On sera redirigé vers une page qui nous donne des informations générales sur l’anatomie d’un champignon. En haut à droite, un bouton qui permet d’afficher une barre latérale qui contient des liens vers l’identificator et un raccourci pour les filtres disponibles sur ce dernier. 
 
-image::Photo6.jpg[]
+image::Photo10.jpg[]
 
