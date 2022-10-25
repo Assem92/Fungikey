@@ -7,7 +7,7 @@ import { Checkbox } from './Checkbox';
 
 
 /**
- * @author Helena Li
+ * @author Ghenima OULD AHMED
  * @returns le table identificator, qui permet de filtrer dynamiquement les champignons 
  */
 export const TableIdentificator = ()  => {
