@@ -79,12 +79,12 @@ Pour ce projet, il conviendra d’utiliser Github. Il nous permettra de faire co
 
 Diagrammes de séquence des interactions front/back (par feature, voir le back comme une boîte noire) 
 
-images::Photo4.jpg[]
+image::Photo4.jpg[]
 
 
 Arborescence du front : 
 
-images::Photo5.jpg[]
+image::Photo5.jpg[]
 
 
 == Version 0.2: ==
@@ -131,5 +131,5 @@ Sur le menu principal on clique sur le bouton identification
 
 On sera redirigé vers une page qui nous donne des informations générales sur l’anatomie d’un champignon. En haut à droite, un bouton qui permet d’afficher une barre latérale qui contient des liens vers l’identificator et un raccourci pour les filtres disponibles sur ce dernier. 
 
-images::Photo6.jpg[]
+image::Photo6.jpg[]
 
