@@ -5,7 +5,7 @@ import { TableIdentificator2, } from './TableIdentificatorComp.jsx'
 
 
 /**
- * @author Manal Boutajar
+ * @author Ghenima OULD AHMED
  * @returns Retourne un bloc contenant le tableau identificator commplémentaire et un bouton retour
  */
 export default function IdentificatorComp() {
