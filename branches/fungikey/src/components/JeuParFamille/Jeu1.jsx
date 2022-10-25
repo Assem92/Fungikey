@@ -4,7 +4,6 @@ import { CardMushroom } from './Card';
 import Sidebar from '../Jeux/Sidebar';
 
 /**
- * @author Helena Li
  * @returns le premier jeu: reconnaissance par famille
  * @function refreshPage() on rafraîchit la page afin de regénérer un champignon au hasard
  */

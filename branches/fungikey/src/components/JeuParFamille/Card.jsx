@@ -1,9 +1,8 @@
 import { React, useState, useMemo } from 'react';
-import * as data from '../../asset/familleChampi.json';
+import * as data from '../../assets/familleChampi.json';
 import { Modal} from 'react-bootstrap';
 
 /**
- * @author Helena Li
  * @returns Un petit jeu qui affiche une question, avec bouton de réponse et score
  * La question est générée en prenant une famille de champignons aléatoirement dans la base de données.
  */
