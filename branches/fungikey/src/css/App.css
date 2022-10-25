@@ -47,3 +47,53 @@ h1{
   font-family: Tahoma;
 }
 
+.Conseil{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-identification{
+  width: 95%;
+  padding: 5%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background-color: #FFF;
+  border-style: none;
+  box-shadow: #356d62;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.h2-identification{
+  color: #356d62;
+  text-align: center;
+}
+
+.button-retour{
+  
+  width: 100%;
+  border: none;
+  background-color: #356d62;
+  border-radius: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Tahoma;
+}
+
+
+

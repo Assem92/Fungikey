@@ -1,13 +1,12 @@
 import React, {useMemo} from 'react'
 import { useTable, useFilters } from 'react-table'
-import DATA from '../../../asset/familleChampi.json'
+import DATA from '../../../assets/familleChampi.json'
 import { COLUMNS } from './columnsMain'
 import { Table, Form, Button, Container} from 'react-bootstrap';
 import { Checkbox } from './Checkbox';
 
 
 /**
- * @author Ghenima OULD AHMED
  * @returns le table identificator, qui permet de filtrer dynamiquement les champignons 
  */
 export const TableIdentificator = ()  => {

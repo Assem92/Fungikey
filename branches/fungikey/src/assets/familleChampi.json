@@ -1,0 +1,942 @@
+[
+    {
+        "nom_famille":"Gyroporus",
+        "type_champignon":"chapeau",
+        "image": [
+            "images/Gyroporus.webp"
+          ],
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"blanc, gris, rose",
+    
+                "stipe":"creux, cassant, rugueux",
+                "cuticule":"seche"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Tylopilus",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"blanc, gris, rose",
+    
+                "stipe":"ventru a reseau sombre",
+                "cuticule":"lubrifiée, sèche"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Leccinum",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"blanc, gris, rose",
+    
+                "stipe":"élancé à squasmes noirâtres",
+                "cuticule":"none"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Xerocomus",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"jaune, verdatre, olivatre",
+    
+                "stipe":"elance",
+                "cuticule":"seche_veloutee"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Boletus",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"jaune, verdatre, olivatre",
+    
+                "stipe":"lubrifiée ou sèche",
+                "cuticule":"ventre ou obèse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Suillus",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"jaune, verdatre, olivatre",
+    
+                "stipe":"lubrifiee",
+                "cuticule":"cylindrique ou fusiforme"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Xerocomus",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"rouge, orange",
+    
+                "stipe":"elance",
+                "cuticule":"lubrifiee"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Boletus", 
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"tubes",
+        
+                "couleur_spores":"rouge, orange",
+    
+                "stipe":"lubrifiée ou sèche",
+                "cuticule":"ventru ou obese"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Lactaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+    
+                "latex":true,
+    
+                "trame":"grenue"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Russules",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+    
+                "latex":false,
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Pleurotes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"excentre",
+                "type_lames": "lames décurrentes",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Schizophylles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"excentre",
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Amanite",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"volve",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Amanite",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"volve + anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Lepiotes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Armillaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+    
+                "type_lames": "lames décurrentes",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Hygrophores",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes ou adnées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Laccaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes ou adnées",
+    
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Marasmes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées à échancrées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Mycenes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées à échancrées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Collybies",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées à échancrées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Tricholomes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées à échancrées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Clitocybes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"blanche",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes ou adnées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Volvaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"rose",
+    
+                "stipe":"volve",
+                
+                "trame":"fibreuse"
+            }
+        
+    },	
+    
+    {
+        "nom_famille":"Entolomes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"rose",
+    
+                "stipe":"nu",
+                "type_lames": "lames échancrées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Clitopiles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"rose",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Plutees",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"rose",
+    
+                "stipe":"nu",
+                "type_lames": "lames libres", 
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Crepidotes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"excentre",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Pholiotes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Galeres",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Cortinaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"cortine",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Inocybes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"nu",
+                "type_lames": "lames libres",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Hebelomes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"nu",
+                "type_lames": "lames échancrées",
+    
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Paxilles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"ocre, gris, beige, brun",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes",
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Agarics",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"brun, pourpre, violette",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Strophaires",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"brun, pourpre, violette",
+    
+                "stipe":"anneau",
+                
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Psilocybes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"brun, pourpre, violette",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Hypholomes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"brun, pourpre, violette",
+    
+                "stipe":"nu",
+                "type_lames": "lames échancrées",
+    
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Paneoles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"noire",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Psathyrelles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"noire",
+    
+                "stipe":"nu",
+                "type_lames": "lames adnées",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Gomphides",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"noire",
+    
+                "stipe":"nu",
+                "type_lames": "lames décurrentes",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Coprins",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"lames",
+        
+                "couleur_spores":"noire",
+    
+                "stipe":"nu",
+                "type_lames": "lames libres",
+    
+                "trame":"fibreuse"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Croutes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "lisse_alveole":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Merules",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "lisse_alveole":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Polyspores",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "pore":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Hydnes",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "aiguillons":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Girolles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "plisse":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Chanterelles",
+        "type_champignon":"chapeau",
+        "type_chapeau":
+            {
+                "hymenophores":"autre",
+    
+                "plisse":true
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Auriculaires",
+        "type_champignon":"particulier",
+        "image": [
+            "images/Auriculaires.webp"
+          ],
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"coupe"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Pezizes",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"coupe"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Heloties",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"coupe"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Tremelles",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"gelatineux"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Caloceres",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"pilon, arbuscule, corail"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Clavaires",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"pilon, arbuscule, corail"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Morilles",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"globuleux à alvéoles ou selle"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Gyromitres",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"globuleux à alvéoles ou selle"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Helvelles",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"externe sans chapeau",
+    
+                "forme":"globuleux à alvéoles ou selle"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Sclerodermes",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"globuleux"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Geastres",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"globuleux"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Vesses",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"globuleux"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Truffes",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"globuleux"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Phallus",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"gélatineux, nauséabonds"
+            }
+        
+    },
+    
+    {
+        "nom_famille":"Clathres",
+        "type_champignon":"particulier",
+        "type_chapeau":
+            {
+                "hymenophores":"interne",
+    
+                "forme":"gélatineux, nauséabonds"
+            }
+        
+    }
+    ]

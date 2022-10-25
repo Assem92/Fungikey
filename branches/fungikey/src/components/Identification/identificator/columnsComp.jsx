@@ -3,7 +3,6 @@ import { SelectColumnFilter } from './SelectColumnFilter'
 
 
 /**
- * @author Ghenima OULD AHMED
  * @constant COLUMNS  les colonnes de l'identificator
  * Header : Nom de la colonne
  * accessor: la clé accédant à la bonne donnée json

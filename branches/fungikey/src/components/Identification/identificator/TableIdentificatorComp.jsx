@@ -1,6 +1,6 @@
 import React, {useMemo} from 'react'
 import { useTable, useFilters } from 'react-table'
-import DATA from '../../../asset/familleComplementaires.json'
+import DATA from '../../../assets/familleComplementaires.json'
 import { COLUMNS } from './columnsComp'
 import { Table, Form, Button, Container} from 'react-bootstrap';
 import { Checkbox } from './Checkbox';
