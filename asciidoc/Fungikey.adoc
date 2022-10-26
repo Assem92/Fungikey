@@ -1,4 +1,4 @@
-= Cahier de spécification du projet =
+= Documentation =
 :author: Groupe fungikey
 :revnumber: v0.2
 :revdate: 2022-10
@@ -95,7 +95,7 @@ Arborescence du front :
 
 image::Photo5.jpg[]
 
-image::PhotoX.jpg[]
+
 
 === Les Releases ===
 
@@ -174,3 +174,12 @@ image::Photo13.jpg[]
 
 Diagramme de séquence de jeu par famille
 
+Troisième feature: Amélioration de la navigation (Barre latérale droite) 
+
+Une barre en haut à droite de la page d’identification et jeux pour faciliter la navigation sur l’application. 
+
+Quatrième feature: Les filtres de recherche 
+
+Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
+
+image::PhotoX.jpg[]
