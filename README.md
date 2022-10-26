@@ -57,6 +57,7 @@ cela va lancer le frontend React sur le port 3000 : ```http://localhost:3000/```
 * [Omar EL FACHATI](https://github.com/ofachati)
 * Kemokoba BAYO
 * Ghenima OULD AHMED 
+* Mohamed KONATE
  
 
 ## Contributions
