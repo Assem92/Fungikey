@@ -172,5 +172,5 @@ On clique alors sur la barre latérale droite puis on clique sur le lien qui por
 
 image::Photo13.jpg[]
 
-
+Diagramme de séquence de jeu par famille
 
