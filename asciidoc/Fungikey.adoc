@@ -129,7 +129,7 @@ Première grande fonctionnalité : Barre de recherche
 
 Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
 
-image::Photo10.jpg[]
+image::Photo8.jpg[]
 
 Deuxième grande fonctionnalité : Liste de champignons 
 
