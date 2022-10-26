@@ -182,4 +182,6 @@ Quatrième feature: Les filtres de recherche
 
 Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
 
+Diagramme de classe de la release 
+
 image::PhotoX.jpg[]
