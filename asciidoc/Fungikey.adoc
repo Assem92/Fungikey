@@ -97,9 +97,9 @@ image::Photo5.jpg[]
 
 image::PhotoX.jpg[]
 
-===Les Releases===
+=== Les Releases ===
 
-==Version 0.1==
+== Version 0.1 ==
 
 Affichage d’un menu sur la page d’accueil de l’application qui contient quatre boutons : Identification, Conseils, Jeux et Avertissement 
 
