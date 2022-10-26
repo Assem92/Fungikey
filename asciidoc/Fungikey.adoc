@@ -155,3 +155,23 @@ On sera redirigé vers une page qui nous donne des informations générales sur 
 
 image::Photo10.jpg[]
 
+
+image::Photo11.jpg[]
+
+Diagramme de séquence d'identification de champignons
+
+Deuxième feature: Jeu champignons par famille:  
+
+Ce quizz est conçu pour apprendre à identifier les champignons de manière ludique. 
+
+Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+
+On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+
+On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du quizz  
+
+
+
+
+
+
