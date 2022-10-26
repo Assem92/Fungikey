@@ -28,9 +28,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-  upload-to-codecov:
-    jobs:
-      - node/test:
-          post-steps:
-            - codecov/upload
+
  
