@@ -117,13 +117,13 @@ Première petite fonctionnalité :
 
 Amélioration de l’interface graphique  
 
- image::Photo7.jpg[]
+ 
 
 Deuxième petite fonctionnalité : 
 
 Informations sur l’anatomie d’un champignon en général. 
 
- image::Photo8.jpg[]
+ image::Photo7.jpg[]
 
 Première grande fonctionnalité : Barre de recherche 
 
