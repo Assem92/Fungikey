@@ -107,7 +107,7 @@ On trouve aussi une photo du logo de l’application.
 
 Feature: Affichage d’un message d’avertissement qui renvoie vers le site de l’aness  
 
- 
+image::Photo6.jpg[] 
 
 == Version 0.2: ==
 
@@ -117,25 +117,25 @@ Première petite fonctionnalité :
 
 Amélioration de l’interface graphique  
 
- image::Photo6.jpg[]
+ image::Photo7.jpg[]
 
 Deuxième petite fonctionnalité : 
 
 Informations sur l’anatomie d’un champignon en général. 
 
- image::Photo7.jpg[]
+ image::Photo8.jpg[]
 
 Première grande fonctionnalité : Barre de recherche 
 
 Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
 
- image::Photo8.jpg[]
+ image::Photo9.jpg[]
 
 Deuxième grande fonctionnalité : Liste de champignons 
 
 Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
 
- image::Photo9.jpg[]
+ image::Photo10.jpg[]
 
 == Version 0.3 ==
 
