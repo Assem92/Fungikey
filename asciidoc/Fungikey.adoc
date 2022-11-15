@@ -113,13 +113,13 @@ image::Photo6.jpg[]
 
 Dans cette nouvelle version (0.2), on a ajouté quatre nouvelles fonctionnalités dont deux grandes et deux petites. 
 
-Première petite fonctionnalité : 
+- Première petite fonctionnalité : 
 
 Amélioration de l’interface graphique  
 
  
 
-Deuxième petite fonctionnalité : 
+- Deuxième petite fonctionnalité : 
 
 Informations sur l’anatomie d’un champignon en général. 
 
@@ -131,7 +131,7 @@ Une barre de recherche qui nous permet de rechercher un champignon spécifique e
 
 image::Photo8.jpg[]
 
-Deuxième grande fonctionnalité : Liste de champignons 
+- Deuxième grande fonctionnalité : Liste de champignons 
 
 Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
 
@@ -141,7 +141,7 @@ image::Photo9.jpg[]
 
 Dans cette nouvelle version, de nouvelles fonctionnalités ont été ajoutés avec une amélioration des anciennes. 
 
-Première feature: L'identification des champignons. 
+- Première feature: L'identification des champignons. 
 
 Cette fonctionnalité facilite la recherche d’un champignon en spécifiant ses critères, L'identificator permet aussi de rechercher un champignon en saisissant son nom. 
 
@@ -160,7 +160,7 @@ Diagramme de séquence d'identification de champignons :
 image::Photo11.jpg[]
 
 
-Deuxième feature: Jeu champignons par famille:  
+- Deuxième feature: Jeu champignons par famille:  
 
 Ce quizz est conçu pour apprendre à identifier les champignons de manière ludique. 
 
@@ -174,15 +174,16 @@ Diagramme de séquence de jeu par famille :
 
 image::Photo13.jpg[]
 
-Troisième feature: Amélioration de la navigation (Barre latérale droite) 
+
+- Troisième feature: Amélioration de la navigation (Barre latérale droite) 
 
 Une barre en haut à droite de la page d’identification et jeux pour faciliter la navigation sur l’application. 
 
-Quatrième feature: Les filtres de recherche 
+- Quatrième feature: Les filtres de recherche 
 
 Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
 
-Diagramme de classe de la release :
+- Diagramme de classe de la release :
 
 image::PhotoX.jpg[]
 
@@ -193,26 +194,43 @@ image::api.png[]
 
 Dans cette nouvelle version, nous avons eu a ajouté de nouvelles fonctionnalités ainsi que l'amélioration des anciennes. Nous avons notamment: 
 
-Première feature: Jeu par champignons:
+- Première feature: Jeu par champignons:
 
-Ce jeu
+Ce jeu est conçu pour apprendre à identifier les champignons de manière simple. 
+
+Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+
+On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+
+On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un jeu assez basique qui genere diffenrt type de champigons et c'est à l'utilisateur de deviner le champignons.   
 
 image::Jeu_famille.png[]
 
 
-Deuxième feature: Jeu 4 images 1 mot:
+- Deuxième feature: Jeu 4 images 1 mot:
+
+Ce jeu est conçu pour apprendre à identifier visuellement les champignons de manière simple. 
+
+Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+
+On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+
+On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un choix de 4 images dont une seul est correcte. Si on appuis sur la fausse reponse, on obtinent un message d'erreur et dans le cas contraire, un message de félicitations. On a également la possibilité de recommencer.
 
 image::4images.png[]
 
-Troisième feature: Afficher la liste complementaire des familles des champignons : 
+- Troisième feature: Afficher la liste complementaire des familles des champignons : 
 
-Quatrième feature: Filtres de la recherche pour la liste des champignons complementaire :
+- Quatrième feature: Filtres de la recherche pour la liste des champignons complementaire :
 
-Diagramme de sequence de l'indentificateur complementaire :
+Sur cette page, on a differents filtres qui permettent de faciliter la recherche en fonction de diffents critères
+
+- Diagramme de sequence de l'indentificateur complementaire :
 
 image::indentificator_complementaire.png[]
 
-Diagramme de classe de la release:
+
+- Diagramme de classe de la release:
 
 === Api ===
 
