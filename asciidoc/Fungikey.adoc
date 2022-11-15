@@ -1,4 +1,4 @@
-= Fungikey v0.3 =
+= Fungikey v0.4 =
 :author: Groupe fungikey
 :revnumber: v0.2
 :revdate: 2022-10
@@ -221,9 +221,14 @@ image::4images.png[]
 
 - Troisième feature: Afficher la liste complementaire des familles des champignons : 
 
+image::recherche.png[]
+
 - Quatrième feature: Filtres de la recherche pour la liste des champignons complementaire :
 
 Sur cette page, on a differents filtres qui permettent de faciliter la recherche en fonction de diffents critères
+
+image::Filtre.png[]
+
 
 - Diagramme de sequence de l'indentificateur complementaire :
 
