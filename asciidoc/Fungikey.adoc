@@ -206,6 +206,10 @@ On clique alors sur la barre latérale droite puis on clique sur le lien qui por
 
 image::Jeu_famille.png[]
 
+et son diagramme de classe et donc : 
+
+image::Champi.png[]
+
 
 - Deuxième feature: Jeu 4 images 1 mot:
 
