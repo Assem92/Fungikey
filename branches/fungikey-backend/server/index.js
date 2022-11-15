@@ -1,3 +1,6 @@
+
+
+
 let ChampiJson = require("./assets/champi.json")
 let FamilleChampiJson = require("./assets/familleChampi.json")
 let FamilleComplementairesJson = require("./assets/familleComplementaires.json")
@@ -7,6 +10,12 @@ const express = require("express");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+//
+const swaggerUi = require('swagger-ui-express'),
+    swaggerDocument = require('../swagger.json');
+
+
+    //
 app.get("/api/champi", (req, res) => {
     res.json(ChampiJson);});
 
@@ -21,7 +30,15 @@ app.get("/api/familleChampi", (req, res) => {
 
 app.get("/api/familleComplementaires", (req, res) => {
     res.json(FamilleComplementairesJson);});
-      
+   
+    
+//swagger
+    app.use(
+        '/api-docs',
+        swaggerUi.serve, 
+        swaggerUi.setup(swaggerDocument)
+      );   
+//
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });

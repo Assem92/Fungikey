@@ -16,8 +16,20 @@ export const CardMushroom = () => {
    * @constant handleShow Change "setShow" en false pour afficher la réponse
    */
 
-  //get data from api
-  const [FamilleChamiDATA, setData] = React.useState([]);
+  //get data from api (i used one fake mushroom in the use state to get rid of undefined error)
+  const [FamilleChamiDATA, setData] = React.useState([
+    {
+      nom_famille: "Gyroporus",
+      type_champignon: "chapeau",
+      image: ["images/Gyroporus.webp"],
+      type_chapeau: {
+        hymenophores: "tubes",
+        couleur_spores: "blanc, gris, rose",
+        stipe: "creux, cassant, rugueux",
+        cuticule: "seche",
+      },
+    },
+  ]);
   React.useEffect(() => {
     fetch("/api/familleChampi")
       .then((res) => res.json())
@@ -39,7 +51,7 @@ export const CardMushroom = () => {
    */
 
   const randomMushroom = useMemo(() => {
-    const mushrooms = data;
+    const mushrooms = FamilleChamiDATA;
     const randomIndex = Math.floor(Math.random() * mushrooms.length);
     return mushrooms[randomIndex];
   }, [FamilleChamiDATA]);
@@ -51,7 +63,7 @@ export const CardMushroom = () => {
     return (
       <div className="card">
         <div className="card-front">
-          <p>A quel groupe correspond ces clés? </p>
+          <p>A quel groupe correspond ces clés?</p>
 
           <ul>
             <li>Commence par: {randomMushroom.nom_famille[0]}</li>

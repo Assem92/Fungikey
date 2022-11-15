@@ -1,0 +1,180 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Fungikey CRUD",
+      "description": "Fungikey Application API",
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "host": "localhost:3001",
+    "basePath": "/",
+   
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+
+
+
+
+
+    "paths": {
+        "/api/champi": {
+          "get": {
+            "tags": [ 
+            "Champi"],
+            "summary": "Get all mushrooms",
+            "responses": {
+              "200": {
+                "description": "OK",
+                "schema": {
+                  "$ref": "#/definitions/mushroom"
+                }
+              }
+            }
+          }  
+        },
+        "/api/champi/{id}": {
+          "get": {
+            "tags": [ 
+            "Champi"],
+
+            "parameters": [
+              {
+                "name": "id", 
+                "in": "path", 
+                "schema": {
+                  "$ref": "#/definitions/mushroom"}, 
+                "required": true, 
+                "description": "the id of the muchroom"
+              }
+            ],
+            "summary": "Get mushroom by id",
+            "responses": {
+              "200": {
+                "description": "OK",
+                "schema": {
+                  "$ref": "#/definitions/mushroom"
+                }
+              }
+            }
+          }  
+        },
+        "/api/famille_Champi": {
+            "get": {
+              "tags": ["famille champi"],
+              "summary": "Get mushrooms families list",
+              "responses": {
+                "200": {
+                  "description": "OK",
+                  "schema": {
+                    "$ref": "#/definitions/mushroom"
+                  }
+                }
+              }
+            }
+  
+            
+          },
+
+          "/api/familleComplementaires": {
+            "get": {
+              "tags": [ 
+              "Famille Complementaire"],
+              "summary": "Get mushrooms complementary families list",
+              "responses": {
+                "200": {
+                  "description": "OK",
+                  "schema": {
+                    "$ref": "#/definitions/mushroom complementary family"
+                  }
+                }
+              }
+            }  
+          }
+      },
+
+
+
+
+
+
+
+
+      
+      "definitions": {
+        "mushroom": {
+          "required": ["id"],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "uniqueItems": true
+            },
+            "nom": {
+              "type": "string"
+            },
+            "nomlatin": {
+              "type": "string"
+            },
+            "toxic": {
+              "type": "boolean"
+            },
+            "famille": {
+              "type": "string"
+              
+            },
+            "image": {
+              "type": "array",
+              "items":{ "type": "string"}
+            },
+            "comestible": {
+              "type": "boolean"
+            },
+            "description": {
+              "type": "string"
+            }
+        
+          }
+        },
+        "mushroom family": {
+          "properties": {
+            "nom_famille":{ "type": "string" },
+            "type_champignon":{ "type": "string" },
+            "type_chapeau":
+                {
+                "type": "object" ,
+                "items":{   "hymenophores":{ "type": "string" },
+            
+                    "couleur_spores":{ "type": "string" },
+
+                    "stipe":{ "type": "string" },
+                    "type_lames": { "type": "string" },
+
+                    "trame":{ "type": "string" }}
+                }
+        }
+      },
+      "mushroom complementary family": {
+          "properties": {
+              "nom_famille":{ "type": "string" },
+              "avec_anneau":{ "type": "string" },
+              "nom_champignon": { "type": "string" },
+              "volve":{ "type": "string" },
+                "type_chair":{ "type": "string" },
+                "groupe":{ "type": "string" },
+              "genre_champignon":{ "type": "string" },
+                "pied":{ "type": "string" },
+                "stipe":{ "type": "string" },
+              "odeur":{ "type": "string" },
+              "lieu":{ "type": "string" },
+              "description":{ "type": "string" }
+      }
+    }
+
+      }
+
+    
+  }
+  
