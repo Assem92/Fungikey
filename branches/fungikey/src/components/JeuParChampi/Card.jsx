@@ -21,14 +21,12 @@ export const CardMushroom = () => {
   const handleShow = () => setShow(true);
 
   //get data
-
   const [dataa, setData] = React.useState([]);
   React.useEffect(() => {
     fetch("/api/champi")
       .then((res) => res.json())
       .then((dataa) => setData(dataa));
   }, []);
-
   //
 
   /**
@@ -40,10 +38,10 @@ export const CardMushroom = () => {
    */
 
   const randomMushroom = useMemo(() => {
-    const mushrooms = dataa;
+    const mushrooms = data;
     const randomIndex = Math.floor(Math.random() * mushrooms.length);
     return mushrooms[randomIndex];
-  }, []);
+  }, [dataa]);
 
   /**
    * @returns une carte/fiche contenant des indices sur le champignons à trouver, et un bouton de réponse qui montre la répons edans une fenêtre modale
