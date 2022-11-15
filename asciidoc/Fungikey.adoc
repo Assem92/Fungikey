@@ -195,6 +195,8 @@ Dans cette nouvelle version, nous avons eu a ajouté de nouvelles fonctionnalit�
 
 Première feature: Jeu par champignons:
 
+Ce jeu
+
 image::Jeu_famille.png[]
 
 
