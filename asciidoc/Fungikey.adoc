@@ -155,10 +155,10 @@ On sera redirigé vers une page qui nous donne des informations générales sur 
 
 image::Photo10.jpg[]
 
+Diagramme de séquence d'identification de champignons :
 
 image::Photo11.jpg[]
 
-Diagramme de séquence d'identification de champignons
 
 Deuxième feature: Jeu champignons par famille:  
 
@@ -170,9 +170,9 @@ On sera redirigé vers une nouvelle page qui donne des explications sur le fonct
 
 On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du quizz  
 
-image::Photo13.jpg[]
+Diagramme de séquence de jeu par famille :
 
-Diagramme de séquence de jeu par famille
+image::Photo13.jpg[]
 
 Troisième feature: Amélioration de la navigation (Barre latérale droite) 
 
@@ -182,9 +182,36 @@ Quatrième feature: Les filtres de recherche
 
 Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
 
-Diagramme de classe de la release 
+Diagramme de classe de la release :
 
 image::PhotoX.jpg[]
 
 === Api ===
 image::api.png[]
+
+== Version 0.4 ==
+
+Dans cette nouvelle version, nous avons eu a ajouté de nouvelles fonctionnalités ainsi que l'amélioration des anciennes. Nous avons notamment: 
+
+Première feature: Jeu par champignons:
+
+image::Jeu_famille.png[]
+
+
+Deuxième feature: Jeu 4 images 1 mot:
+
+image::4images.png[]
+
+Troisième feature: Afficher la liste complementaire des familles des champignons : 
+
+Quatrième feature: Filtres de la recherche pour la liste des champignons complementaire :
+
+Diagramme de sequence de l'indentificateur complementaire :
+
+image::indentificator_complementaire.png[]
+
+Diagramme de classe de la release:
+
+=== Api ===
+
+image::Docu_Release.png[]
