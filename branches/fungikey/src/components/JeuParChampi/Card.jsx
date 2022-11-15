@@ -1,6 +1,7 @@
-import { React, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import * as data from "../../assets/champi.json";
 import { Modal, Card } from "react-bootstrap";
+import React from "react";
 
 /**
 
@@ -19,6 +20,17 @@ export const CardMushroom = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  //get data
+
+  const [dataa, setData] = React.useState([]);
+  React.useEffect(() => {
+    fetch("/api/champi")
+      .then((res) => res.json())
+      .then((dataa) => setData(dataa));
+  }, []);
+
+  //
+
   /**
    * @function useMemo Afin que le champignon tiré ne change pas à chaque changement d'état/rafraîchissement des pages
    * @constant randomMushroom un chapignon au hasard appartenant la base de données
@@ -28,7 +40,7 @@ export const CardMushroom = () => {
    */
 
   const randomMushroom = useMemo(() => {
-    const mushrooms = data;
+    const mushrooms = dataa;
     const randomIndex = Math.floor(Math.random() * mushrooms.length);
     return mushrooms[randomIndex];
   }, []);
