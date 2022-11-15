@@ -237,6 +237,9 @@ image::indentificator_complementaire.png[]
 
 - Diagramme de classe de la release:
 
+image::diagramme.png[]
+
+
 === Api ===
 
 image::Docu_Release.png[]
