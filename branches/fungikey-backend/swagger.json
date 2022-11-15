@@ -162,17 +162,16 @@
               "avec_anneau":{ "type": "string" },
               "nom_champignon": { "type": "string" },
               "volve":{ "type": "string" },
-                "type_chair":{ "type": "string" },
-                "groupe":{ "type": "string" },
+              "type_chair":{ "type": "string" },
+              "groupe":{ "type": "string" },
               "genre_champignon":{ "type": "string" },
-                "pied":{ "type": "string" },
-                "stipe":{ "type": "string" },
+              "pied":{ "type": "string" },
+              "stipe":{ "type": "string" },
               "odeur":{ "type": "string" },
               "lieu":{ "type": "string" },
               "description":{ "type": "string" }
       }
     }
-
       }
 
     
