@@ -17,7 +17,7 @@ export default function Jeu1() {
     <>
       <Sidebar />
       <div className="container-identification">
-        <p class="titre">Jeu : Trouver le Champignon</p>
+        <p className="titre">Jeu : Trouver le Champignon</p>
 
         <Link to="/">
           <button className="button-retour">Retour</button>

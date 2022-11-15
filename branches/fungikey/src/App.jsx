@@ -9,6 +9,8 @@ import IdentificatorComp from "./components/Identification/identificator/Identif
 import Conseils from "./components/Conseils/Conseils";
 import Jeux from "./components/Jeux/Jeux";
 import Jeu3 from "./components/JeuParChampi/Jeu3";
+import Jeu2 from "./components/Jeu2/Jeu2";
+
 import "./css/App.css";
 
 /**
@@ -26,6 +28,7 @@ export default function App() {
         <Route path="/Conseils" element={<Conseils />}></Route>
 
         <Route path="/Jeu1" element={<Jeu1 />} />
+        <Route path="/Jeu2" element={<Jeu2 />} />
         <Route path="/Jeu3" element={<Jeu3 />} />
         <Route path="/Jeux" element={<Jeux />} />
       </Routes>
