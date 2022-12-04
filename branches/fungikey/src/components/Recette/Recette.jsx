@@ -48,16 +48,20 @@ export default function InteractiveList() {
 
   return (
     <div>
-      <Navbar.Brand href="/Recette">
-        <img
-          alt=""
-          src="/images/icons/60.png"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{" "}
-        <span className="sidebar-title">Recettes</span>
-      </Navbar.Brand>
+      <Navbar className="color-nav" expand={false}>
+        <Container fluid>
+          <Navbar.Brand href="/Recette">
+            <img
+              alt=""
+              src="/images/icons/60.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{" "}
+            <span className="sidebar-title">Recettes</span>
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
 
       <List dense={dense}>
         {recetteList.map((x) => (
