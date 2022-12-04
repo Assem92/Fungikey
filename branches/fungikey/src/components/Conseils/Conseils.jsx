@@ -23,7 +23,7 @@ export default function Conseils() {
   return (
     <div>
       <div className="conseil-bar">
-        <span className="conseil-title">Conseils Champignons</span>
+        <span className="conseil-title">Conseils Champiignons</span>
       </div>
 
       <div className="container-identification">
