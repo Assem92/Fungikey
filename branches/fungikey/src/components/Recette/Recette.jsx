@@ -16,6 +16,7 @@ import Typography from "@mui/material/Typography";
 import FolderIcon from "@mui/icons-material/Folder";
 import DeleteIcon from "@mui/icons-material/Delete";
 import ArrowIcon from "@mui/icons-material/ArrowBack";
+import { Link } from "react-router-dom";
 
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -30,6 +31,8 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 
+import { useNavigate } from "react-router-dom";
+
 function generate(element) {
   return [0, 1, 2].map((value) =>
     React.cloneElement(element, {
@@ -43,6 +46,8 @@ const Demo = styled("div")(({ theme }) => ({
 }));
 
 export default function InteractiveList() {
+  const navigate = useNavigate();
+
   const [dense, setDense] = React.useState(false);
   const [secondary, setSecondary] = React.useState(false);
 
@@ -63,60 +68,35 @@ export default function InteractiveList() {
         </Container>
       </Navbar>
 
-      <List dense={dense}>
-        {recetteList.map((x) => (
-          <ListItem
-            secondaryAction={
-              <IconButton edge="end" aria-label="delete">
-                <ArrowForwardIosIcon />
-              </IconButton>
-            }
-          >
-            <ListItemAvatar>
-              <Avatar>
-                <RestaurantIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText
-              primary={x.name}
-              secondary={secondary ? "Secondary text" : null}
-            />
-          </ListItem>
-        ))}
-      </List>
-
-      <Box sx={{ flexGrow: 1, maxWidth: 752 }}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={6}>
-            <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
-              Avatar with text and icon
-            </Typography>
-            <Demo>
-              <List dense={dense}>
-                {generate(
-                  <ListItem
-                    secondaryAction={
-                      <IconButton edge="end" aria-label="delete">
-                        <ArrowIcon />
-                      </IconButton>
-                    }
-                  >
-                    <ListItemAvatar>
-                      <Avatar>
-                        <FolderIcon />
-                      </Avatar>
-                    </ListItemAvatar>
-                    <ListItemText
-                      primary="Single-line item"
-                      secondary={secondary ? "Secondary text" : null}
-                    />
-                  </ListItem>
-                )}
-              </List>
-            </Demo>
-          </Grid>
-        </Grid>
-      </Box>
+      <div className="container-identification">
+        <List dense={dense}>
+          {recetteList.map((x) => (
+            <ListItem
+              key={x.id}
+              secondaryAction={
+                <IconButton edge="end" aria-label="delete">
+                  <ArrowForwardIosIcon
+                    onClick={() => navigate("/Recette/" + x.id)}
+                  />
+                </IconButton>
+              }
+            >
+              <ListItemAvatar>
+                <Avatar>
+                  <RestaurantIcon />
+                </Avatar>
+              </ListItemAvatar>
+              <ListItemText
+                primary={x.name}
+                secondary={secondary ? "Secondary text" : null}
+              />
+            </ListItem>
+          ))}
+        </List>
+        <Link to="/">
+          <button className="button-retour">Retour</button>
+        </Link>
+      </div>
     </div>
   );
 }

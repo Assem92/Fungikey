@@ -12,6 +12,7 @@ import Jeu3 from "./components/JeuParChampi/Jeu3";
 import Jeu2 from "./components/Jeu2/Jeu2";
 import GoogleMaps from "./components/Maps/GoogleMaps";
 import Recette from "./components/Recette/Recette";
+import RecetteCard from "./components/Recette/RecetteCard";
 
 import "./css/App.css";
 
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/Jeux" element={<Jeux />} />
         <Route path="/map" element={<GoogleMaps />} />
         <Route path="/Recette" element={<Recette />} />
+        <Route path="/Recette/:id" element={<RecetteCard />} />
       </Routes>
     </div>
   );
