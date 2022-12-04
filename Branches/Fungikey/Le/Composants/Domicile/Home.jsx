@@ -48,6 +48,9 @@ export default function Home() {
             <Link to='/Jeux'>
             <button className='button-main'> Jeux </button>
             </Link>
+            <Link to='/Recette'>
+            <button className='button-main'> Recettes </button>
+            </Link>
           
             
         </div>
