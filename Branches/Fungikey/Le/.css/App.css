@@ -95,5 +95,38 @@ h1{
   font-family: Tahoma;
 }
 
+.latin{
+  font-style: italic;
+}
+.description{
+  text-align: justify;
+}
 
+.search-icon{
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.color-nav{
+  background-color: #356d62;
+}
+
+.sidebar-title{
+  color: #F8F6F1;
+}
+
+.conseil-bar{
+  background-color: #356d62;
+  height: 4ch;
+}
+
+.conseil-title{
+  color: #F8F6F1;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: large;
+}
 
