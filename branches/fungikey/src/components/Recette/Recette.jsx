@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-import recetteList from "../../assets/recette.json";
+//import recetteList from "../../assets/recette.json";
 
 import RestaurantIcon from "@mui/icons-material/Restaurant";
 import {
@@ -32,14 +32,7 @@ import {
 } from "react-bootstrap";
 
 import { useNavigate } from "react-router-dom";
-
-function generate(element) {
-  return [0, 1, 2].map((value) =>
-    React.cloneElement(element, {
-      key: value,
-    })
-  );
-}
+import { useState } from "react";
 
 const Demo = styled("div")(({ theme }) => ({
   backgroundColor: theme.palette.background.paper,
@@ -47,6 +40,15 @@ const Demo = styled("div")(({ theme }) => ({
 
 export default function InteractiveList() {
   const navigate = useNavigate();
+
+  const [recetteList, setData] = React.useState([]);
+  React.useEffect(() => {
+    fetch("/api/recette/")
+      .then((res) => res.json())
+      .then((recetteList) => setData(recetteList));
+  }, []);
+
+  console.log(recetteList);
 
   const [dense, setDense] = React.useState(false);
   const [secondary, setSecondary] = React.useState(false);
@@ -70,7 +72,7 @@ export default function InteractiveList() {
 
       <div className="container-identification">
         <List dense={dense}>
-          {recetteList.map((x) => (
+          {recetteList?.map((x) => (
             <ListItem
               key={x.id}
               secondaryAction={
