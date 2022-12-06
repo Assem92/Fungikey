@@ -62,7 +62,7 @@
             }
           }  
         },
-        "/api/famille_Champi": {
+        "/api/familleChampi": {
             "get": {
               "tags": ["famille champi"],
               "summary": "Get mushrooms families list",
@@ -89,6 +89,47 @@
                   "description": "OK",
                   "schema": {
                     "$ref": "#/definitions/mushroom complementary family"
+                  }
+                }
+              }
+            }  
+          },
+          "/api/recette": {
+            "get": {
+              "tags": [ 
+              "Recettes"],
+              "summary": "Get all recepies",
+              "responses": {
+                "200": {
+                  "description": "OK",
+                  "schema": {
+                    "$ref": "#/definitions/recette"
+                  }
+                }
+              }
+            }  
+          },
+          "/api/recette/{id}": {
+            "get": {
+              "tags": [ 
+              "Recettes"],
+  
+              "parameters": [
+                {
+                  "name": "id", 
+                  "in": "path", 
+                  "schema": {
+                    "$ref": "#/definitions/recette"}, 
+                  "required": true, 
+                  "description": "the id of the recipe"
+                }
+              ],
+              "summary": "Get recette by id",
+              "responses": {
+                "200": {
+                  "description": "OK",
+                  "schema": {
+                    "$ref": "#/definitions/recette"
                   }
                 }
               }
@@ -171,7 +212,33 @@
               "lieu":{ "type": "string" },
               "description":{ "type": "string" }
       }
+    },
+    "recette":{
+      "properties": {
+          "id":{"type": "integer",
+          "uniqueItems": true},
+            "name": {"type": "string"},
+            "source": {"type": "string"},
+            "preptime": {"type": "integer"},
+            "waittime": {"type": "integer"},
+            "cooktime": {"type": "integer"},
+            "servings":{"type": "integer"},
+            "comments": {"type": "string"},
+            "calories": {"type": "integer"},
+            "fat": {"type": "integer"},
+            "satfat": {"type": "integer"},
+            "carbs": {"type": "integer"},
+            "fiber": {"type": "integer"},
+            "sugar": {"type": "integer"},
+            "protein": {"type": "integer"},
+            "instructions":{"type": "string"},
+            "ingredients":{"type": "array",
+            "items":{ "type": "string"}},
+            "tags":{"type": "array",
+                  "items":{ "type": "string"}
+                  }
     }
+  }
       }
 
     
