@@ -60,6 +60,8 @@ les differents routes de l'API:
   - `api/champi/{id}` : get mushroom by id
   - `api/familleChampi/` : get mushroom familly list
   - `api/familleComplementaires/` : get mushroom complementary familly list
+  - `api/recette/` : get recipe list
+  - `api/recette/{id}` : get recipe by id
 
 ## Auteurs
 
