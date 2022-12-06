@@ -12,7 +12,7 @@ export default function IdentificatorMain() {
     <>
     <Sidebar/>
     <div className="container-identification">
-        <h1>Identificator</h1>
+        <h1>Champignons élémentaires</h1>
         <TableIdentificator></TableIdentificator>
         <Link to="/">
         <button className='button-retour'>Retour</button>
