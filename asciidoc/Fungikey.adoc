@@ -247,3 +247,32 @@ image::diagramme.png[]
 === Api ===
 
 image::Docu_Release.png[]
+
+== Version 1.α ==
+
+Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
+
+- Première feature: Option de tri:
+
+Cette fonctionnalité permet de connaitre son champignon à partir de son chapeau et par sa couleur
+
+- Deuxième feature: Recherche de champignons:
+
+Elle permet d'effectier la recherche de champignon selon la forme
+
+- Troisième feature: Les recettes : 
+
+La présentation de recettes à partir de champignons, et son diaframme de sequence est donc comme suit :
+
+image::diagramme_Sequence.png[]
+
+
+
+- Quatrième feature: Reseaux sociaux : 
+
+Amélioration de la page Home en ajoutant nos reseaux sociaux
+
+
+- Diagramme de classe de la release:
+
+image::diagramme_1.png[]
