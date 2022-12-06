@@ -260,13 +260,19 @@ Cette fonctionnalité permet de connaitre son champignon à partir de son chapea
 
 Elle permet d'effectier la recherche de champignon selon la forme
 
+image::forme.png[]
+
+
 - Troisième feature: Les recettes : 
 
-La présentation de recettes à partir de champignons, et son diaframme de sequence est donc comme suit :
+La présentation de recettes à partir de champignons
+
+image::recette.png[]
+
+
+ et son diagramme de sequence est donc comme suit :
 
 image::diagramme_Sequence.png[]
-
-
 
 - Quatrième feature: Reseaux sociaux : 
 
@@ -276,3 +282,7 @@ Amélioration de la page Home en ajoutant nos reseaux sociaux
 - Diagramme de classe de la release:
 
 image::diagramme_1.png[]
+
+=== Api ===
+
+image::Docu_Release1.png[]
