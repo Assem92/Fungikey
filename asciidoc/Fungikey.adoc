@@ -256,9 +256,12 @@ Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi q
 
 Cette fonctionnalité permet de connaitre son champignon à partir de son chapeau et par sa couleur
 
+image::tri.png[]
+
+
 - Deuxième feature: Recherche de champignons:
 
-Elle permet d'effectier la recherche de champignon selon la forme
+Elle permet d'effectuer la recherche de champignon selon la forme
 
 image::forme.png[]
 
@@ -269,7 +272,6 @@ La présentation de recettes à partir de champignons
 
 image::recette.png[]
 
-
  et son diagramme de sequence est donc comme suit :
 
 image::diagramme_Sequence.png[]
@@ -277,6 +279,8 @@ image::diagramme_Sequence.png[]
 - Quatrième feature: Reseaux sociaux : 
 
 Amélioration de la page Home en ajoutant nos reseaux sociaux
+
+image::design.png[]
 
 
 - Diagramme de classe de la release:
