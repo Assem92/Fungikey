@@ -13,6 +13,8 @@ import Jeu2 from "./components/Jeu2/Jeu2";
 import GoogleMaps from "./components/Maps/GoogleMaps";
 import Recette from "./components/Recette/Recette";
 import RecetteCard from "./components/Recette/RecetteCard";
+import Incorrect from './components/Jeu2/Incorrect';
+import Correct from './components/Jeu2/Correct';
 
 import "./css/App.css";
 
@@ -34,9 +36,15 @@ export default function App() {
         <Route path="/Jeu2" element={<Jeu2 />} />
         <Route path="/Jeu3" element={<Jeu3 />} />
         <Route path="/Jeux" element={<Jeux />} />
+
+
         <Route path="/map" element={<GoogleMaps />} />
         <Route path="/Recette" element={<Recette />} />
         <Route path="/Recette/:id" element={<RecetteCard />} />
+
+        <Route path="/Incorrect" element={<Incorrect/>} />
+        <Route path="/Correct" element={<Correct/>} />
+
       </Routes>
     </div>
   );
