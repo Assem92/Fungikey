@@ -3,13 +3,24 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home/Home";
 import Identification from "./components/Identification/Identification";
-import Jeu1 from "./components/JeuParFamille/Jeu1";
 import IdentificatorMain from "./components/Identification/identificator/IdentificatorMain";
 import IdentificatorComp from "./components/Identification/identificator/IdentificatorComp";
+
 import Conseils from "./components/Conseils/Conseils";
-import Jeux from "./components/Jeux/Jeux";
+
+import Jeu1 from "./components/JeuParFamille/Jeu1";
 import Jeu3 from "./components/JeuParChampi/Jeu3";
 import Jeu2 from "./components/Jeu2/Jeu2";
+import Jeux from "./components/Jeux/Jeux";
+
+import HymenoTubes from './components/Identification/HymenoTubes';
+import HymenoAutre from './components/Identification/HymenoAutre';
+import HymenoInterne from './components/Identification/HymenoInterne';
+import HymenoExterne from './components/Identification/HymenoExterne';
+import CouleurSpore from './components/Identification/CouleurSpore';
+import HymenoLames from './components/Identification/HymenoLames';
+
+
 import GoogleMaps from "./components/Maps/GoogleMaps";
 import Recette from "./components/Recette/Recette";
 import RecetteCard from "./components/Recette/RecetteCard";
@@ -27,6 +38,13 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Identification" element={<Identification />} />
+
+        <Route path="/HymenoTubes" element={<HymenoTubes/>} />
+        <Route path="/HymenoAutre" element={<HymenoAutre/>} />
+        <Route path="/CouleurSpore" element={<CouleurSpore/>} />
+        <Route path="/HymenoInterne" element={<HymenoInterne/>} />
+        <Route path="/HymenoExterne" element={<HymenoExterne/>} />
+        <Route path="/HymenoLames" element={<HymenoLames/>} />
         <Route path="/IdentificatorMain" element={<IdentificatorMain />} />
         <Route path="/IdentificatorComp" element={<IdentificatorComp />} />
 

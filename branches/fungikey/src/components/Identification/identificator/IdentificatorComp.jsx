@@ -14,7 +14,7 @@ export default function IdentificatorComp() {
     <Sidebar/>
     <div className="container-identification">
         
-        <h1>Identificator - Complémentaire</h1>
+        <h1>Champignons complémentaires (rare)</h1>
         <TableIdentificator2></TableIdentificator2>
         <Link to="/">
         <button className='button-retour'>Retour</button>
