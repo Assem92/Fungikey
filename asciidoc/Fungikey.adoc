@@ -280,7 +280,7 @@ image::diagramme_Sequence.png[]
 
 Amélioration de la page Home en ajoutant nos reseaux sociaux
 
-image::design.png[]
+image::Reseaux_sociaux.png[]
 
 
 - Diagramme de classe de la release:
