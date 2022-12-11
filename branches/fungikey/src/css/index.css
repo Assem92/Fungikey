@@ -1,19 +1,74 @@
-body {
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+
+}
 
 
- 
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  
-  
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-      background-color: #F8F6F1;
-  }
+
+.IdentificationPics {
+  min-height: 100vh;
+  position: relative;
+  background-color: #313131;
+}
+
+.camera {
+  position:  relative;
+}
+
+.result {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,0.9) ;
+
+}
+
+.result.hasPhoto {
+  left: 0
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+button:hover{
+  background-position: 100%;
+  background-color: #356d62;
+}
+
+.button-Pics{
+  position: absolute;
+  bottom: 45px;
+  left: 20px;
+
+  appearance:  none;
+  border: none;
+  outline: none;
+
+  padding:  8px 16 px;
+  background-image: linear-gradient(to
+  right, #023a2f 50%, #356d62 50%  );
+   background-position: 0%;
+   background-size: 200%;
+   color: rgb(255, 255, 255);
+   font-size: 24px;
+   font-weight: 700;
+   transition: 0.4s;
+   cursor: pointer;
+
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}

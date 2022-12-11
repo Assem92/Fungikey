@@ -76,6 +76,10 @@ h1{
   text-align: center;
 }
 
+corps {
+  background-color: #356d62;
+}
+
 .button-retour{
   
   width: 100%;
@@ -129,4 +133,5 @@ h1{
   display: block;
   font-size: large;
 }
+
 
