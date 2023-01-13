@@ -1,6 +1,6 @@
 = Fungikey v1.0.0 =
 :author: Groupe fungikey
-:revnumber: v1.α
+:revnumber: v1.0.0
 :revdate: 2022-12
 :lang: fr
 :doctype: book
