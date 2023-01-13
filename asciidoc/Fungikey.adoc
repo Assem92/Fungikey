@@ -1,4 +1,4 @@
-= Fungikey v1.α =
+= Fungikey v1.0.0 =
 :author: Groupe fungikey
 :revnumber: v1.α
 :revdate: 2022-12
