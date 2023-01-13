@@ -1,6 +1,5 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Assem92/Fungikey)
-[![Tag](https://img.shields.io/github/tag/Assem92/Fungikey.svg?label=tag&style=flat-square)](build.gradle)
-[![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/Assem92/FUngikey?color=orange">[![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
 [![Codecov](https://img.shields.io/codecov/c/github/Assem92/Fungikey)](codcov)
 <a href="https://www.codacy.com/gh/Assem92/Fungikey/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Assem92/Fungikey&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a4e163d604aa457b8374bec4c79e0d44"/></a>
 [![Maintainability](https://api.codeclimate.com/v1/badges/0deb4ad01a8bd65f4c5c/maintainability)](https://codeclimate.com/github/Assem92/Fungikey/maintainability)
