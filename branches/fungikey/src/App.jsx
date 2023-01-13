@@ -1,10 +1,11 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
+import React from "react"
 
 import Home from "./components/Home/Home";
 import Identification from "./components/Identification/Identification";
 import IdentificatorMain from "./components/Identification/identificator/IdentificatorMain";
 import IdentificatorComp from "./components/Identification/identificator/IdentificatorComp";
+import IdentificationPics from "./components/Identification/IdentificationPics";
 
 import Conseils from "./components/Conseils/Conseils";
 
@@ -28,6 +29,7 @@ import Incorrect from './components/Jeu2/Incorrect';
 import Correct from './components/Jeu2/Correct';
 
 import "./css/App.css";
+import "./css/index.css";
 
 /**
  * @returns l'application, contient toutes les routes pour naviguer le site
@@ -38,6 +40,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Identification" element={<Identification />} />
+        <Route path="/IdentificationPics" element={<IdentificationPics />} />
 
         <Route path="/HymenoTubes" element={<HymenoTubes/>} />
         <Route path="/HymenoAutre" element={<HymenoAutre/>} />
@@ -66,4 +69,5 @@ export default function App() {
       </Routes>
     </div>
   );
+
 }
