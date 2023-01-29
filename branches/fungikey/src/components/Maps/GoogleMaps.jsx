@@ -1,11 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
-
-/**
- * @returns Une page principale de jeux
- *
- */
 
 const mapStyles = {
   width: "100%",
@@ -13,6 +7,20 @@ const mapStyles = {
 };
 
 export function GoogleMaps({ google, locations = [] }) {
+  const [userLocation, setUserLocation] = useState({});
+
+  useEffect(() => {
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          setUserLocation({ lat: latitude, lng: longitude });
+        },
+        (error) => console.log(error)
+      );
+    }
+  }, []);
+
   return (
     <Map
       google={google}
@@ -21,18 +29,24 @@ export function GoogleMaps({ google, locations = [] }) {
         width: "100%",
         height: "100%",
       }}
-      style={{
-        width: "100%",
-        height: "100%",
-      }}
-      center={locations[0]}
-      initialCenter={locations[0]}
-      zoom={locations.length === 1 ? 18 : 13}
+      style={mapStyles}
+      center={userLocation}
+      initialCenter={userLocation}
+      zoom={18}
       disableDefaultUI={true}
     >
       {locations.map((coords) => (
         <Marker position={coords} />
       ))}
+      {userLocation.lat && (
+        <Marker
+          position={userLocation}
+          icon={{
+            url: "/images/icons/userlocation.png",
+            scaledSize: new google.maps.Size(30, 30),
+          }}
+        />
+      )}
     </Map>
   );
 }
