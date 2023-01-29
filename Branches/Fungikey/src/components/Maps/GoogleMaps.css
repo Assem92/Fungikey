@@ -1,0 +1,9 @@
+.map-container {
+    position: relative;
+    z-index: -1;
+}
+
+.map {
+    z-index: 1;
+
+}
