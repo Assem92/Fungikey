@@ -57,6 +57,9 @@ export default function Home() {
           <Link to="/Recette">
             <button className="button-main"> Recettes </button>
           </Link>
+          <Link to="/map">
+            <button className="button-main"> Map </button>
+          </Link>
         </div>
       </div>
 
