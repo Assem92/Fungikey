@@ -8,8 +8,10 @@ const mapStyles = {
   height: "100%",
 };
 
-export function GoogleMaps({ google, locations = [] }) {
+export function GoogleMaps({ google, locations }) {
   const [userLocation, setUserLocation] = useState({});
+  const [points, setPoints] = useState([]);
+  const [locationFetched, setLocationFetched] = useState(false);
 
   useEffect(() => {
     if ("geolocation" in navigator) {
@@ -17,12 +19,28 @@ export function GoogleMaps({ google, locations = [] }) {
         (position) => {
           const { latitude, longitude } = position.coords;
           setUserLocation({ lat: latitude, lng: longitude });
+          setLocationFetched(true);
         },
         (error) => console.log(error)
       );
     }
   }, []);
 
+  useEffect(() => {
+    if (locationFetched) {
+      fetch(`/api/closest-points/${userLocation.lat}/${userLocation.lng}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setPoints(data);
+        })
+        .catch((error) => console.log("fffffff" + error));
+    }
+  }, [locationFetched]);
+
+  console.log(userLocation);
+  console.log(`/api/closest-points/${userLocation?.lat}/${userLocation?.lng}`);
+
+  console.log(points);
   return (
     <div>
       <Navbar className="color-nav" expand={false}>
@@ -55,9 +73,17 @@ export function GoogleMaps({ google, locations = [] }) {
           zoom={18}
           disableDefaultUI={true}
         >
-          {locations.map((coords) => (
-            <Marker position={coords} />
-          ))}
+          {points?.length ?? 0
+            ? points?.map((point) => (
+                <Marker
+                  key={point.id}
+                  position={{
+                    lat: parseFloat(point?.latitude),
+                    lng: parseFloat(point?.longitude),
+                  }}
+                />
+              ))
+            : null}
           {userLocation.lat && (
             <Marker
               position={userLocation}
