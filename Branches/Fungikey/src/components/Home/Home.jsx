@@ -47,7 +47,12 @@ export default function Home() {
           <Link to="/Identification">
             <button className="button-main">Identification</button>
           </Link>
-
+          <Link to="/IdentificationPics">
+            <button className="button-main">IdentificationPics</button>
+          </Link>
+          <Link to="/Conseils">
+            <button className="button-main"> Conseils </button>
+          </Link>
           <Link to="/Conseils">
             <button className="button-main"> Conseils </button>
           </Link>

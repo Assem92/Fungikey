@@ -35,9 +35,9 @@ import React, {useRef, useEffect, useState} from "react"
         ctx.drawImage(video, 0, 0, width,
         height);
         setHasPhoto(true);
-        
+
       }
-      
+
       const closePhoto = () => {
           let photo = photoRef.current;
           let ctx = photo.getContext('2d');
@@ -47,13 +47,13 @@ import React, {useRef, useEffect, useState} from "react"
           setHasPhoto(false)
 
 
-         
+
       }
 
       useEffect(()=> {
         getVideo();
       }, [videoRef]); 
-       
+
 
     return (
       <div className="App">
