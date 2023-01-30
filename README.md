@@ -1,5 +1,5 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Assem92/Fungikey)
-<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/Assem92/FUngikey?color=orange">[![License](https://img.shields.io/github/license/Assem92/template-java-project.svg?style=flat-square)](LICENSE)
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/Assem92/Fungikey">
 <a href="https://www.codacy.com/gh/Assem92/Fungikey/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Assem92/Fungikey&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a4e163d604aa457b8374bec4c79e0d44"/></a>
 [![Maintainability](https://api.codeclimate.com/v1/badges/0deb4ad01a8bd65f4c5c/maintainability)](https://codeclimate.com/github/Assem92/Fungikey/maintainability)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Assem92/Fungikey/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Assem92/Fungikey/tree/master)
