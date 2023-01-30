@@ -1,6 +1,6 @@
-= Fungikey v1.0.0 =
+= Fungikey v1.1.0 =
 :author: Groupe fungikey
-:revnumber: v1.0.0
+:revnumber: v1.1.0
 :revdate: 2022-12
 :lang: fr
 :doctype: book
@@ -290,3 +290,13 @@ image::diagramme_1.png[]
 === Api ===
 
 image::Docu_Release1.png[]
+
+== Version 1.1 ==
+
+- Première feature: Permettre a l'utilisateur de prendre une photo d'un champignon.
+
+
+- Deuxième feature: Afficher une carte avec la localisation de l'utilisateur.
+
+
+- troisième feature: Afficher les 3 champignons les plus proches de l'utilisateur.
