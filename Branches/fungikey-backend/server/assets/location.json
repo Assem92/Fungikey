@@ -2,7 +2,8 @@
     {
         "id":1,
         "latitude": 48.856614,
-        "longitude": 2.3522219
+        "longitude": 2.3522219,
+        "type" : "Clitocybe nébuleux"
     },
 
  
@@ -10,24 +11,27 @@
             "id":2,
 
         "latitude": 48.8588443,
-        "longitude": 2.294481
+        "longitude": 2.294481,
+        "type" : "Clitocybe nébuleux"
         },
         {
             "id":3,
 
         "latitude": 48.8737815,
-        "longitude": 2.2950275
+        "longitude": 2.2950275,
+        "type" : "Clitocybe nébuleux"
         },
         {
             "id":4,
 
         "latitude": 48.866711,
-        "longitude": 2.3305395
+        "longitude": 2.3305395,
+        "type" : "Clitocybe nébuleux"
         },
         {
-            "id":5,
-
+        "id":5,
         "latitude": 48.85746,
-        "longitude": 2.352952
+        "longitude": 2.352952,
+        "type" : "Clitocybe nébuleux"
         }
 ]
