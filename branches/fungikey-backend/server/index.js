@@ -4,15 +4,23 @@ let FamilleComplementairesJson = require("./assets/familleComplementaires.json")
 let recette = require("./assets/recette.json")
 let locations = require('./assets/location.json');
 
+
+
 const express = require("express");
+const bodyParser = require('body-parser');
+const fs = require('fs');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+
 
 //
 const swaggerUi = require('swagger-ui-express'),
     swaggerDocument = require('../swagger.json');
 //
+
+
+app.use(bodyParser.json());
 
 app.get("/api/champi", (req, res) => {
     res.json(ChampiJson);});
@@ -61,6 +69,28 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
     res.json(closestLocations);
     });
 
+
+    app.get('/api/champi-types', (req, res) => {
+        const distinctNoms = [...new Set(ChampiJson.map(d => d.nom))];
+        res.json(distinctNoms);
+      });
+
+
+    app.post('/api/location', (req, res) => {
+
+        console.log(req.body)
+        const newLocation = {
+          id: locations.reduce((maxId, location) => Math.max(location.id, maxId), 0) + 1,
+          latitude: req.body.latitude,
+          longitude: req.body.longitude,
+          type: req.body.type,
+        };
+
+        locations.push(newLocation);
+        // Write the updated data to the file
+        fs.writeFileSync('./server/assets/location.json', JSON.stringify(locations));
+        res.status(201).json(newLocation);
+      });
 
 //swagger
 app.use('/api-docs',
