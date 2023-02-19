@@ -151,6 +151,10 @@ export function GoogleMaps({ google, locations }) {
                     lat: parseFloat(point?.latitude),
                     lng: parseFloat(point?.longitude),
                   }}
+                  icon={{
+                    url: "/images/icons/mushroomIcon.svg",
+                    scaledSize: new google.maps.Size(30, 30),
+                  }}
                   onClick={() => onMarkerClick(point)}
                 />
               ))
@@ -180,8 +184,8 @@ export function GoogleMaps({ google, locations }) {
             <Marker
               position={userLocation}
               icon={{
-                url: "/images/icons/userlocation.png",
-                scaledSize: new google.maps.Size(30, 30),
+                url: "/images/icons/UserLocationIcon.png",
+                scaledSize: new google.maps.Size(50, 50),
               }}
             />
           )}

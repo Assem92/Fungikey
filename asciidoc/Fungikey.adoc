@@ -293,10 +293,17 @@ image::Docu_Release1.png[]
 
 == Version 1.1 ==
 
-- Première feature: Permettre a l'utilisateur de prendre une photo d'un champignon.
+
+- Première feature: Afficher une carte avec la localisation de l'utilisateur:
+   
+
+image::map.png[]
 
 
-- Deuxième feature: Afficher une carte avec la localisation de l'utilisateur.
+- Deuxième feature: Afficher les 3 champignons les plus proches de l'utilisateur.
 
+image::map.png[]
 
-- troisième feature: Afficher les 3 champignons les plus proches de l'utilisateur.
+-troisiéme feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
+
+    l'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire
