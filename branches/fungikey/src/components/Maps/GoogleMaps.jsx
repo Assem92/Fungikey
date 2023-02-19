@@ -203,13 +203,27 @@ export function GoogleMaps({ google, locations }) {
           horizontal: "center",
         }}
       >
-        <Box sx={{ p: 2 }}>
+        <Box
+          sx={{
+            p: 2,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Typography sx={{ fontWeight: "bold", color: "green" }}>
+            Vous avez trouvé un champignon !
+          </Typography>
           <Typography>Latitude: {userLocation.lat}</Typography>
           <Typography>Longitude: {userLocation.lng}</Typography>
+          <br />
+          <Typography>Choisir un type</Typography>
+
           <Select
-            label="Select an option"
+            label="Choisir un type"
             value={selectedOption}
             onChange={handleSelect}
+            sx={{ minWidth: "20%" }}
           >
             {champiTypes.map((type) => (
               <MenuItem value={type} key={type}>
@@ -217,8 +231,9 @@ export function GoogleMaps({ google, locations }) {
               </MenuItem>
             ))}
           </Select>
+          <br />
           <Button variant="contained" onClick={handleSubmit}>
-            Submit
+            Enregitrer
           </Button>
         </Box>
       </Popover>
