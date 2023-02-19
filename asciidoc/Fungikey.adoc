@@ -295,6 +295,8 @@ image::Docu_Release1.png[]
 
 
 - Première feature: Afficher une carte avec la localisation de l'utilisateur:
+
+    les coordonnées GPS de l'utilisateur sont détectés automatiquement est affiché sur la carte.
    
 
 image::map.png[]
@@ -302,8 +304,14 @@ image::map.png[]
 
 - Deuxième feature: Afficher les 3 champignons les plus proches de l'utilisateur.
 
+
+
 image::map.png[]
 
--troisiéme feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
+- troisiéme feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
 
-    l'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire
+    L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
+
+- Affichage des informations des champignons détectées:
+
+    Quand l'utilisateur clique sur un champignon sur la carte , une fiche d'information est affiché , cette derniére contien la longitude , latitude est le type de champignion.
