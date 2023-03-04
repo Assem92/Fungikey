@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Les champignons de France",
     "content": {
       "text": "Les champignons sont des organismes fongiques qui poussent dans une grande variété d'environnements. En France, il existe de nombreuses espèces de champignons comestibles, telles que les cèpes, les girolles et les morilles. Cependant, il y a aussi des champignons toxiques et mortels, il est donc important de bien connaître les espèces avant de les consommer.",
@@ -12,6 +13,7 @@
     "tag": ["cuisine", "information"]
   },
   {
+    "id": 2,
     "title": "Recette de risotto aux champignons sauvages",
     "content": {
       "text": "Le risotto aux champignons sauvages est un plat délicieux et facile à préparer. Pour cette recette, vous aurez besoin de champignons sauvages frais, tels que des chanterelles ou des trompettes de la mort, du riz Arborio, du bouillon de légumes, de l'oignon et du parmesan.",
@@ -24,6 +26,7 @@
     "tag": ["cuisine", "information"]
   },
   {
+    "id": 3,
     "title": "Les champignons dans l'histoire de la cuisine française",
     "content": {
       "text": "Les champignons ont une longue histoire culinaire en France. Les Romains les considéraient comme un mets de choix, tandis que les rois de France les appréciaient particulièrement. Aujourd'hui, les champignons sont toujours très populaires dans la cuisine française, en particulier dans les plats traditionnels tels que la soupe à l'oignon gratinée et le coq au vin.",
@@ -36,6 +39,7 @@
     "tag": ["cuisine", "information"]
   },
   {
+    "id": 4,
     "title": "Les cèpes de France",
     "content": {
       "text": "Les cèpes sont l'une des espèces de champignons les plus appréciées en France. Leur chair ferme et leur goût prononcé les rendent délicieux dans de nombreux plats, comme les omelettes, les risottos et les soupes. Mais attention, il est important de bien les identifier car il existe des espèces toxiques similaires.",
@@ -48,6 +52,7 @@
     "tag": ["cuisine", "information"]
   },
   {
+    "id": 5,
     "title": "Comment cuisiner les champignons sauvages",
     "content": {
       "text": "Les champignons sauvages, tels que les chanterelles et les trompettes de la mort, sont délicieux et aromatiques. Avant de les cuisiner, il est important de bien les nettoyer pour enlever la saleté et les petites bêtes. Ensuite, vous pouvez les faire revenir dans de l'huile ou du beurre, ou les utiliser dans des sauces ou des soupes.",
