@@ -1,32 +1,57 @@
 [
   {
-    "title": "First post",
+    "title": "Les champignons de France",
     "content": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "text": "Les champignons sont des organismes fongiques qui poussent dans une grande variété d'environnements. En France, il existe de nombreuses espèces de champignons comestibles, telles que les cèpes, les girolles et les morilles. Cependant, il y a aussi des champignons toxiques et mortels, il est donc important de bien connaître les espèces avant de les consommer.",
       "image": "https://example.com/image.jpg"
     },
     "author": "Alice",
-    "timestamp": "2022-03-05T12:34:56Z",
-    "visibility": "public"
+    "timestamp": "2023-03-05T12:34:56Z",
+    "visibility": "public",
+    "username": "alice123"
   },
   {
-    "title": "Second post",
+    "title": "Recette de risotto aux champignons sauvages",
     "content": {
-      "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "text": "Le risotto aux champignons sauvages est un plat délicieux et facile à préparer. Pour cette recette, vous aurez besoin de champignons sauvages frais, tels que des chanterelles ou des trompettes de la mort, du riz Arborio, du bouillon de légumes, de l'oignon et du parmesan.",
       "image": "https://example.com/image2.jpg"
     },
     "author": "Bob",
-    "timestamp": "2022-03-06T01:23:45Z",
-    "visibility": "private"
+    "timestamp": "2023-03-06T01:23:45Z",
+    "visibility": "private",
+    "username": "bob456"
   },
   {
-    "title": "Third post",
+    "title": "Les champignons dans l'histoire de la cuisine française",
     "content": {
-      "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "text": "Les champignons ont une longue histoire culinaire en France. Les Romains les considéraient comme un mets de choix, tandis que les rois de France les appréciaient particulièrement. Aujourd'hui, les champignons sont toujours très populaires dans la cuisine française, en particulier dans les plats traditionnels tels que la soupe à l'oignon gratinée et le coq au vin.",
       "image": null
     },
     "author": "Charlie",
-    "timestamp": "2022-03-07T09:08:07Z",
-    "visibility": "public"
+    "timestamp": "2023-03-07T09:08:07Z",
+    "visibility": "public",
+    "username": "charlie789"
+  },
+  {
+    "title": "Les cèpes de France",
+    "content": {
+      "text": "Les cèpes sont l'une des espèces de champignons les plus appréciées en France. Leur chair ferme et leur goût prononcé les rendent délicieux dans de nombreux plats, comme les omelettes, les risottos et les soupes. Mais attention, il est important de bien les identifier car il existe des espèces toxiques similaires.",
+      "image": "https://example.com/image1.jpg"
+    },
+    "author": "Sophie",
+    "timestamp": "2023-03-08T15:30:00Z",
+    "visibility": "public",
+    "username": "sophie456"
+  },
+  {
+    "title": "Comment cuisiner les champignons sauvages",
+    "content": {
+      "text": "Les champignons sauvages, tels que les chanterelles et les trompettes de la mort, sont délicieux et aromatiques. Avant de les cuisiner, il est important de bien les nettoyer pour enlever la saleté et les petites bêtes. Ensuite, vous pouvez les faire revenir dans de l'huile ou du beurre, ou les utiliser dans des sauces ou des soupes.",
+      "image": "https://example.com/image2.jpg"
+    },
+    "author": "Luc",
+    "timestamp": "2023-03-09T10:45:00Z",
+    "visibility": "public",
+    "username": "luc789"
   }
 ]
