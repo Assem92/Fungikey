@@ -3,7 +3,7 @@ let FamilleChampiJson = require("./assets/familleChampi.json")
 let FamilleComplementairesJson = require("./assets/familleComplementaires.json")
 let recette = require("./assets/recette.json")
 let locations = require('./assets/location.json');
-
+let posts = require('./assets/post.json');
 
 
 const express = require("express");

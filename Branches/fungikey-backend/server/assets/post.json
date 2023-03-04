@@ -8,7 +8,8 @@
     "author": "Alice",
     "timestamp": "2023-03-05T12:34:56Z",
     "visibility": "public",
-    "username": "alice123"
+    "username": "alice123",
+    "tag": ["cuisine", "information"]
   },
   {
     "title": "Recette de risotto aux champignons sauvages",
@@ -19,7 +20,8 @@
     "author": "Bob",
     "timestamp": "2023-03-06T01:23:45Z",
     "visibility": "private",
-    "username": "bob456"
+    "username": "bob456",
+    "tag": ["cuisine", "information"]
   },
   {
     "title": "Les champignons dans l'histoire de la cuisine française",
@@ -30,7 +32,8 @@
     "author": "Charlie",
     "timestamp": "2023-03-07T09:08:07Z",
     "visibility": "public",
-    "username": "charlie789"
+    "username": "charlie789",
+    "tag": ["cuisine", "information"]
   },
   {
     "title": "Les cèpes de France",
@@ -41,7 +44,8 @@
     "author": "Sophie",
     "timestamp": "2023-03-08T15:30:00Z",
     "visibility": "public",
-    "username": "sophie456"
+    "username": "sophie456",
+    "tag": ["cuisine", "information"]
   },
   {
     "title": "Comment cuisiner les champignons sauvages",
@@ -52,6 +56,7 @@
     "author": "Luc",
     "timestamp": "2023-03-09T10:45:00Z",
     "visibility": "public",
-    "username": "luc789"
+    "username": "luc789",
+    "tag": ["cuisine", "information"]
   }
 ]
