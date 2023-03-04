@@ -1,0 +1,32 @@
+[
+  {
+    "title": "First post",
+    "content": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "https://example.com/image.jpg"
+    },
+    "author": "Alice",
+    "timestamp": "2022-03-05T12:34:56Z",
+    "visibility": "public"
+  },
+  {
+    "title": "Second post",
+    "content": {
+      "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://example.com/image2.jpg"
+    },
+    "author": "Bob",
+    "timestamp": "2022-03-06T01:23:45Z",
+    "visibility": "private"
+  },
+  {
+    "title": "Third post",
+    "content": {
+      "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "image": null
+    },
+    "author": "Charlie",
+    "timestamp": "2022-03-07T09:08:07Z",
+    "visibility": "public"
+  }
+]
