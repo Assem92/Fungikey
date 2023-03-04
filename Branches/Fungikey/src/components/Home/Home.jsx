@@ -24,7 +24,18 @@ export default function Home() {
 
   return (
     <>
-      <Image fluid src="/Fungikeyy.webp" alt="logo"></Image>
+      <br />
+      <br />
+      <br />
+      <Image
+        fluid
+        src="/fungikeyLogo.png"
+        alt="logo"
+        style={{ width: "70vw" }}
+      ></Image>
+      <br />
+      <br />
+
       <div className="container">
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
@@ -40,10 +51,6 @@ export default function Home() {
           </Modal.Body>
         </Modal>
         <div className="d-grid gap-2">
-          <button className="button-main" onClick={handleShow}>
-            <ioCons.IoIosWarning /> Avertissement
-          </button>
-
           <Link to="/Identification">
             <button className="button-main">Identification</button>
           </Link>
@@ -51,9 +58,7 @@ export default function Home() {
           <Link to="/Conseils">
             <button className="button-main"> Conseils </button>
           </Link>
-          <Link to="/Conseils">
-            <button className="button-main"> Conseils </button>
-          </Link>
+
           <Link to="/Jeux">
             <button className="button-main"> Jeux </button>
           </Link>
@@ -61,8 +66,12 @@ export default function Home() {
             <button className="button-main"> Recettes </button>
           </Link>
           <Link to="/map">
-            <button className="button-main"> Map </button>
+            <button className="button-main"> Carte </button>
           </Link>
+
+          <button className="button-main" onClick={handleShow}>
+            <ioCons.IoIosWarning /> Avertissement
+          </button>
         </div>
       </div>
 
