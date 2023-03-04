@@ -92,6 +92,13 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
         res.status(201).json(newLocation);
       });
 
+
+
+     //posts 
+     app.get('/api/posts', (req, res) => {
+        res.json(posts);
+      }); 
+
 //swagger
 app.use('/api-docs',
         swaggerUi.serve, 
