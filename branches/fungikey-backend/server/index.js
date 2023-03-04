@@ -99,6 +99,37 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
         res.json(posts);
       }); 
 
+
+      // Define POST endpoint to add a new post
+app.post('/addPost', (req, res) => {
+    const { title, content, author, visibility, tag, username, image } = req.body;
+  
+    // If username or tag or image is not provided, replace them with a default value
+    const post = {
+      title: title || 'Untitled',
+      content: content || { text: '', image: '' },
+      author: author || 'Anonymous',
+      timestamp: new Date().toISOString(),
+      visibility: visibility || 'public',
+      tag: tag || 'None',
+      username: username || 'Not defined',
+      image: image || 'Not defined'
+    };
+  
+    // Add the new post to the list
+    posts.push(post);
+  
+    // Write the updated list to the JSON file
+    const fs = require('fs');
+    fs.writeFile('./assets/post.json', JSON.stringify(posts), (err) => {
+      if (err) throw err;
+      console.log('Post added successfully!');
+    });
+  
+    res.status(200).send('Post added successfully!');
+  });
+  
+
 //swagger
 app.use('/api-docs',
         swaggerUi.serve, 
