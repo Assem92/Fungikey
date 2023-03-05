@@ -8,6 +8,8 @@ import {
   Avatar,
   Tooltip,
   Chip,
+  Popover,
+  Button,
 } from "@mui/material";
 import LockIcon from "@mui/icons-material/Lock";
 import PublicIcon from "@mui/icons-material/Public";
@@ -15,9 +17,18 @@ import SensorsIcon from "@mui/icons-material/Sensors";
 import GroupIcon from "@mui/icons-material/Group";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
+import Fab from "@mui/material/Fab";
+import AddIcon from "@mui/icons-material/Add";
+
+const fabStyle = {
+  position: "fixed",
+  bottom: 16,
+  right: 16,
+};
 
 export default function Forum() {
   const [posts, setPosts] = useState([]);
+  const [anchorEl, setAnchorEl] = useState(null);
 
   useEffect(() => {
     fetch("/api/posts")
@@ -66,12 +77,40 @@ export default function Forum() {
       )
       .catch((error) => console.error(error));
   }
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "add-post-form-popover" : undefined;
+
   return (
     <Container>
       <Typography variant="h3" component="h1" align="center" gutterBottom>
         Forum Fungikey
       </Typography>
-      <AddPostForm onAddPost={addPost} />
+
+      <Popover
+        id={id}
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: "bottom",
+          horizontal: "center",
+        }}
+        transformOrigin={{
+          vertical: "top",
+          horizontal: "center",
+        }}
+      >
+        <AddPostForm onAddPost={addPost} />
+      </Popover>
       <Grid container spacing={2}>
         {posts.map((post) => (
           <Grid item xs={12} md={6} lg={4} key={post.id}>
@@ -182,6 +221,16 @@ export default function Forum() {
           </Grid>
         ))}
       </Grid>
+      <Tooltip title="Publier un poste">
+        <Fab
+          sx={fabStyle}
+          color="primary"
+          aria-label="add"
+          onClick={handleClick}
+        >
+          <AddIcon />
+        </Fab>
+      </Tooltip>
     </Container>
   );
 }
