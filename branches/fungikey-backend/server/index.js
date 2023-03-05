@@ -137,7 +137,54 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
         });
       });
       
-
+// Increase the like count for a post with a given id
+app.post('/api/posts/:id/like', (req, res) => {
+    const postId = parseInt(req.params.id);
+    const post = posts.find(post => post.id === postId);
+  
+    if (post) {
+      post.stats.likes += 1;
+  
+      // Write the updated list to the JSON file
+      const fs = require('fs');
+      const filePath = path.resolve(__dirname, 'assets', 'post.json');
+      fs.writeFile(filePath, JSON.stringify(posts), (err) => {
+        if (err) {
+          console.error(err);
+          res.status(500).send({ message: 'Error writing to file' });
+        } else {
+          res.status(200).send(post);
+        }
+      });
+    } else {
+      res.status(404).send({ message: `Post with id ${postId} not found` });
+    }
+  });
+  
+  // Increase the dislike count for a post with a given id
+  app.post('/api/posts/:id/dislike', (req, res) => {
+    const postId = parseInt(req.params.id);
+    const post = posts.find(post => post.id === postId);
+  
+    if (post) {
+      post.stats.dislikes += 1;
+  
+      // Write the updated list to the JSON file
+      const fs = require('fs');
+      const filePath = path.resolve(__dirname, 'assets', 'post.json');
+      fs.writeFile(filePath, JSON.stringify(posts), (err) => {
+        if (err) {
+          console.error(err);
+          res.status(500).send({ message: 'Error writing to file' });
+        } else {
+          res.status(200).send(post);
+        }
+      });
+    } else {
+      res.status(404).send({ message: `Post with id ${postId} not found` });
+    }
+  });
+  
 
 
 //swagger
