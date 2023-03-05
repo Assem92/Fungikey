@@ -1,6 +1,6 @@
-= Fungikey v1.1.0 =
+= Fungikey v1.2.0 =
 :author: Groupe fungikey
-:revnumber: v1.1.0
+:revnumber: v1.2.0
 :revdate: 2022-12
 :lang: fr
 :doctype: book
@@ -291,7 +291,7 @@ image::diagramme_1.png[]
 
 image::Docu_Release1.png[]
 
-== Version 1.1 ==
+== Version 1.1.0 ==
 
 
 - Première feature: Afficher une carte avec la localisation de l'utilisateur:
@@ -308,10 +308,33 @@ image::map.png[]
 
 image::map.png[]
 
-- troisiéme feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
+- troisième feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
 
-    L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
+L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
 
 - Affichage des informations des champignons détectées:
 
     Quand l'utilisateur clique sur un champignon sur la carte , une fiche d'information est affiché , cette derniére contien la longitude , latitude est le type de champignion.
+    
+    == Version 1.2.0 ==
+    
+- Première feature: Visualiser les messages postés sur le forum pour découvrir les discussions en cours et les sujets d'intérêt
+   
+
+image::forum1.png[]
+
+
+- Deuxième feature: Interagir avec les messages du forum en utilisant des boutons de like ou dislike pour exprimer votre avis ou vos préférences
+
+
+image::like.png[]
+
+- troisième feature: Permettre aux utilisateurs d'ajouter leurs propres messages sur le forum pour partager leurs questions, opinions ou expériences
+
+image::forum.png[]
+
+
+- Quatrième feature: Ajouter un système de "tag" pour classer et organiser les messages du forum en fonction de différents thèmes, sujets ou catégories
+
+image::tag.png[]
+
