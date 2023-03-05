@@ -116,8 +116,9 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
           author: author || 'Anonymous',
           timestamp: new Date().toISOString(),
           visibility: visibility || 'public',
-          tag: tag || 'None',
+          tag: tag ? tag.split(/[ ,]+/) : [], // split tag string by comma or space
           username: username || 'Not defined',
+          stats : {likes:0 ,dislikes:0}
         };
       
         // Add the new post to the list
@@ -135,6 +136,7 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
           }
         });
       });
+      
 
 
 
