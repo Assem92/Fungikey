@@ -1,7 +1,7 @@
 = Fungikey v1.2.0 =
 :author: Groupe fungikey
 :revnumber: v1.2.0
-:revdate: 2022-12
+:revdate: 2023-03
 :lang: fr
 :doctype: book
 :encoding: utf-8
@@ -316,7 +316,7 @@ L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, le
 
     Quand l'utilisateur clique sur un champignon sur la carte , une fiche d'information est affiché , cette derniére contien la longitude , latitude est le type de champignion.
     
-    == Version 1.2.0 ==
+== Version 1.2.0 ==
     
 - Première feature: Visualiser les messages postés sur le forum pour découvrir les discussions en cours et les sujets d'intérêt
    
