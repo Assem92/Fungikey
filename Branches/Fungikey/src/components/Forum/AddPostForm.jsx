@@ -10,11 +10,6 @@ import {
   FormControl,
   InputLabel,
 } from "@mui/material";
-import LockIcon from "@mui/icons-material/Lock";
-import PublicIcon from "@mui/icons-material/Public";
-import SensorsIcon from "@mui/icons-material/Sensors";
-import GroupIcon from "@mui/icons-material/Group";
-import { ThumbUp, ThumbDown } from "@mui/icons-material";
 
 export default function AddPostForm({ onAddPost }) {
   const [title, setTitle] = useState("");
@@ -42,8 +37,8 @@ export default function AddPostForm({ onAddPost }) {
 
   return (
     <Container sx={{ mt: 4 }}>
-      <Typography variant="h4" component="h2" gutterBottom>
-        Add a new post
+      <Typography variant="h5" component="h2" gutterBottom>
+        Créer une Publication
       </Typography>
       <form onSubmit={handleSubmit}>
         <Grid container spacing={2} alignItems="flex-end">
@@ -57,7 +52,7 @@ export default function AddPostForm({ onAddPost }) {
           </Grid>
           <Grid item xs={12} md={6}>
             <FormControl fullWidth>
-              <InputLabel>Visibility</InputLabel>
+              <InputLabel>Visibilité</InputLabel>
               <Select
                 value={visibility}
                 onChange={(event) => setVisibility(event.target.value)}
@@ -90,7 +85,7 @@ export default function AddPostForm({ onAddPost }) {
           <Grid item xs={12} md={6}>
             <TextField
               fullWidth
-              label="Tag"
+              label="Tags"
               value={tag}
               onChange={(event) => setTag(event.target.value)}
             />

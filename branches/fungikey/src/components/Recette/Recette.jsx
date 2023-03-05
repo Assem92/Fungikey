@@ -1,35 +1,18 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import FolderIcon from "@mui/icons-material/Folder";
-import DeleteIcon from "@mui/icons-material/Delete";
-import ArrowIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
-
+import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 //import recetteList from "../../assets/recette.json";
 
 import RestaurantIcon from "@mui/icons-material/Restaurant";
-import {
-  Nav,
-  Navbar,
-  Container,
-  Offcanvas,
-  NavDropdown,
-} from "react-bootstrap";
 
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -55,20 +38,7 @@ export default function InteractiveList() {
 
   return (
     <div>
-      <Navbar className="color-nav" expand={false}>
-        <Container fluid>
-          <Navbar.Brand href="/Recette">
-            <img
-              alt=""
-              src="/images/icons/60.png"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            <span className="sidebar-title">Recettes</span>
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
+      <CustomNavbar title="Recettes" link="/Recette" />
 
       <div className="container-identification">
         <List dense={dense}>

@@ -19,6 +19,7 @@ import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import Fab from "@mui/material/Fab";
 import AddIcon from "@mui/icons-material/Add";
+import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 
 const fabStyle = {
   position: "fixed",
@@ -90,147 +91,149 @@ export default function Forum() {
   const id = open ? "add-post-form-popover" : undefined;
 
   return (
-    <Container>
-      <Typography variant="h3" component="h1" align="center" gutterBottom>
-        Forum Fungikey
-      </Typography>
-
-      <Popover
-        id={id}
-        open={open}
-        anchorEl={anchorEl}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "center",
-        }}
-      >
-        <AddPostForm onAddPost={addPost} />
-      </Popover>
-      <Grid container spacing={2}>
-        {posts.map((post) => (
-          <Grid item xs={12} md={6} lg={4} key={post.id}>
-            <Paper
-              sx={{
-                borderRadius: "8px",
-                border: "1px solid #ccc",
-                margin: "8px",
-                padding: "16px",
-                backgroundColor: "#fff",
-              }}
-            >
-              <Grid container alignItems="center" spacing={2}>
-                <Grid item>
-                  <Avatar
-                    alt={post.author}
-                    src={post.authorAvatar}
-                    sx={{ width: "50px", height: "50px" }}
-                  />
-                </Grid>
-                <Grid item xs={6}>
-                  <Typography variant="h6" component="h2" gutterBottom>
-                    {post.author}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    gutterBottom
-                    sx={{ color: "grey", fontStyle: "italic" }}
-                  >
-                    {new Date(post.timestamp).toLocaleTimeString([], {
-                      hour: "2-digit",
-                      minute: "2-digit",
-                    })}{" "}
-                    {new Date(post.timestamp).toLocaleDateString([], {
-                      day: "2-digit",
-                      month: "2-digit",
-                      year: "numeric",
-                    })}
-                  </Typography>
-                </Grid>
-
-                <Grid item xs={2} sx={{ textAlign: "right" }}>
-                  <Tooltip title={post.visibility}>
-                    <span>
-                      {post.visibility === "public" && (
-                        <PublicIcon
-                          style={{ color: "grey", fontSize: "18px" }}
-                        />
-                      )}
-                      {post.visibility === "private" && (
-                        <LockIcon style={{ color: "grey", fontSize: "18px" }} />
-                      )}
-                      {post.visibility === "friends" && (
-                        <GroupIcon
-                          style={{ color: "grey", fontSize: "18px" }}
-                        />
-                      )}
-                      {post.visibility === "network" && (
-                        <SensorsIcon
-                          style={{ color: "grey", fontSize: "18px" }}
-                        />
-                      )}
-                    </span>
-                  </Tooltip>
-                </Grid>
-              </Grid>
-              <br />
-              <Typography variant="h5" component="h2" gutterBottom>
-                {post.title}
-              </Typography>
-              <Typography variant="body2" gutterBottom>
-                {Array.isArray(post.tag) &&
-                  post.tag.map((tag, index) => (
-                    <Chip
-                      key={index}
-                      label={`#${tag}`}
-                      color="primary"
-                      sx={{ marginLeft: 1, fontWeight: "bold" }}
-                    />
-                  ))}
-              </Typography>
-              <br />
-              <Typography variant="body1" gutterBottom>
-                {post.content.text}
-              </Typography>
-
-              <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                <Tooltip title={`${post.stats.likes} likes`}>
-                  <Chip
-                    icon={<ThumbUpIcon />}
-                    label={post.stats.likes}
-                    color="success"
-                    sx={{ marginRight: "8px", marginBottom: "4px" }}
-                    onClick={() => handleLike(post)}
-                  />
-                </Tooltip>
-                <Tooltip title={`${post.stats.dislikes} dislikes`}>
-                  <Chip
-                    icon={<ThumbDownIcon />}
-                    label={post.stats.dislikes}
-                    color="error"
-                    sx={{ marginBottom: "4px" }}
-                    onClick={() => handleDislike(post)}
-                  />
-                </Tooltip>
-              </div>
-            </Paper>
-          </Grid>
-        ))}
-      </Grid>
-      <Tooltip title="Publier un poste">
-        <Fab
-          sx={fabStyle}
-          color="primary"
-          aria-label="add"
-          onClick={handleClick}
+    <div>
+      {" "}
+      <CustomNavbar title="Forum" link="/Forum" />
+      <Container>
+        <Popover
+          id={id}
+          open={open}
+          anchorEl={anchorEl}
+          onClose={handleClose}
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "center",
+          }}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "center",
+          }}
         >
-          <AddIcon />
-        </Fab>
-      </Tooltip>
-    </Container>
+          <AddPostForm onAddPost={addPost} />
+        </Popover>
+        <Grid container spacing={2}>
+          {posts.map((post) => (
+            <Grid item xs={12} md={6} lg={4} key={post.id}>
+              <Paper
+                sx={{
+                  borderRadius: "8px",
+                  border: "1px solid #ccc",
+                  margin: "8px",
+                  padding: "16px",
+                  backgroundColor: "#fff",
+                }}
+              >
+                <Grid container alignItems="center" spacing={2}>
+                  <Grid item>
+                    <Avatar
+                      alt={post.author}
+                      src={post.authorAvatar}
+                      sx={{ width: "50px", height: "50px" }}
+                    />
+                  </Grid>
+                  <Grid item xs={6}>
+                    <Typography variant="h6" component="h2" gutterBottom>
+                      {post.author}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      gutterBottom
+                      sx={{ color: "grey", fontStyle: "italic" }}
+                    >
+                      {new Date(post.timestamp).toLocaleTimeString([], {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}{" "}
+                      {new Date(post.timestamp).toLocaleDateString([], {
+                        day: "2-digit",
+                        month: "2-digit",
+                        year: "numeric",
+                      })}
+                    </Typography>
+                  </Grid>
+
+                  <Grid item xs={2} sx={{ textAlign: "right" }}>
+                    <Tooltip title={post.visibility}>
+                      <span>
+                        {post.visibility === "public" && (
+                          <PublicIcon
+                            style={{ color: "grey", fontSize: "18px" }}
+                          />
+                        )}
+                        {post.visibility === "private" && (
+                          <LockIcon
+                            style={{ color: "grey", fontSize: "18px" }}
+                          />
+                        )}
+                        {post.visibility === "friends" && (
+                          <GroupIcon
+                            style={{ color: "grey", fontSize: "18px" }}
+                          />
+                        )}
+                        {post.visibility === "network" && (
+                          <SensorsIcon
+                            style={{ color: "grey", fontSize: "18px" }}
+                          />
+                        )}
+                      </span>
+                    </Tooltip>
+                  </Grid>
+                </Grid>
+                <br />
+                <Typography variant="h5" component="h2" gutterBottom>
+                  {post.title}
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                  {Array.isArray(post.tag) &&
+                    post.tag.map((tag, index) => (
+                      <Chip
+                        key={index}
+                        label={`#${tag}`}
+                        color="primary"
+                        sx={{ marginLeft: 1, fontWeight: "bold" }}
+                      />
+                    ))}
+                </Typography>
+                <br />
+                <Typography variant="body1" gutterBottom>
+                  {post.content.text}
+                </Typography>
+
+                <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                  <Tooltip title={`${post.stats.likes} likes`}>
+                    <Chip
+                      icon={<ThumbUpIcon />}
+                      label={post.stats.likes}
+                      color="success"
+                      sx={{ marginRight: "8px", marginBottom: "4px" }}
+                      onClick={() => handleLike(post)}
+                    />
+                  </Tooltip>
+                  <Tooltip title={`${post.stats.dislikes} dislikes`}>
+                    <Chip
+                      icon={<ThumbDownIcon />}
+                      label={post.stats.dislikes}
+                      color="error"
+                      sx={{ marginBottom: "4px" }}
+                      onClick={() => handleDislike(post)}
+                    />
+                  </Tooltip>
+                </div>
+              </Paper>
+            </Grid>
+          ))}
+        </Grid>
+        <Tooltip title="Publier un poste">
+          <Fab
+            sx={fabStyle}
+            color="primary"
+            aria-label="add"
+            onClick={handleClick}
+          >
+            <AddIcon />
+          </Fab>
+        </Tooltip>
+      </Container>
+    </div>
   );
 }

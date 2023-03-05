@@ -58,7 +58,9 @@ export default function Home() {
           <Link to="/Conseils">
             <button className="button-main"> Conseils </button>
           </Link>
-
+          <Link to="/Forum">
+            <button className="button-main"> Forum </button>
+          </Link>
           <Link to="/Jeux">
             <button className="button-main"> Jeux </button>
           </Link>
