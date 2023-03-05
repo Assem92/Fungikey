@@ -5,23 +5,16 @@ import {
   Grid,
   Paper,
   Typography,
-  TextField,
-  Button,
-  Select,
-  MenuItem,
-  FormControl,
-  InputLabel,
   Avatar,
   Tooltip,
-  Icon,
-  Box,
   Chip,
 } from "@mui/material";
 import LockIcon from "@mui/icons-material/Lock";
 import PublicIcon from "@mui/icons-material/Public";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import GroupIcon from "@mui/icons-material/Group";
-import { ThumbUp, ThumbDown } from "@mui/icons-material";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 
 export default function Forum() {
   const [posts, setPosts] = useState([]);
@@ -43,14 +36,36 @@ export default function Forum() {
       .then((data) => setPosts([...posts, data]))
       .catch((error) => console.error(error));
   }
-  //
-  function updateLikes(postId, likes) {
-    const updatedPosts = posts.map((post) =>
-      post.id === postId ? { ...post, likes } : post
-    );
-    setPosts(updatedPosts);
+
+  function handleLike(post) {
+    fetch(`/api/posts/${post.id}/like`, {
+      method: "POST",
+    })
+      .then((response) => response.json())
+      .then((data) =>
+        setPosts((prevState) =>
+          prevState.map((prevPost) =>
+            prevPost.id === post.id ? data : prevPost
+          )
+        )
+      )
+      .catch((error) => console.error(error));
   }
-  //
+
+  function handleDislike(post) {
+    fetch(`/api/posts/${post.id}/dislike`, {
+      method: "POST",
+    })
+      .then((response) => response.json())
+      .then((data) =>
+        setPosts((prevState) =>
+          prevState.map((prevPost) =>
+            prevPost.id === post.id ? data : prevPost
+          )
+        )
+      )
+      .catch((error) => console.error(error));
+  }
   return (
     <Container>
       <Typography variant="h3" component="h1" align="center" gutterBottom>
@@ -74,11 +89,11 @@ export default function Forum() {
                   <Avatar
                     alt={post.author}
                     src={post.authorAvatar}
-                    sx={{ width: "64px", height: "64px" }}
+                    sx={{ width: "50px", height: "50px" }}
                   />
                 </Grid>
                 <Grid item xs={6}>
-                  <Typography variant="h5" component="h2" gutterBottom>
+                  <Typography variant="h6" component="h2" gutterBottom>
                     {post.author}
                   </Typography>
                   <Typography
@@ -97,6 +112,7 @@ export default function Forum() {
                     })}
                   </Typography>
                 </Grid>
+
                 <Grid item xs={2} sx={{ textAlign: "right" }}>
                   <Tooltip title={post.visibility}>
                     <span>
@@ -122,13 +138,9 @@ export default function Forum() {
                   </Tooltip>
                 </Grid>
               </Grid>
-
+              <br />
               <Typography variant="h5" component="h2" gutterBottom>
                 {post.title}
-              </Typography>
-
-              <Typography variant="body1" gutterBottom>
-                {post.content.text}
               </Typography>
               <Typography variant="body2" gutterBottom>
                 {Array.isArray(post.tag) &&
@@ -141,6 +153,31 @@ export default function Forum() {
                     />
                   ))}
               </Typography>
+              <br />
+              <Typography variant="body1" gutterBottom>
+                {post.content.text}
+              </Typography>
+
+              <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                <Tooltip title={`${post.stats.likes} likes`}>
+                  <Chip
+                    icon={<ThumbUpIcon />}
+                    label={post.stats.likes}
+                    color="success"
+                    sx={{ marginRight: "8px", marginBottom: "4px" }}
+                    onClick={() => handleLike(post)}
+                  />
+                </Tooltip>
+                <Tooltip title={`${post.stats.dislikes} dislikes`}>
+                  <Chip
+                    icon={<ThumbDownIcon />}
+                    label={post.stats.dislikes}
+                    color="error"
+                    sx={{ marginBottom: "4px" }}
+                    onClick={() => handleDislike(post)}
+                  />
+                </Tooltip>
+              </div>
             </Paper>
           </Grid>
         ))}

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   Container,
   Grid,
-  Paper,
   Typography,
   TextField,
   Button,
@@ -10,17 +9,7 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
-  Avatar,
-  Tooltip,
-  Icon,
-  Box,
-  Chip,
 } from "@mui/material";
-import LockIcon from "@mui/icons-material/Lock";
-import PublicIcon from "@mui/icons-material/Public";
-import SensorsIcon from "@mui/icons-material/Sensors";
-import GroupIcon from "@mui/icons-material/Group";
-import { ThumbUp, ThumbDown } from "@mui/icons-material";
 
 export default function AddPostForm({ onAddPost }) {
   const [title, setTitle] = useState("");

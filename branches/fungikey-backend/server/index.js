@@ -100,8 +100,6 @@ app.get('/api/closest-points/:latitude/:longitude', (req, res) => {
      app.get('/api/posts', (req, res) => {
         res.json(posts);
       }); 
-
-
       app.post('/api/posts', (req, res) => {
         const { title, content, author, visibility, tag, username, image } = req.body;
       
