@@ -7,19 +7,26 @@ import {
   Avatar,
   Tooltip,
   Chip,
+  Button,
 } from "@mui/material";
-import { ShoppingCart } from "@mui/icons-material";
 import CustomNavbar from "../utilities/NavBar/CustomNavbar";
+import { ArrowForward } from "@mui/icons-material";
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
+
+  const [error, setError] = useState("");
 
   useEffect(() => {
     fetch("/api/products")
       .then((response) => response.json())
       .then((data) => setProducts(data))
-      .catch((error) => console.error(error));
+      .catch((error) => setError("Error fetching products"));
   }, []);
+
+  const handleBuyNowClick = (url) => {
+    window.location.href = url;
+  };
 
   return (
     <div>
@@ -40,7 +47,11 @@ export default function Shop() {
                 <Avatar
                   alt={product.name}
                   src={product.image}
-                  sx={{ width: "100%", height: "auto" }}
+                  sx={{
+                    width: "100%",
+                    height: "auto",
+                    borderRadius: "8px",
+                  }}
                 />
                 <Typography variant="h6" component="h2" gutterBottom>
                   {product.name}
@@ -57,10 +68,15 @@ export default function Shop() {
                   sx={{ marginTop: 1 }}
                 />
                 <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                  <Tooltip title="Add to cart">
-                    <ShoppingCart
-                      style={{ color: "blue", cursor: "pointer" }}
-                    />
+                  <Tooltip title="Visiter le siteweb">
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={() => handleBuyNowClick(product.link)}
+                      endIcon={<ArrowForward />}
+                    >
+                      Acheter
+                    </Button>
                   </Tooltip>
                 </div>
               </Paper>
