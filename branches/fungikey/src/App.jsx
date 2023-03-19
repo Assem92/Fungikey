@@ -25,6 +25,7 @@ import RecetteCard from "./components/Recette/RecetteCard";
 import Incorrect from "./components/Jeu2/Incorrect";
 import Correct from "./components/Jeu2/Correct";
 import Forum from "./components/Forum/Forum";
+import Shop from "./components/Shop/Shop";
 
 import "./css/App.css";
 import "./css/index.css";
@@ -63,6 +64,7 @@ export default function App() {
 
         <Route path="/Incorrect" element={<Incorrect />} />
         <Route path="/Correct" element={<Correct />} />
+        <Route path="/Shop" element={<Shop />} />
       </Routes>
     </div>
   );
