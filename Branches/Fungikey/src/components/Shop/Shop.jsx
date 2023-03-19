@@ -8,19 +8,24 @@ import {
   Tooltip,
   Chip,
   Button,
+  TextField,
 } from "@mui/material";
 import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 import { ArrowForward } from "@mui/icons-material";
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
-
+  const [filteredProducts, setFilteredProducts] = useState([]);
   const [error, setError] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     fetch("/api/products")
       .then((response) => response.json())
-      .then((data) => setProducts(data))
+      .then((data) => {
+        setProducts(data);
+        setFilteredProducts(data);
+      })
       .catch((error) => setError("Error fetching products"));
   }, []);
 
@@ -28,12 +33,29 @@ export default function Shop() {
     window.location.href = url;
   };
 
+  const handleSearch = (e) => {
+    const query = e.target.value.toLowerCase();
+    const filtered = products.filter((product) =>
+      product.name.toLowerCase().includes(query)
+    );
+    setFilteredProducts(filtered);
+    setSearchQuery(query);
+  };
+
   return (
     <div>
       <CustomNavbar title="Shop" link="/" />
       <Container>
+        <TextField
+          variant="outlined"
+          margin="normal"
+          label="Rechercher un produit"
+          value={searchQuery}
+          onChange={handleSearch}
+          fullWidth
+        />
         <Grid container spacing={2}>
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <Grid item xs={12} md={6} lg={4} key={product.id}>
               <Paper
                 sx={{
@@ -60,7 +82,7 @@ export default function Shop() {
                   {product.description}
                 </Typography>
                 <Typography variant="h6" gutterBottom>
-                  ${product.price}
+                  €{product.price}
                 </Typography>
                 <Chip
                   label={`${product.rating} stars`}
