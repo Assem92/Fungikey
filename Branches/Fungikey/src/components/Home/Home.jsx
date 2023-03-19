@@ -1,13 +1,22 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 import * as ioCons from "react-icons/io";
 import { Modal, Image } from "react-bootstrap";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import { useNavigate } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Card, CardContent } from "@mui/material";
+import LeafIcon from "@mui/icons-material/LocalFlorist";
+import ChatboxesIcon from "@mui/icons-material/Chat";
+import RestaurantIcon from "@mui/icons-material/RestaurantMenu";
+import MapIcon from "@mui/icons-material/Map";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 /**
  * @returns la page d'accueuil contenant le logo et le menu principal
  * @constant show, setShow: React state, pour la fenêtre modale
@@ -18,10 +27,23 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 export default function Home() {
   const navigate = useNavigate();
 
+  const handleClick = (path) => {
+    navigate(path);
+  };
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const menuItems = [
+    { name: "Identification", icon: <LeafIcon /> },
+    { name: "Conseils", icon: <EmojiObjectsIcon /> },
+    { name: "Forum", icon: <ChatboxesIcon /> },
+    { name: "Jeux", icon: <SportsEsportsIcon /> },
+    { name: "Recettes", icon: <RestaurantIcon /> },
+    { name: "Carte", icon: <MapIcon /> },
+    { name: "Shop", icon: <ShoppingCartIcon /> },
+  ];
   return (
     <>
       <br />
@@ -50,30 +72,41 @@ export default function Home() {
             </a>
           </Modal.Body>
         </Modal>
-        <div className="d-grid gap-2">
-          <Link to="/Identification">
-            <button className="button-main">Identification</button>
-          </Link>
-
-          <Link to="/Conseils">
-            <button className="button-main"> Conseils </button>
-          </Link>
-          <Link to="/Forum">
-            <button className="button-main"> Forum </button>
-          </Link>
-          <Link to="/Jeux">
-            <button className="button-main"> Jeux </button>
-          </Link>
-          <Link to="/Recette">
-            <button className="button-main"> Recettes </button>
-          </Link>
-          <Link to="/map">
-            <button className="button-main"> Carte </button>
-          </Link>
-
-          <button className="button-main" onClick={handleShow}>
-            <ioCons.IoIosWarning /> Avertissement
-          </button>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          {menuItems.map((item, index) => (
+            <Card
+              key={index}
+              sx={{
+                width: "150px",
+                margin: "10px",
+                backgroundColor: "#356d62",
+              }}
+              variant="outlined"
+            >
+              <CardContent
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <IconButton
+                  sx={{ fontSize: "60px" }}
+                  onClick={() => handleClick(`/${item.name.toLowerCase()}`)}
+                >
+                  {item.icon}
+                </IconButton>{" "}
+                <h4 style={{ color: "black" }}>{item.name}</h4>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
 

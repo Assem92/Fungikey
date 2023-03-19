@@ -58,9 +58,9 @@ export default function App() {
         <Route path="/Jeu3" element={<Jeu3 />} />
         <Route path="/Jeux" element={<Jeux />} />
 
-        <Route path="/map" element={<GoogleMaps />} />
-        <Route path="/Recette" element={<Recette />} />
-        <Route path="/Recette/:id" element={<RecetteCard />} />
+        <Route path="/Carte" element={<GoogleMaps />} />
+        <Route path="/Recettes" element={<Recette />} />
+        <Route path="/Recettes/:id" element={<RecetteCard />} />
 
         <Route path="/Incorrect" element={<Incorrect />} />
         <Route path="/Correct" element={<Correct />} />
