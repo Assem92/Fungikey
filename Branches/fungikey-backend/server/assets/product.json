@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "Organic Shiitake Mushroom Grow Kit",
+    "description": "Grow your own shiitake mushrooms at home with this organic grow kit. Includes everything you need to get started.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81J8Q2QsXGL._AC_SL1500_.jpg",
+    "price": 29.99,
+    "rating": 4.5,
+    "link": "https://www.amazon.com/Organic-Shiitake-Mushroom-Grow-Kit/dp/B08WDM5PHR"
+  },
+  {
+    "id": "2",
+    "name": "Mushroom Farm - 10 Mushroom Growing Blocks",
+    "description": "Grow 10 different types of mushrooms at home with this mushroom farm kit. Includes everything you need to get started.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61xZq3B-NjL._AC_SL1500_.jpg",
+    "price": 54.99,
+    "rating": 4.2,
+    "link": "https://www.amazon.com/Mushroom-Farm-Growing-Blocks-Harvest/dp/B08TWSNDP4"
+  },
+  {
+    "id": "3",
+    "name": "Dried Porcini Mushrooms",
+    "description": "Premium dried porcini mushrooms imported from Italy. Great for adding flavor to soups, sauces, and pasta dishes.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81jK6J-4VeL._AC_SL1500_.jpg",
+    "price": 22.99,
+    "rating": 4.8,
+    "link": "https://www.amazon.com/Dried-Porcini-Mushrooms-Boletus-Edulis/dp/B07QKQX9TB"
+  },
+  {
+    "id": "4",
+    "name": "Mushroom Plug Spawn - Shiitake",
+    "description": "Grow your own shiitake mushrooms with this mushroom plug spawn. Easy to use, just drill holes in a log and insert the plugs.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Mrk-k5R5L._AC_SL1500_.jpg",
+    "price": 12.99,
+    "rating": 4.4,
+    "link": "https://www.amazon.com/Shiitake-Mushroom-Plug-Spawn-100/dp/B08P5V22WY"
+  },
+  {
+    "id": "5",
+    "name": "Mushroom Cultivation: An Illustrated Guide to Growing Your Own Mushrooms at Home",
+    "description": "Learn how to grow your own mushrooms at home with this comprehensive guide. Includes step-by-step instructions and full-color illustrations.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61CvcRwmLzL._SX389_BO1,204,203,200_.jpg",
+    "price": 19.99,
+    "rating": 4.7,
+    "link": "https://www.amazon.com/Mushroom-Cultivation-Illustrated-Growing-Mushrooms/dp/1635860847"
+  }
+]
