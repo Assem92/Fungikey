@@ -4,6 +4,7 @@ let FamilleComplementairesJson = require("./assets/familleComplementaires.json")
 let recette = require("./assets/recette.json")
 let locations = require('./assets/location.json');
 let posts = require('./assets/post.json');
+let products = require('./assets/product.json');
 
 const path = require('path');
 
@@ -183,6 +184,24 @@ app.post('/api/posts/:id/like', (req, res) => {
     }
   });
   
+//products
+// GET request to retrieve all products
+app.get('/api/products', (req, res) => {
+  res.json(products);
+});
+
+// POST request to add a new product
+app.post('/api/products', (req, res) => {
+  const newProduct = req.body;
+  // Generate a unique ID for the new product
+  newProduct.id = Math.floor(Math.random() * 1000000);
+  // Add the new product to the products array
+  products.push(newProduct);
+  // Write the updated product data to the JSON file
+  fs.writeFileSync('./assets/product.json', JSON.stringify(products));
+  // Send a response with the updated products array
+  res.json(products);
+});
 
 
 //swagger
