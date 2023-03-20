@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
-import "./Cards.css";
+import "./file.css";
 
 import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 
@@ -61,7 +61,7 @@ function Cards() {
     <div>
       {" "}
       <CustomNavbar title="Jeu carte de memoire" link="/JeuMemoryCards" />{" "}
-      <div className="container">
+      <div className="containers">
         {items.map((item, index) => (
           <Card key={index} item={item} id={index} handleClick={handleClick} />
         ))}

@@ -5,6 +5,7 @@ let recette = require("./assets/recette.json")
 let locations = require('./assets/location.json');
 let posts = require('./assets/post.json');
 let products = require('./assets/product.json');
+let periodes = require('./assets/periode.json');
 
 const path = require('path');
 
@@ -202,6 +203,14 @@ app.post('/api/products', (req, res) => {
   // Send a response with the updated products array
   res.json(products);
 });
+
+
+//periodes
+// GET request to retrieve all products
+app.get('/api/periodes', (req, res) => {
+  res.json(periodes);
+});
+
 
 
 //swagger
