@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
-import "./MemoryCards.css";
+import "./Cards.css";
 
 import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 

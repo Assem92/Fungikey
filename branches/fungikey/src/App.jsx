@@ -6,9 +6,7 @@ import Identification from "./components/Identification/Identification";
 import IdentificatorMain from "./components/Identification/identificator/IdentificatorMain";
 import IdentificatorComp from "./components/Identification/identificator/IdentificatorComp";
 import IdentificationPics from "./components/Identification/IdentificationPics";
-
 import Conseils from "./components/Conseils/Conseils";
-
 import Jeu1 from "./components/JeuParFamille/Jeu1";
 import Jeu3 from "./components/JeuParChampi/Jeu3";
 import Jeu2 from "./components/Jeu2/Jeu2";
@@ -26,10 +24,10 @@ import Incorrect from "./components/Jeu2/Incorrect";
 import Correct from "./components/Jeu2/Correct";
 import Forum from "./components/Forum/Forum";
 import Shop from "./components/Shop/Shop";
+import Cards from "./components/JeuMemoryCards/Cards";
 
 import "./css/App.css";
 import "./css/index.css";
-import Cards from "./components/JeuMemoryCards/Cards";
 
 /**
  * @returns l'application, contient toutes les routes pour naviguer le site

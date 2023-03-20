@@ -84,7 +84,7 @@ export default function Home() {
             <Card
               key={index}
               sx={{
-                width: "150px",
+                width: "140px",
                 margin: "10px",
                 backgroundColor: "#356d62",
               }}
