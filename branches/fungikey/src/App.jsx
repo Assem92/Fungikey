@@ -29,6 +29,7 @@ import Shop from "./components/Shop/Shop";
 
 import "./css/App.css";
 import "./css/index.css";
+import Cards from "./components/JeuMemoryCards/Cards";
 
 /**
  * @returns l'application, contient toutes les routes pour naviguer le site
@@ -65,6 +66,7 @@ export default function App() {
         <Route path="/Incorrect" element={<Incorrect />} />
         <Route path="/Correct" element={<Correct />} />
         <Route path="/Shop" element={<Shop />} />
+        <Route path="/JeuMemoryCards" element={<Cards />} />
       </Routes>
     </div>
   );

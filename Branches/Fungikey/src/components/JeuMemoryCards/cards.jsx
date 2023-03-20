@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Card from "./Card";
+import "./MemoryCards.css";
+
+import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 
 function Cards() {
   const [items, setItems] = useState(
@@ -55,10 +58,14 @@ function Cards() {
   }
 
   return (
-    <div className="container">
-      {items.map((item, index) => (
-        <Card key={index} item={item} id={index} handleClick={handleClick} />
-      ))}
+    <div>
+      {" "}
+      <CustomNavbar title="Jeu carte de memoire" link="/JeuMemoryCards" />{" "}
+      <div className="container">
+        {items.map((item, index) => (
+          <Card key={index} item={item} id={index} handleClick={handleClick} />
+        ))}
+      </div>
     </div>
   );
 }
