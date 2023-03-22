@@ -17,7 +17,6 @@ import MapIcon from "@mui/icons-material/Map";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { CalendarMonthRounded } from "@mui/icons-material";
 /**
  * @returns la page d'accueuil contenant le logo et le menu principal
  * @constant show, setShow: React state, pour la fenêtre modale
@@ -44,7 +43,6 @@ export default function Home() {
     { name: "Recettes", icon: <RestaurantIcon /> },
     { name: "Carte", icon: <MapIcon /> },
     { name: "Shop", icon: <ShoppingCartIcon /> },
-    { name: "Calendrier", icon: <CalendarMonthRounded /> },
   ];
   return (
     <>
