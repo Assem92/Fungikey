@@ -338,3 +338,14 @@ image::forum.png[]
 
 image::tag.png[]
 
+== Version 1.3.0 ==
+
+Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
+
+- Première feature: Jeu de Memory
+
+Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
+
+image::memory.png[]
+
+
