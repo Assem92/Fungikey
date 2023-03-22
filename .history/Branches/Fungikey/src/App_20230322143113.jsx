@@ -24,8 +24,7 @@ import Incorrect from "./components/Jeu2/Incorrect";
 import Correct from "./components/Jeu2/Correct";
 import Forum from "./components/Forum/Forum";
 import Shop from "./components/Shop/Shop";
-import Cards from "./components/JeuMemoryCards/cards";
-import MushroomSeasonTracker from "./components/Calendrier/Calendrier";
+import Cards from "./components/JeuMemoryCards/Cards";
 
 import "./css/App.css";
 import "./css/index.css";
@@ -66,7 +65,6 @@ export default function App() {
         <Route path="/Correct" element={<Correct />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/JeuMemoryCards" element={<Cards />} />
-        <Route path="/Calendrier" element={<MushroomSeasonTracker />} />
       </Routes>
     </div>
   );
