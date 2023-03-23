@@ -16,15 +16,15 @@ h1{
   margin-bottom: 1em;
 }
 .containers{
-  height: 400px;
-  width: 400px;
+  height: 650px;
+  width: 650px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 1em;
 }
 
-.card{
+.card1{
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ h1{
     transform: rotateY(180deg);
   }
 }
-.card img{
+.card1 img{
   max-width: 60%;
   max-height: 60%;
   transition: transform 0.5s;
@@ -58,15 +58,15 @@ h1{
   }
 }
 
-.card.active{
+.card1.active{
   transform: rotateY(0);
 }
-.card.correct{
+.card1.correct{
   background-color: #65e469;
 }
-.card.wrong{
+.card1.wrong{
   background-color: #fd245a;
 }
-.card.active img{
+.card1.active img{
   transform: scale(1);
 }
