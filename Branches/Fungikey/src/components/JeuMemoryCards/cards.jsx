@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Card from "./Card";
 import "./file.css";
 
@@ -61,13 +62,19 @@ function Cards() {
     <div>
       {" "}
       <CustomNavbar title="Jeu carte de memoire" link="/JeuMemoryCards" />{" "}
+      
       <div className="containers">
         {items.map((item, index) => (
           <Card key={index} item={item} id={index} handleClick={handleClick} />
         ))}
+         <Link to="/">
+  <button className="button-retour">Retour</button>
+</Link>
       </div>
     </div>
   );
+
+
 }
 
 export default Cards;
