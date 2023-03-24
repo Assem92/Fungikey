@@ -26,6 +26,8 @@ import Forum from "./components/Forum/Forum";
 import Shop from "./components/Shop/Shop";
 import Cards from "./components/JeuMemoryCards/cards";
 import MushroomSeasonTracker from "./components/Calendrier/Calendrier";
+import ContactUs from "./components/contact/ContactUs";
+
 
 import "./css/App.css";
 import "./css/index.css";
@@ -67,6 +69,8 @@ export default function App() {
         <Route path="/Shop" element={<Shop />} />
         <Route path="/JeuMemoryCards" element={<Cards />} />
         <Route path="/Calendrier" element={<MushroomSeasonTracker />} />
+        <Route path="/contact" element={<ContactUs />} />
+
       </Routes>
     </div>
   );
