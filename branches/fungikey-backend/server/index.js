@@ -200,7 +200,7 @@ app.post('/api/products', (req, res) => {
   // Add the new product to the products array
   products.push(newProduct);
   // Write the updated product data to the JSON file
-  fs.writeFileSync('./assets/product.json', JSON.stringify(products));
+  fs.writeFileSync('./server/assets/product.json', JSON.stringify(products));
   // Send a response with the updated products array
   res.json(products);
 });
@@ -218,7 +218,7 @@ app.put('/api/products/:id/views', (req, res) => {
   products[productIndex].views++;
   
   // Write the updated product data to the JSON file
-  fs.writeFileSync('./assets/product.json', JSON.stringify(products));
+  fs.writeFileSync('./server/assets/product.json', JSON.stringify(products));
   
   // Send a response with the updated product
   res.json(products[productIndex]);

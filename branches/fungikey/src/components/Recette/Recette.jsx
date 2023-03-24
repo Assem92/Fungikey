@@ -48,7 +48,7 @@ export default function InteractiveList() {
               secondaryAction={
                 <IconButton edge="end" aria-label="delete">
                   <ArrowForwardIosIcon
-                    onClick={() => navigate("/Recette/" + x.id)}
+                    onClick={() => navigate("/Recettes/" + x.id)}
                   />
                 </IconButton>
               }

@@ -1,20 +1,14 @@
-import React from "react"; 
+import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { contactConfig } from "./option"
-
-
+import { contactConfig } from "./option";
+import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 export default function ContactUs() {
-  
-
   return (
+    <div>
+      <CustomNavbar title="Contactez nous" link="/" />
+      <br />
       <Container>
-     
-        <Row className="mb-5 mt-5">
-          <Col lg="8">
-            <h1 className="display-5 mb-5">Contactez-nous</h1>
-          </Col>
-        </Row>
         <Row className="sec_sp">
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-5">Restez en contact</h3>
@@ -36,16 +30,16 @@ export default function ContactUs() {
             <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <form  className="contact__form w-100">
+            <form className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
                   <input
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Nom" 
+                    placeholder="Nom"
                     type="text"
-                    required 
+                    required
                   />
                 </Col>
                 <Col lg="6" className="form-group">
@@ -54,8 +48,8 @@ export default function ContactUs() {
                     id="email"
                     name="email"
                     placeholder="Adresse mail"
-                    type="email" 
-                    required 
+                    type="email"
+                    required
                   />
                 </Col>
               </Row>
@@ -64,21 +58,31 @@ export default function ContactUs() {
                 id="message"
                 name="message"
                 placeholder="Ecrivez votre message"
-                rows="5" 
+                rows="5"
                 required
               ></textarea>
               <br />
               <Row>
                 <Col lg="6" className="form-group">
-                <Button className="btn btn-primary" type="submit" >Envoyer</Button>
-                <Link to="/">
-                <Button className="btn btn-retour" type="button"style={{width: "120px"}}> Retour </Button>
-                </Link>
+                  <Button className="btn btn-primary" type="submit">
+                    Envoyer
+                  </Button>
+                  <Link to="/">
+                    <Button
+                      className="btn btn-retour"
+                      type="button"
+                      style={{ width: "120px" }}
+                    >
+                      {" "}
+                      Retour{" "}
+                    </Button>
+                  </Link>
                 </Col>
               </Row>
             </form>
           </Col>
         </Row>
       </Container>
+    </div>
   );
 }
