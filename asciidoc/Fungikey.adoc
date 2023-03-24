@@ -20,16 +20,19 @@ image::logo.png[]
 
 
 
-Présentation : (contexte, problématique et gain attendu, motivation de l'équipe par rapport au sujet, concurrence / état de l'art de l'existant et placement par rapport à cela). 
 
+== Présentation ==
+
+=== Contexte ,problématique et gain attendu, motivation de l'équipe par rapport au sujet ===
 
 Le contexte de ce produit est une UE projet DevOps, à objectif professionnalisant et méthodologique au sein du Master 1 MIAGE à l’Université de Paris Nanterre. Ce projet se déroule sur 2 ans et a pour but de rendre un produit de qualité, avec documentation et plusieurs itérations avec des versions à rendre chaque semestre. L’application demandée est destinée à être utilisée par des étudiants en pharmacologie, des passionnés de fongiques et tout simplement un public général, avec des supports type smartphone (Android, iOS). L’application devra également être autonome, c’est-à-dire utilisable sans connexion, et permettra aux utilisateurs d’apprendre à identifier des champignons. Il n’y a pas de suite et maintenance prévue pour Fungikey 2024, ce dernier doit être déployable et utilisable à la fin de chaque itération. Cependant, l’application devrait pouvoir être maintenue, et le code lisible dans le cadre de la démarche qualité et professionnelle. Ce projet devra donc s’adapter aux besoins de l’utilisateur et à son environnement, pour étudier leurs instructions et les prendre en considération à chaque avancement. 
 
-
+=== concurrence / état de l'art de l'existant et placement par rapport à cela ===
 
 Il existe de nombreuses applications sur le marché dans le thème de la reconnaissance de champignons : Champignouf, Aux champignons, Picture Mushroom sont parmi les plus téléchargées sur le Play Store, chacun accumulant plus d'un million de téléchargements ; ils sont cependant axés pour des utilisateurs voulant cueillir des champignons, et non pour des étudiants. En effet, ces applications se concentrent plus sur une identification facile de champignons, comme par analyse d’image, plutôt qu’un fonctionnement par tableau avec des clés. Fungikey 2024 diffère par le contexte éducatif et académique : en effet, une petite partie de ces utilisateurs seront des étudiants en filière pharmacie. Ces derniers ont besoin d’apprendre à identifier des champignons, leurs familles, et à connaître leur toxicité, dans le cadre de leurs études. De plus, de nombreux champignons peuvent se ressembler, engendrant de possibles risques d'empoisonnement ; il faut alors une application permettant de les accompagner lors de TP où en forêt regroupant ces champignons dans leurs familles respectives, via leurs “clés”.
 
 
+=== Personas ===
 
 
 Persona et fonctionnalités de leur point de vue (haut niveau) : 
@@ -42,7 +45,7 @@ image::Photo3.jpg[]
 
 
 
-Prévisions marketing (comment prévoyez-vous de pousser votre projet auprès des utilisateurs, réseaux sociaux, enquêtes, flyers, site Web, etc) 
+=== Prévisions marketing (comment prévoyez-vous de pousser votre projet auprès des utilisateurs, réseaux sociaux, enquêtes, flyers, site Web, etc) ===
 
 Prévision marketing :  
 
@@ -52,7 +55,7 @@ Demander une permission aux mairies afin d’attacher des posters contenant un Q
 
 Contacter les départements scientifiques des facultés afin de proposer des partenariats pour que les étudiants et professeurs puissent en bénéficier. 
 
-==== Partie 2 : Aspects techniques ==== 
+== Partie 2 : Aspects techniques ==
 
 
 Type d'application (web, mobile) : 
@@ -84,7 +87,7 @@ Acquisition de données, usage intelligent des données (en prévision M2)
 
 -Référencement des champignons en fonction de la position.  
 
-=== Partie 3 : Modélisation ===
+== Partie 3 : Modélisation ==
 
 Diagrammes de séquence des interactions front/back (par feature, voir le back comme une boîte noire) 
 
@@ -97,7 +100,7 @@ image::Photo5.jpg[]
 
 
 
-=== Les Releases ===
+= Les Releases =
 
 == Version 0.1 ==
 
@@ -113,27 +116,23 @@ image::Photo6.jpg[]
 
 Dans cette nouvelle version (0.2), on a ajouté quatre nouvelles fonctionnalités dont deux grandes et deux petites. 
 
-- Première petite fonctionnalité : 
+- Première petite fonctionnalité : Amélioration de l’interface graphique
 
-Amélioration de l’interface graphique  
 
- 
 
-- Deuxième petite fonctionnalité : 
-
-Informations sur l’anatomie d’un champignon en général. 
+- Deuxième petite fonctionnalité : Informations sur l’anatomie d’un champignon en général. 
 
 image::Photo7.jpg[]
 
 Première grande fonctionnalité : Barre de recherche 
 
-Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
+    Une barre de recherche qui nous permet de rechercher un champignon spécifique en saisissant son nom au lieu de parcourir toute la liste des champignons 
 
 image::Photo8.jpg[]
 
 - Deuxième grande fonctionnalité : Liste de champignons 
 
-Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
+    Une liste qui contient tous les champignons avec leurs images et caractéristiques. 
 
 image::Photo9.jpg[]
 
@@ -143,15 +142,11 @@ Dans cette nouvelle version, de nouvelles fonctionnalités ont été ajoutés av
 
 - Première feature: L'identification des champignons. 
 
-Cette fonctionnalité facilite la recherche d’un champignon en spécifiant ses critères, L'identificator permet aussi de rechercher un champignon en saisissant son nom. 
-
-Et pas que ! il en choisissant les filtres, l'utilisateur va ensuite sélectionner pour chaque filtre le type du critère recherché : le type du chapeau par exemple. 
-
-Donc cela permet vraiment à avoir une recherche très précise. 
-
-Sur le menu principal on clique sur le bouton identification 
-
-On sera redirigé vers une page qui nous donne des informations générales sur l’anatomie d’un champignon. En haut à droite, un bouton qui permet d’afficher une barre latérale qui contient des liens vers l’identificator et un raccourci pour les filtres disponibles sur ce dernier. 
+    Cette fonctionnalité facilite la recherche d’un champignon en spécifiant ses critères, L'identificator permet aussi de rechercher un champignon en saisissant son nom. 
+    Et pas que ! il en choisissant les filtres, l'utilisateur va ensuite sélectionner pour chaque filtre le type du critère recherché : le type du chapeau par exemple. 
+    Donc cela permet vraiment à avoir une recherche très précise. 
+    Sur le menu principal on clique sur le bouton identification 
+    On sera redirigé vers une page qui nous donne des informations générales sur l’anatomie d’un champignon. En haut à droite, un bouton qui permet d’afficher une barre latérale qui contient des liens vers l’identificator et un raccourci pour les filtres disponibles sur ce dernier. 
 
 image::Photo10.jpg[]
 
@@ -162,13 +157,10 @@ image::Photo11.jpg[]
 
 - Deuxième feature: Jeu champignons par famille:  
 
-Ce quizz est conçu pour apprendre à identifier les champignons de manière ludique. 
-
-Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
-
-On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
-
-On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du quizz  
+    Ce quizz est conçu pour apprendre à identifier les champignons de manière ludique. 
+    Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+    On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+    On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du quizz  
 
 Diagramme de séquence de jeu par famille :
 
@@ -177,17 +169,18 @@ image::Photo13.jpg[]
 
 - Troisième feature: Amélioration de la navigation (Barre latérale droite) 
 
-Une barre en haut à droite de la page d’identification et jeux pour faciliter la navigation sur l’application. 
+    Une barre en haut à droite de la page d’identification et jeux pour faciliter la navigation sur l’application. 
 
 - Quatrième feature: Les filtres de recherche 
 
-Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
+    Sur la page d’identificator, on trouve plusieurs filtres qui facilitent la recherche de champignons au cas où on ne connait pas le nom de ces derniers 
 
 - Diagramme de classe de la release :
 
 image::PhotoX.jpg[]
 
-=== Api ===
+- Api 
+
 image::api.png[]
 
 == Version 0.4 ==
@@ -196,30 +189,23 @@ Dans cette nouvelle version, nous avons eu a ajouté de nouvelles fonctionnalit�
 
 - Première feature: Jeu par champignons:
 
-Ce jeu est conçu pour apprendre à identifier les champignons de manière simple. 
-
-Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
-
-On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
-
-On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un jeu assez basique qui genere diffenrt type de champigons et c'est à l'utilisateur de deviner le champignons.   
+    Ce jeu est conçu pour apprendre à identifier les champignons de manière simple. 
+    Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+    On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+    On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un jeu assez basique qui genere diffenrt type de champigons et c'est à l'utilisateur de deviner le champignons.   
 
 image::Jeu_famille.png[]
 
-et son diagramme de classe et donc : 
 
 image::Champi.png[]
 
 
 - Deuxième feature: Jeu 4 images 1 mot:
 
-Ce jeu est conçu pour apprendre à identifier visuellement les champignons de manière simple. 
-
-Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
-
-On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
-
-On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un choix de 4 images dont une seul est correcte. Si on appuis sur la fausse reponse, on obtinent un message d'erreur et dans le cas contraire, un message de félicitations. On a également la possibilité de recommencer.
+    Ce jeu est conçu pour apprendre à identifier visuellement les champignons de manière simple. 
+    Dans le menu sur la page d’accueil on clique sur le bouton “Jeux”. 
+    On sera redirigé vers une nouvelle page qui donne des explications sur le fonctionnement 
+    On clique alors sur la barre latérale droite puis on clique sur le lien qui porte le nom  du jeu en question. On pourra alors avoir un choix de 4 images dont une seul est correcte. Si on appuis sur la fausse reponse, on obtinent un message d'erreur et dans le cas contraire, un message de félicitations. On a également la possibilité de recommencer.
 
 image::4images.png[]
 
@@ -229,7 +215,7 @@ image::recherche.png[]
 
 - Quatrième feature: Filtres de la recherche pour la liste des champignons complementaire :
 
-Sur cette page, on a differents filtres qui permettent de faciliter la recherche en fonction de diffents critères
+    Sur cette page, on a differents filtres qui permettent de faciliter la recherche en fonction de diffents critères
 
 image::Filtre.png[]
 
@@ -243,32 +229,31 @@ image::indentificator_complementaire.png[]
 
 image::diagramme.png[]
 
-
-=== Api ===
+- Api
 
 image::Docu_Release.png[]
 
-== Version 1.α ==
+== Version 1.0.0 ==
 
 Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
 
 - Première feature: Option de tri:
 
-Cette fonctionnalité permet de connaitre son champignon à partir de son chapeau et par sa couleur
+    Cette fonctionnalité permet de connaitre son champignon à partir de son chapeau et par sa couleur
 
 image::tri.png[]
 
 
 - Deuxième feature: Recherche de champignons:
 
-Elle permet d'effectuer la recherche de champignon selon la forme
+    Elle permet d'effectuer la recherche de champignon selon la forme
 
 image::forme.png[]
 
 
 - Troisième feature: Les recettes : 
 
-La présentation de recettes à partir de champignons
+    La présentation de recettes à partir de champignons
 
 image::recette.png[]
 
@@ -278,7 +263,7 @@ image::diagramme_Sequence.png[]
 
 - Quatrième feature: Reseaux sociaux : 
 
-Amélioration de la page Home en ajoutant nos reseaux sociaux
+    Amélioration de la page Home en ajoutant nos reseaux sociaux
 
 image::Reseaux_sociaux.png[]
 
@@ -294,7 +279,7 @@ image::Docu_Release1.png[]
 == Version 1.1.0 ==
 
 
-- Première feature: Afficher une carte avec la localisation de l'utilisateur:
+=== Première feature: Afficher une carte avec la localisation de l'utilisateur: ===
 
     les coordonnées GPS de l'utilisateur sont détectés automatiquement est affiché sur la carte.
    
@@ -302,15 +287,15 @@ image::Docu_Release1.png[]
 image::map.png[]
 
 
-- Deuxième feature: Afficher les 3 champignons les plus proches de l'utilisateur.
+=== Deuxième feature: Afficher les 3 champignons les plus proches de l'utilisateur. ===
 
 
 
 image::map.png[]
 
-- troisième feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur : 
+=== troisième feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur . ===
 
-L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
+    L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
 
 - Affichage des informations des champignons détectées:
 
@@ -318,69 +303,81 @@ L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, le
     
 == Version 1.2.0 ==
     
-- Première feature: Visualiser les messages postés sur le forum pour découvrir les discussions en cours et les sujets d'intérêt
+=== Première feature: Visualiser les messages postés sur le forum pour découvrir les discussions en cours et les sujets d'intérêt ===
    
 
 image::forum1.png[]
 
 
-- Deuxième feature: Interagir avec les messages du forum en utilisant des boutons de like ou dislike pour exprimer votre avis ou vos préférences
+==== Deuxième feature: Interagir avec les messages du forum en utilisant des boutons de like ou dislike pour exprimer votre avis ou vos préférences ===
 
 
 image::like.png[]
 
-- troisième feature: Permettre aux utilisateurs d'ajouter leurs propres messages sur le forum pour partager leurs questions, opinions ou expériences
+=== troisième feature: Permettre aux utilisateurs d'ajouter leurs propres messages sur le forum pour partager leurs questions, opinions ou expériences ===
 
 image::forum.png[]
 
 
-- Quatrième feature: Ajouter un système de "tag" pour classer et organiser les messages du forum en fonction de différents thèmes, sujets ou catégories
+=== Quatrième feature: Ajouter un système de "tag" pour classer et organiser les messages du forum en fonction de différents thèmes, sujets ou catégories ===
 
 image::tag.png[]
+
+
+=== 5éme feature : Amélioration de l'ergonomie de la page d'accueil. ===
+
+    l'ajout de boutons améliorés contenant des icônes, pour une navigation plus intuitive et plus rapide
+    Les nouveaux boutons remplacent les boutons textuels ordinaires pour une expérience utilisateur plus visuelle et conviviale, ce qui facilite la compréhension et l'utilisation de l'application.
+
+image::img/v1.2.0/HomeImprove.png[]
+
 
 == Version 1.3.0 ==
 
 Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
 
-- 1ere feature: Jeu de Memory
+=== 1ere feature: Jeu de Memory ===
 
     Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
 
 image::memory.png[]
 
-- 2eme feature: Rubrique Contact
+=== 2eme feature: Rubrique Contact ===
 
     Cette page fournit des informations sur la façon de nous contacter. Elle inclut une adresse e-mail, un numéro de téléphone, une adresse postale, un formulaire de contact en ligne et des liens vers nos réseaux sociaux. Cette rubrique est  utilisée pour permettre aux clients, aux partenaires ou aux utilisateurs de poser des questions, de signaler des problèmes ou de demander de l'aide.
 
 image::contact.png[]
 
-- 3eme feature: Ajouter une section "Shopping" pour découvrir et acheter des produits en rapport avec les champignons (livres de cuisine, équipement de cueillette, décorations,     etc.)
+=== 3eme feature: Ajouter une section "Shopping" ===
+
+    découvrir et acheter des produits en rapport avec les champignons (livres de cuisine, équipement de cueillette, décorations, etc.) 
+    Diriger les utilisateurs vers des sites de vente en ligne tiers, tels qu'Amazon, pour effectuer l'achat et le paiement en toute sécurité
 
 image::img/v1.3.0/Shopping.png[]
 
-- 4eme feature: Diriger les utilisateurs vers des sites de vente en ligne tiers, tels qu'Amazon, pour effectuer l'achat et le paiement en toute sécurité
-   
-image::img/v1.3.0/ShoppingButtonRederiger.png[]
 
-- 5eme feature: Permettre a l'utilisateur de rechercher des produits dans le Shop 
+=== 4eme feature: Permettre a l'utilisateur de rechercher des produits dans le Shop  ===
 
    en utilisant une barre de recherche l'utilisateur peut trouver rapidement des produits spécifiques en utilisant des mots-clés ou des catégories.
 
 image::img/v1.3.0/ShoppingBarreRecherche.png[]
 
 
-- 6eme feature: Visualiser le nombre de visites pour chaque produit. 
+=== 5eme feature: Visualiser le nombre de visites pour chaque produit et le nombre d'etoiles ===
     
-     permettre aux utilisateurs de voir combien de fois un produit a été consulté, ce qui peut donner une idée de la popularité ou de l'intérêt suscité par le produit. ce nombre augmente a chauque fois un produit est visité.
+    permettre aux utilisateurs de voir combien de fois un produit a été consulté, ce qui peut donner une idée de la popularité ou de l'intérêt suscité par le produit. ce nombre augmente a chaque fois un produit est visité.
+    Ajout d'un système de notation par etoile pour les produits présentés dans la section Shopping 
+
    
 
 image::img/v1.3.0/ShoppingViews.png[]
 
-- 7eme feature: Ajout d'un système de notation par etoile pour les produits présentés dans la section Shopping
-   
 image::img/v1.3.0/ShoppingStars.png[]
 
 
-- 8eme feature: Ajout d'un calendrier des champignons qui affiche les champignons disponibles chaque jour, en fonction de la saison et des conditions météorologiques, 
 
-    Le calendrier est un outil pratique pour les utilisateurs qui cherchent à trouver les meilleurs endroits pour la cueillette ou à planifier une sortie en fonction des conditions météorologiques et de la saison.
+=== 6eme feature: Ajout d'un calendrier des champignons. ===
+
+    un calendrier des champignons qui affiche les champignons disponibles chaque jour , c'est un outil pratique pour les utilisateurs qui cherchent  à planifier une sortie en fonction des conditions météorologiques et de la saison.
+
+image::img/v1.3.0/Calender.jpeg[]
