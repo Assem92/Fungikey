@@ -5,6 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import './components/contact/contact.css'; 
+
 
 <link
   rel="stylesheet"
