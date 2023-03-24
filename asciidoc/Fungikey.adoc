@@ -342,15 +342,15 @@ image::tag.png[]
 
 Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
 
-- 1ere feature: Jeu de Memory
+- 1ère feature: Jeu de Memory
 
-    Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
+Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
 
 image::memory.png[]
 
-- 2eme feature: Rubrique Contact
+- 2ème feature: Rubrique Contact
 
-    Cette page fournit des informations sur la façon de nous contacter. Elle inclut une adresse e-mail, un numéro de téléphone, une adresse postale, un formulaire de contact en ligne et des liens vers nos réseaux sociaux. Cette rubrique est  utilisée pour permettre aux clients, aux partenaires ou aux utilisateurs de poser des questions, de signaler des problèmes ou de demander de l'aide.
+Cette page fournit des informations sur la façon de nous contacter. Elle inclut une adresse e-mail, un numéro de téléphone, une adresse postale, un formulaire de contact en ligne et des liens vers nos réseaux sociaux. Cette rubrique est  utilisée pour permettre aux clients, aux partenaires ou aux utilisateurs de poser des questions, de signaler des problèmes ou de demander de l'aide.
 
 image::contact.png[]
 
