@@ -354,4 +354,16 @@ Cette page fournit des informations sur la façon de nous contacter. Elle inclut
 
 image::contact.png[]
 
+- Troisiémé feature: Shopping  
+   Ajouter une section "Shopping" pour découvrir et acheter des produits en rapport avec les champignons (livres de cuisine, équipement de cueillette, décorations,     etc.)
+   
+   Intégrer une fonctionnalité de recherche pour trouver rapidement des produits spécifiques en utilisant des mots-clés ou des catégories
+Afficher des suggestions de produits pertinents en fonction des produits visualisés ou des préférences des utilisateurs
 
+   Diriger les utilisateurs vers des sites de vente en ligne tiers, tels qu'Amazon, pour effectuer l'achat et le paiement en toute sécurité
+
+   Ajout d'un système de notation pour les produits présentés dans la section Shopping, permettant aux utilisateurs de donner leur avis sur les produits à l'aide d'un système d'étoiles
+   
+Ajout d'un compteur de vues pour chaque produit, pour permettre aux utilisateurs de voir combien de fois un produit a été consulté, ce qui peut donner une idée de la popularité ou de l'intérêt suscité par le produit
+
+-  feature: Calendrier des champignons
