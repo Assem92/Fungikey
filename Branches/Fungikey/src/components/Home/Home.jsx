@@ -49,13 +49,11 @@ export default function Home() {
   return (
     <>
       <br />
-      <br />
-      <br />
       <Image
         fluid
         src="/fungikeyLogo.png"
         alt="logo"
-        style={{ width: "70vw" }}
+        style={{ width: "60%" }}
       ></Image>
       <br />
       <br />

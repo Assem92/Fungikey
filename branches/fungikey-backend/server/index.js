@@ -196,6 +196,7 @@ app.post('/api/products', (req, res) => {
   const newProduct = req.body;
   // Generate a unique ID for the new product
   newProduct.id = Math.floor(Math.random() * 1000000);
+  newProduct.views =0;
   // Add the new product to the products array
   products.push(newProduct);
   // Write the updated product data to the JSON file
