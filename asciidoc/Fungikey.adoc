@@ -1,6 +1,6 @@
 = Fungikey v1.3.0 =
 :author: Groupe fungikey
-:revnumber: v1.2.0
+:revnumber: v1.3.0
 :revdate: 2023-03
 :lang: fr
 :doctype: book
@@ -342,28 +342,45 @@ image::tag.png[]
 
 Dans cette nouvelle version, nous avons eu a ajouté de nouveau features ainsi que l'amélioration des anciennes. Nous avons notamment: 
 
-- Première feature: Jeu de Memory
+- 1ere feature: Jeu de Memory
 
-Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
+    Les cartes sont disposées face cachée et les joueurs doivent en retourner deux à la fois pour essayer de trouver des paires correspondantes. Si deux cartes retournées sont identiques, les deux restent affichés, sinon, les cartes sont retournées à leur position initiale et le joueur suivant prend son tour. Le jeu se termine lorsque toutes les paires ont été trouvées. 
 
 image::memory.png[]
 
-- Deuxième feature: Rubrique Contact
+- 2eme feature: Rubrique Contact
 
-Cette page fournit des informations sur la façon de nous contacter. Elle inclut une adresse e-mail, un numéro de téléphone, une adresse postale, un formulaire de contact en ligne et des liens vers nos réseaux sociaux. Cette rubrique est  utilisée pour permettre aux clients, aux partenaires ou aux utilisateurs de poser des questions, de signaler des problèmes ou de demander de l'aide.
+    Cette page fournit des informations sur la façon de nous contacter. Elle inclut une adresse e-mail, un numéro de téléphone, une adresse postale, un formulaire de contact en ligne et des liens vers nos réseaux sociaux. Cette rubrique est  utilisée pour permettre aux clients, aux partenaires ou aux utilisateurs de poser des questions, de signaler des problèmes ou de demander de l'aide.
 
 image::contact.png[]
 
-- Troisiémé feature: Shopping  
-   Ajouter une section "Shopping" pour découvrir et acheter des produits en rapport avec les champignons (livres de cuisine, équipement de cueillette, décorations,     etc.)
+- 3eme feature: Ajouter une section "Shopping" pour découvrir et acheter des produits en rapport avec les champignons (livres de cuisine, équipement de cueillette, décorations,     etc.)
+
+image::img/v1.3.0/Shopping.png[]
+
+- 4eme feature: Diriger les utilisateurs vers des sites de vente en ligne tiers, tels qu'Amazon, pour effectuer l'achat et le paiement en toute sécurité
    
-   Intégrer une fonctionnalité de recherche pour trouver rapidement des produits spécifiques en utilisant des mots-clés ou des catégories
-Afficher des suggestions de produits pertinents en fonction des produits visualisés ou des préférences des utilisateurs
+image::img/v1.3.0/ShoppingButtonRederiger.png[]
 
-   Diriger les utilisateurs vers des sites de vente en ligne tiers, tels qu'Amazon, pour effectuer l'achat et le paiement en toute sécurité
+- 5eme feature: Permettre a l'utilisateur de rechercher des produits dans le Shop 
 
-   Ajout d'un système de notation pour les produits présentés dans la section Shopping, permettant aux utilisateurs de donner leur avis sur les produits à l'aide d'un système d'étoiles
+   en utilisant une barre de recherche l'utilisateur peut trouver rapidement des produits spécifiques en utilisant des mots-clés ou des catégories.
+
+image::img/v1.3.0/ShoppingBarreRecherche.png[]
+
+
+- 6eme feature: Visualiser le nombre de visites pour chaque produit. 
+    
+     permettre aux utilisateurs de voir combien de fois un produit a été consulté, ce qui peut donner une idée de la popularité ou de l'intérêt suscité par le produit. ce nombre augmente a chauque fois un produit est visité.
    
-Ajout d'un compteur de vues pour chaque produit, pour permettre aux utilisateurs de voir combien de fois un produit a été consulté, ce qui peut donner une idée de la popularité ou de l'intérêt suscité par le produit
 
--  feature: Calendrier des champignons
+image::img/v1.3.0/ShoppingViews.png[]
+
+- 7eme feature: Ajout d'un système de notation par etoile pour les produits présentés dans la section Shopping
+   
+image::img/v1.3.0/ShoppingStars.png[]
+
+
+- 8eme feature: Ajout d'un calendrier des champignons qui affiche les champignons disponibles chaque jour, en fonction de la saison et des conditions météorologiques, 
+
+    Le calendrier est un outil pratique pour les utilisateurs qui cherchent à trouver les meilleurs endroits pour la cueillette ou à planifier une sortie en fonction des conditions météorologiques et de la saison.
