@@ -205,6 +205,25 @@ app.post('/api/products', (req, res) => {
   res.json(products);
 });
 
+// PUT request to update the views of a product by ID
+app.put('/api/products/:id/views', (req, res) => {
+  const productId = req.params.id;
+  const productIndex = products.findIndex(product => product.id === productId);
+  
+  if (productIndex === -1) {
+    res.status(404).send(`Product with ID ${productId} not found`);
+    return;
+  }
+  
+  products[productIndex].views++;
+  
+  // Write the updated product data to the JSON file
+  fs.writeFileSync('./assets/product.json', JSON.stringify(products));
+  
+  // Send a response with the updated product
+  res.json(products[productIndex]);
+});
+
 
 //periodes
 // GET request to retrieve all products
