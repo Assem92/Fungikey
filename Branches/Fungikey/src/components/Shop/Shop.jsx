@@ -12,6 +12,8 @@ import {
 } from "@mui/material";
 import CustomNavbar from "../utilities/NavBar/CustomNavbar";
 import { ArrowForward } from "@mui/icons-material";
+import { Visibility } from "@mui/icons-material";
+import { Rating } from "@mui/material";
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
@@ -29,8 +31,17 @@ export default function Shop() {
       .catch((error) => setError("Error fetching products"));
   }, []);
 
-  const handleBuyNowClick = (url) => {
+  const handleBuyNowClick = (url, productId) => {
     window.location.href = url;
+    fetch(`/api/products/${productId}/views`, { method: "PUT" })
+      .then((response) => response.json())
+      .then((data) => {
+        const updatedProducts = [...products];
+        const index = updatedProducts.findIndex((p) => p.id === productId);
+        updatedProducts[index] = data;
+        setProducts(updatedProducts);
+      })
+      .catch((error) => console.error("Error updating views:", error));
   };
 
   const handleSearch = (e) => {
@@ -84,17 +95,29 @@ export default function Shop() {
                 <Typography variant="h6" gutterBottom>
                   €{product.price}
                 </Typography>
-                <Chip
-                  label={`${product.rating} stars`}
-                  color="primary"
-                  sx={{ marginTop: 1 }}
+                <Rating
+                  name="product-rating"
+                  value={product.rating}
+                  precision={0.5}
+                  readOnly
                 />
-                <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <Chip
+                    label={
+                      <Typography variant="body2">
+                        {product.views} <Visibility />
+                      </Typography>
+                    }
+                    color="default"
+                    sx={{ mt: 1, mr: "auto" }}
+                  />
                   <Tooltip title="Visiter le siteweb">
                     <Button
                       variant="contained"
                       color="primary"
-                      onClick={() => handleBuyNowClick(product.link)}
+                      onClick={() =>
+                        handleBuyNowClick(product.link, product.id)
+                      }
                       endIcon={<ArrowForward />}
                     >
                       Acheter
