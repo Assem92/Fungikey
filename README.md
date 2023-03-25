@@ -28,9 +28,9 @@ Afin de lancer l'application, il convient de suivre quelques étapes:
 
 1. Ouvrir un terminal, faire un `git clone https://github.com/Assem92/Fungikey` sur votre Desktop.
 
-2. Après avoir cloner le repo sur votre machine, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application.
+2. Après avoir cloner le repository sur votre machine, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application.
 
-3. Une fois l'installation fini, se rendre dans le dossier `branches/fungikey-backend`, et lancer les commandes suivants sur le Terminal:
+3. Une fois l'installation finie, se rendre dans le dossier `branches/fungikey-backend`, et lancer les commandes suivants sur le Terminal:
 
 ```
 npm install
