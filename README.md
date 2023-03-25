@@ -22,11 +22,11 @@ Cette section liste les principaux frameworks/bibliothèques utilisés pour dém
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
 - [![JQuery][jquery.com]][jquery-url]
 
-## Manuel d'installation et d'utilisation
+## Manuel d'installation et d'utilisation:
 
 Afin de lancer l'application, il convient de suivre quelques étapes:
 
-1. ouvrez un terminal faites un `git clone https://github.com/Assem92/Fungikey` sur votre Desktop.
+1. Ouvrir un terminal, faire un `git clone https://github.com/Assem92/Fungikey` sur votre Desktop.
 
 2. Après avoir cloner le repo sur votre machine, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application.
 
