@@ -39,7 +39,7 @@ npm start
 
 cela va lancer le backend NodeJS sur le port 3001 : `http://localhost:3001/`
 
-4. se rendre dans le dossier `branches/fungikey`, et lancer les commandes suivants sur le Terminal:
+4. Se rendre dans le dossier `branches/fungikey`, et lancer les commandes suivantes sur le Terminal:
 
 ```
 npm install
@@ -50,7 +50,7 @@ cela va lancer le frontend React sur le port 3000 : `http://localhost:3000/`
 
 ## API
 
-pour voir la documentation detaillé de l'API avec Swagger il faut lancer le backend comment il est expliquer dans la section precedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
+Pour voir la documentation détaillé de l'API avec Swagger il faut lancer le backend comment il est expliquer dans la section precedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
 
 les differents routes de l'API:
   - `api/champi/` : get mushroom list
