@@ -50,9 +50,9 @@ cela va lancer le frontend React sur le port 3000 : `http://localhost:3000/`
 
 ## API
 
-Pour voir la documentation détaillé de l'API avec Swagger il faut lancer le backend comment il est expliquer dans la section precedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
+Pour voir la documentation détaillée de l'API avec Swagger il faut lancer le backend comment il expliqué dans la section précedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
 
-les differents routes de l'API:
+les différentes routes de l'API:
   - `api/champi/` : get mushroom list
   - `api/champi/{id}` : get mushroom by id
   - `api/familleChampi/` : get mushroom familly list
