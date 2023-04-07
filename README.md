@@ -22,15 +22,15 @@ Cette section liste les principaux frameworks/bibliothèques utilisés pour dém
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
 - [![JQuery][jquery.com]][jquery-url]
 
-## Manuel d'installation et d'utilisation
+## Manuel d'installation et d'utilisation:
 
 Afin de lancer l'application, il convient de suivre quelques étapes:
 
-1. ouvrez un terminal faites un `git clone https://github.com/Assem92/Fungikey` sur votre Desktop.
+1. Ouvrir un terminal, faire un `git clone https://github.com/Assem92/Fungikey` sur votre Desktop.
 
-2. Après avoir cloner le repo sur votre machine, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application.
+2. Après avoir cloner le repository sur votre machine, il faudra télécharger et installer le package [nodeJS](https://nodejs.org/fr/download/current/), élément important pour lancer l'application.
 
-3. Une fois l'installation fini, se rendre dans le dossier `branches/fungikey-backend`, et lancer les commandes suivants sur le Terminal:
+3. Une fois l'installation finie, se rendre dans le dossier `branches/fungikey-backend`, et lancer les commandes suivants sur le Terminal:
 
 ```
 npm install
@@ -39,7 +39,7 @@ npm start
 
 cela va lancer le backend NodeJS sur le port 3001 : `http://localhost:3001/`
 
-4. se rendre dans le dossier `branches/fungikey`, et lancer les commandes suivants sur le Terminal:
+4. Se rendre dans le dossier `branches/fungikey`, et lancer les commandes suivantes sur le Terminal:
 
 ```
 npm install
@@ -50,9 +50,9 @@ cela va lancer le frontend React sur le port 3000 : `http://localhost:3000/`
 
 ## API
 
-pour voir la documentation detaillé de l'API avec Swagger il faut lancer le backend comment il est expliquer dans la section precedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
+Pour voir la documentation détaillée de l'API avec Swagger il faut lancer le backend comment il expliqué dans la section précedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
 
-les differents routes de l'API:
+les différentes routes de l'API:
   - `api/champi/` : get mushroom list
   - `api/champi/{id}` : get mushroom by id
   - `api/familleChampi/` : get mushroom familly list
