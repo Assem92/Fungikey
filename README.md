@@ -64,7 +64,7 @@ les différentes routes de l'API:
 
 - [Assem AOUSSAR](https://github.com/Assem92)
 - [Omar EL FACHATI](https://github.com/ofachati)
-- Kemokoba BAYO
+- [Kemokoba BAYO](https://github.com/Kems93)
 - [Ghenima OULD AHMED](https://github.com/ghenima-ouldahmed)
 - [Mohamed KONATE](https://github.com/MohamedKonate)
 
