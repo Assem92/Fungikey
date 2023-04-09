@@ -67,8 +67,8 @@ export default function Home() {
             <Modal.Title>Attention!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            Cette application ne remplace pas l'avis d'un expert. Risque
-            d'intoxication sévère.
+            Cette application ne remplace pas l'avis d'un expert. L'utilisation exclusive ce cette application pourrait entraîner 
+              un risque élevé d'intoxication sévère.
             <br />
             <a href="https://www.anses.fr/fr/content/la-saison-des-champignons-en-avance-cette-année-soyez-vigilant-face-aux-risques-d">
               Site de l'Anses
