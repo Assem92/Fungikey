@@ -6,6 +6,7 @@
 :doctype: book
 :encoding: utf-8
 :ascii-ids:
+:figure-caption!:
 
 == Titre du projet : Application mobile autour des champignons. ==
 
@@ -279,7 +280,7 @@ image::Docu_Release1.png[]
 == Version 1.1.0 ==
 
 
-=== Première feature: Afficher une carte avec la localisation de l'utilisateur: ===
+=== 1ére feature: Afficher une carte avec la localisation de l'utilisateur: ===
 
     les coordonnées GPS de l'utilisateur sont détectés automatiquement est affiché sur la carte.
    
@@ -287,20 +288,28 @@ image::Docu_Release1.png[]
 image::map.png[]
 
 
-=== Deuxième feature: Afficher les 3 champignons les plus proches de l'utilisateur. ===
+=== 2éme feature: Afficher les 3 champignons les plus proches de l'utilisateur. ===
 
 
 
 image::map.png[]
 
-=== troisième feature: Permettre l'utilisateur à ajouter un champ par l'utilisateur . ===
+=== 3éme feature: Permettre à  l'utilisateur de declaré une cueillette ===
 
     L'utilisateur clique sur le bouton flottant (+) en bas à droite de la carte, les cordonnées GPS sont automatiquement détecté, puis l'utilisateur doit choisir le type du champignon détecté et valider le formulaire.
 
-- Affichage des informations des champignons détectées:
+=== 4éme feature: Affichage des informations des cueillettes:
 
     Quand l'utilisateur clique sur un champignon sur la carte , une fiche d'information est affiché , cette derniére contien la longitude , latitude est le type de champignion.
     
+=== Diagramme des composants ReactJS:
+
+image::img/v1.1.0/Components_Diag.png[title= "Arbre des composants ReactJS pour v1.1.0"]
+
+=== Diagramme API:
+
+image::img/v1.1.0/API_Diag.png[title= "Diagramme de l'architecture API pour v1.1.0 "]
+
 == Version 1.2.0 ==
     
 === Première feature: Visualiser les messages postés sur le forum pour découvrir les discussions en cours et les sujets d'intérêt ===
@@ -330,6 +339,16 @@ image::tag.png[]
     Les nouveaux boutons remplacent les boutons textuels ordinaires pour une expérience utilisateur plus visuelle et conviviale, ce qui facilite la compréhension et l'utilisation de l'application.
 
 image::img/v1.2.0/HomeImprove.png[]
+
+
+=== Diagramme des composants ReactJS:
+
+image::img/v1.2.0/Components_Diag.png[title= "Arbre des composants ReactJS pour v1.2.0"]
+
+=== Diagramme API:
+
+image::img/v1.2.0/API_Diag.png[title= "Diagramme de l'architecture API pour v1.2.0 "]
+
 
 
 == Version 1.3.0 ==
@@ -381,3 +400,12 @@ image::img/v1.3.0/ShoppingStars.png[]
     un calendrier des champignons qui affiche les champignons disponibles chaque jour , c'est un outil pratique pour les utilisateurs qui cherchent  à planifier une sortie en fonction des conditions météorologiques et de la saison.
 
 image::img/v1.3.0/Calender.jpeg[]
+
+
+=== Diagramme des composants ReactJS:
+
+image::img/v1.3.0/Components_Diag.png[title= "Diagramme des composants ReactJS pour v1.3.0"]
+
+=== Diagramme API:
+
+image::img/v1.3.0/API_Diag.png[title= "Diagramme de l'architecture API pour v1.3.0 "]
