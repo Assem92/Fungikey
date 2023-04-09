@@ -48,6 +48,42 @@ npm start
 
 cela va lancer le frontend React sur le port 3000 : `http://localhost:3000/`
 
+
+## Conteneurisation
+
+Ce projet peut être facilement exécuté dans un conteneur Docker. Pour ce faire, suivez les étapes ci-dessous :
+
+1. Assurez-vous que Docker est installé sur votre machine. Vous pouvez télécharger Docker [ici](https://www.docker.com/get-started).
+
+2. Construisez l'image Docker en exécutant les commandes suivantes dans votre terminal :
+
+```
+docker build -t fungikey-backend -f fungikey-backend/Dockerfile fungikey-backend
+docker build -t fungikey-frontend -f Fungikey/Dockerfile Fungikey
+
+```
+
+Assurez-vous d'être dans le répertoire racine du projet lors de l'exécution de cette commande.
+
+3. Une fois l'image construite, lancez le conteneur en exécutant la commande suivante :
+
+```
+docker run -p 3000:3000 fungikey-frontend
+docker run -p 3001:3001 fungikey-backend
+```
+
+Ces commande exposera le port 3000 du conteneur Docker sur le port 3000 de votre machine locale pour le frontend et exposera le port 3001 du conteneur Docker sur le port 3001 de votre machine locale pour le backend . 
+
+Vous pouvez modifier les ports exposés en fonction de vos besoins.
+
+4. Ouvrez votre navigateur et accédez à `http://localhost:3000` pour accéder à l'application.
+
+Vous êtes maintenant prêt à utiliser l'application dans un environnement conteneurisé !
+
+Si vous souhaitez arrêter le conteneur, vous pouvez le faire en utilisant la commande `docker stop [nom ou ID du conteneur]`.
+
+N'oubliez pas de remplacer "nom-de-l-image" par le nom que vous avez donné à votre image Docker.
+
 ## API
 
 Pour voir la documentation détaillée de l'API avec Swagger il faut lancer le backend comment il expliqué dans la section précedente , puis il faut visiter le lien `http://localhost:3001/api-docs/`
@@ -59,14 +95,15 @@ les différentes routes de l'API:
   - `api/familleComplementaires/` : get mushroom complementary familly list
   - `api/recette/` : get recipe list
   - `api/recette/{id}` : get recipe by id
-
-## Auteurs
-
-- [Assem AOUSSAR](https://github.com/Assem92)
-- [Omar EL FACHATI](https://github.com/ofachati)
-- [Kemokoba BAYO](https://github.com/Kems93)
-- [Ghenima OULD AHMED](https://github.com/ghenima-ouldahmed)
-- [Mohamed KONATE](https://github.com/MohamedKonate)
+  - `/closest-points/:latitude/:longitude` : Returns the 3 closest champigions
+  - `/location` : POST - Adds a new location of champignons
+  - `/posts` : GET - Returns all the posts on the forum
+  - `/posts` : POST - Adds a new post
+  - `/products` : POST - Ajoute un nouveau produit
+  - `/products/:id` : PUT  - Met à jour le produit par ID
+  - `/products/:id` : DELETE {} - Supprime le produit par ID
+  - `/periodes` : GET - Returns all the periode data
+  - `/periodes/:id` : GET  - Returns the periode data for the specified id
 
 ## Contributions
 
@@ -85,6 +122,14 @@ Si vous avez une suggestion qui améliorerait cela, veuillez bifurquer le dépô
 ## License
 
 Distribuée sous la licence [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Voir le fichier LICENSE pour plus d'informations.
+
+## Auteurs
+
+- [Assem AOUSSAR](https://github.com/Assem92)
+- [Omar EL FACHATI](https://github.com/ofachati)
+- [Kemokoba BAYO](https://github.com/Kems93)
+- [Ghenima OULD AHMED](https://github.com/ghenima-ouldahmed)
+- [Mohamed KONATE](https://github.com/MohamedKonate)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
