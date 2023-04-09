@@ -409,3 +409,15 @@ image::img/v1.3.0/Components_Diag.png[title= "Diagramme des composants ReactJS p
 === Diagramme API:
 
 image::img/v1.3.0/API_Diag.png[title= "Diagramme de l'architecture API pour v1.3.0 "]
+
+
+=== Conteneurisation ===
+on a contenariser le projet avec les commandes suivantes :
+
+    docker build -t fungikey-backend -f fungikey-backend/Dockerfile fungikey-backend 
+
+    docker build -t fungikey-frontend -f Fungikey/Dockerfile Fungikey
+
+
+Ces commande exposera le port 3000 du conteneur Docker sur le port 3000 de la machine locale pour le frontend et exposera le port 3001 du conteneur Docker sur le port 3001 de la machine locale pour le backend .
+
