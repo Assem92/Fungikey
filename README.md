@@ -59,6 +59,15 @@ les différentes routes de l'API:
   - `api/familleComplementaires/` : get mushroom complementary familly list
   - `api/recette/` : get recipe list
   - `api/recette/{id}` : get recipe by id
+  - `/closest-points/:latitude/:longitude` : Returns the 3 closest champigions
+  - `/location` : POST - Adds a new location of champignons
+  - `/posts` : GET - Returns all the posts on the forum
+  - `/posts` : POST - Adds a new post
+  - `/products` : POST - Ajoute un nouveau produit
+  - `/products/:id` : PUT  - Met à jour le produit par ID
+  - `/products/:id` : DELETE {} - Supprime le produit par ID
+  - `/periodes` : GET - Returns all the periode data
+  - `/periodes/:id` : GET  - Returns the periode data for the specified id
 
 ## Auteurs
 
